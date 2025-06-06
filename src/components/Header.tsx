@@ -26,13 +26,7 @@ const Header = () => {
   ];
 
   return (
-    <header 
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled 
-          ? 'bg-branco-ninho/95 backdrop-blur-md shadow-lg' 
-          : 'bg-transparent'
-      }`}
-    >
+    <header className="fixed top-0 w-full z-50 bg-branco-ninho/95 backdrop-blur-md shadow-lg transition-all duration-300">
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
