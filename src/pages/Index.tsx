@@ -1,11 +1,11 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import HeroBanner from '../components/HeroBanner';
-import SobreNos from '../components/SobreNos';
-import Terapias from '../components/Terapias';
+import SobreResumo from '../components/SobreResumo';
+import TerapiasResumo from '../components/TerapiasResumo';
 import FAQ from '../components/FAQ';
-import Contato from '../components/Contato';
+import ContatoResumo from '../components/ContatoResumo';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
@@ -16,10 +16,10 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <HeroBanner />
-      <SobreNos />
-      <Terapias />
+      <SobreResumo />
+      <TerapiasResumo />
       <FAQ />
-      <Contato />
+      <ContatoResumo />
       <Footer />
     </div>
   );

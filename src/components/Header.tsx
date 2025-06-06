@@ -1,10 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,11 +18,11 @@ const Header = () => {
   }, []);
 
   const menuItems = [
-    { name: 'Início', href: '#inicio' },
-    { name: 'Sobre Nós', href: '#sobre' },
-    { name: 'Terapias', href: '#terapias' },
-    { name: 'Nossa Equipe', href: '#equipe' },
-    { name: 'Contato', href: '#contato' },
+    { name: 'Início', href: '/' },
+    { name: 'Sobre Nós', href: '/sobre' },
+    { name: 'Terapias', href: '/terapias' },
+    { name: 'Nossa Equipe', href: '/equipe' },
+    { name: 'Contato', href: '/contato' },
   ];
 
   return (
@@ -34,7 +36,7 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-terracota to-azul-confianca rounded-full flex items-center justify-center">
               <span className="text-branco-ninho font-lora font-semibold text-lg">CA</span>
             </div>
@@ -44,19 +46,23 @@ const Header = () => {
               </h1>
               <p className="text-sm text-cinza-aconchego -mt-1">Terapias Especializadas</p>
             </div>
-          </div>
+          </Link>
 
           {/* Menu Desktop */}
           <nav className="hidden lg:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
-                className="text-cinza-aconchego hover:text-azul-confianca transition-colors duration-300 font-medium relative group"
+                to={item.href}
+                className={`text-cinza-aconchego hover:text-azul-confianca transition-colors duration-300 font-medium relative group ${
+                  location.pathname === item.href ? 'text-azul-confianca' : ''
+                }`}
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-azul-confianca transition-all duration-300 group-hover:w-full"></span>
-              </a>
+                <span className={`absolute -bottom-1 left-0 h-0.5 bg-azul-confianca transition-all duration-300 ${
+                  location.pathname === item.href ? 'w-full' : 'w-0 group-hover:w-full'
+                }`}></span>
+              </Link>
             ))}
           </nav>
 
@@ -93,14 +99,16 @@ const Header = () => {
             <nav className="container-custom py-6">
               <div className="flex flex-col space-y-4">
                 {menuItems.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
+                    to={item.href}
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-cinza-aconchego hover:text-azul-confianca transition-colors duration-300 font-medium py-2 border-b border-bege-suave"
+                    className={`text-cinza-aconchego hover:text-azul-confianca transition-colors duration-300 font-medium py-2 border-b border-bege-suave ${
+                      location.pathname === item.href ? 'text-azul-confianca' : ''
+                    }`}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
                 <div className="pt-4 flex flex-col space-y-3">
                   <a
