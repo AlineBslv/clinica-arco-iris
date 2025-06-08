@@ -75,7 +75,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-azul-confianca mb-6 text-[#333333]">Nossos Valores</h2>
-            <p className="text-cinza-aconchego max-w-2xl mx-auto text-cinza-aconchego ">
+            <p className="text-cinza-aconchego max-w-2xl mx-auto">
               Os princípios que guiam nosso trabalho e definem nossa identidade
             </p>
           </div>
@@ -87,7 +87,7 @@ const Sobre = () => {
                     {valor.icon}
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold text-azul-confianca mb-4 text-[#55a369]">
+                <h3 className="text-xl font-semibold text-azul-confianca mb-4">
                   {valor.titulo}
                 </h3>
                 <p className="text-cinza-aconchego leading-relaxed">
@@ -102,7 +102,7 @@ const Sobre = () => {
       <section className="section-padding bg-branco-ninho">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-azul-confianca mb-6 text-[#55a369]">Nosso Espaço</h2>
+            <h2 className="text-azul-confianca mb-6 text-[#333333]">Nosso Espaço</h2>
             <p className="text-cinza-aconchego max-w-2xl mx-auto">
               Um ambiente cuidadosamente planejado para proporcionar conforto, 
               segurança e bem-estar durante os atendimentos
@@ -112,13 +112,13 @@ const Sobre = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1631889993959-41b4e9c81d20?auto=format&fit=crop&w=600&q=80" alt="Sala de terapia confortável" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Salas de Terapia</h3>
+              <h3 className="text-lg font-semibold text-azul-confianca mb-2">Salas de Terapia</h3>
               <p className="text-cinza-aconchego">Ambientes acolhedores e equipados para diferentes modalidades terapêuticas.</p>
             </div>
 
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=600&q=80" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="font-semibold text-azul-confianca mb-20 mb-2 ">Área de Convivência</h3>
+              <h3 className="text-lg font-semibold text-azul-confianca mb-2">Área de Convivência</h3>
               <p className="text-cinza-aconchego">Espaço para famílias aguardarem confortavelmente durante os atendimentos.</p>
             </div>
 
