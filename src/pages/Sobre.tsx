@@ -102,7 +102,7 @@ const Sobre = () => {
       <section className="section-padding bg-branco-ninho">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-azul-confianca mb-6 text-[#333333]">Nosso Espaço</h2>
+            <h2 className="text-azul-confianca mb-6 text-[#55a369]">Nosso Espaço</h2>
             <p className="text-cinza-aconchego max-w-2xl mx-auto">
               Um ambiente cuidadosamente planejado para proporcionar conforto, 
               segurança e bem-estar durante os atendimentos
