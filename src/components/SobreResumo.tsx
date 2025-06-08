@@ -7,8 +7,8 @@ const SobreResumo = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Conteúdo */}
           <div className="animate-on-scroll">
-            <div className="inline-block px-4 py-2 rounded-full mb-6 bg-[#55a369]/[0.41]">
-              <span className="font-medium text-[#55a369]">Quem Somos</span>
+            <div className="inline-block px-4 py-2 rounded-full mb-6 bg-[#55a369]/[0.18]">
+              <span className="font-medium text-[#4da365]">Quem Somos</span>
             </div>
             
             <h2 className="text-azul-confianca mb-6">
