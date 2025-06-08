@@ -1,10 +1,13 @@
+
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Heart, Users, Shield, Star } from 'lucide-react';
+
 const Sobre = () => {
   useScrollAnimation();
+
   const valores = [{
     icon: <Heart className="w-8 h-8" />,
     titulo: "Acolhimento",
@@ -22,7 +25,9 @@ const Sobre = () => {
     titulo: "Excelência",
     descricao: "Buscamos constantemente a excelência em nossos serviços e atendimento personalizado."
   }];
-  return <div className="min-h-screen">
+
+  return (
+    <div className="min-h-screen">
       <Header />
       
       {/* Hero Section */}
@@ -30,7 +35,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
             <h1 className="text-azul-confianca mb-6 text-[#333333]">
-              Conheça a <span className="text-terracota">Casa Arco Íris</span>
+              Quem Somos - <span className="text-terracota">Casa Arco Íris</span>
             </h1>
             <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
               Um espaço pensado com carinho para oferecer terapias especializadas 
@@ -132,6 +137,8 @@ const Sobre = () => {
       </section>
 
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default Sobre;

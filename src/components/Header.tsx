@@ -1,10 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -12,14 +15,15 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
   const menuItems = [{
     name: 'Início',
     href: '/'
   }, {
-    name: 'Sobre Nós',
+    name: 'Quem Somos',
     href: '/sobre'
   }, {
-    name: 'Terapias',
+    name: 'Nossos Serviços',
     href: '/terapias'
   }, {
     name: 'Nossa Equipe',
@@ -28,7 +32,9 @@ const Header = () => {
     name: 'Contato',
     href: '/contato'
   }];
-  return <header className="fixed top-0 w-full z-50 bg-branco-ninho/95 backdrop-blur-md shadow-lg transition-all duration-300">
+
+  return (
+    <header className="fixed top-0 w-full z-50 bg-branco-ninho/95 backdrop-blur-md shadow-lg transition-all duration-300">
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
@@ -84,6 +90,8 @@ const Header = () => {
             </nav>
           </div>}
       </div>
-    </header>;
+    </header>
+  );
 };
+
 export default Header;

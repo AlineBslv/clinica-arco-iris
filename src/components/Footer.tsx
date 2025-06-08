@@ -1,19 +1,22 @@
+
 import React from 'react';
 import { Heart, Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+
 const Footer = () => {
   const menuItems = [{
     name: 'Início',
     href: '#inicio'
   }, {
-    name: 'Sobre Nós',
+    name: 'Quem Somos',
     href: '#sobre'
   }, {
-    name: 'Terapias',
+    name: 'Nossos Serviços',
     href: '#terapias'
   }, {
     name: 'Contato',
     href: '#contato'
   }];
+
   const socialLinks = [{
     name: 'Instagram',
     href: 'https://instagram.com/casaarcoiris',
@@ -27,7 +30,9 @@ const Footer = () => {
     href: 'mailto:contato@casaarcoiris.com.br',
     icon: <Mail className="w-5 h-5" />
   }];
-  return <footer className="bg-azul-confianca text-branco-ninho">
+
+  return (
+    <footer className="bg-azul-confianca text-branco-ninho">
       <div className="container-custom">
         {/* Conteúdo Principal */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 py-12">
@@ -108,6 +113,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;

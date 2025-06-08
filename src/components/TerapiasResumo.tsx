@@ -31,7 +31,7 @@ const TerapiasResumo = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-on-scroll">
           <div className="inline-block px-4 py-2 bg-verde-salvia/20 rounded-full mb-6">
-            <span className="text-verde-salvia font-medium">Nossas Terapias</span>
+            <span className="text-verde-salvia font-medium">Nossos Serviços</span>
           </div>
           
           <h2 className="text-azul-confianca mb-6">
@@ -74,7 +74,7 @@ const TerapiasResumo = () => {
             to="/terapias"
             className="btn-primary inline-flex items-center space-x-2 hover-lift"
           >
-            <span>Ver Todas as Terapias e Planos</span>
+            <span>Ver Todos os Serviços e Planos</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
