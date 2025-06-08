@@ -26,7 +26,7 @@ const Sobre = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-[55a3692b]">
+      <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-[55a3692b] bg-[#55a369]/[0.17]">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
             <h1 className="text-azul-confianca mb-6 text-[#55a369]">
