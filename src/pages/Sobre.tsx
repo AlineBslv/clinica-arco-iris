@@ -118,7 +118,7 @@ const Sobre = () => {
 
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=600&q=80" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-azul-confianca mb-2">Área de Convivência</h3>
+              <h3 className="font-semibold text-azul-confianca mb-2 text-[55a369] text-[#55a369]">Área de Convivência</h3>
               <p className="text-cinza-aconchego">Espaço para famílias aguardarem confortavelmente durante os atendimentos.</p>
             </div>
 
