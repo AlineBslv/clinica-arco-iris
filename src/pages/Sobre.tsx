@@ -74,7 +74,7 @@ const Sobre = () => {
       <section className="section-padding bg-bege-suave bg-[#55a369]/[0.17]">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-azul-confianca mb-6">Nossos Valores</h2>
+            <h2 className="text-azul-confianca mb-6 text-[#333333]">Nossos Valores</h2>
             <p className="text-cinza-aconchego max-w-2xl mx-auto">
               Os princípios que guiam nosso trabalho e definem nossa identidade
             </p>
