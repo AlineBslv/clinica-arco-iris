@@ -29,7 +29,7 @@ const Sobre = () => {
       <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-[55a3692b] bg-[#55a369]/[0.17]">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-azul-confianca mb-6 text-[#55a369]">
+            <h1 className="text-azul-confianca mb-6 text-[#333333]">
               Conheça a <span className="text-terracota">Casa Arco Íris</span>
             </h1>
             <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
