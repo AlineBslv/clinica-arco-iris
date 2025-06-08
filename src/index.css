@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,7 +10,7 @@
     --branco-ninho: #F9F7F5;
     --cinza-aconchego: #5A5A5A;
     --bege-suave: #EAE3D9;
-    --azul-confianca: #3A5B8A;
+    --azul-confianca: #25488a;
     --terracota: #D98C7C;
     --mostarda: #E6B86C;
     --verde-salvia: #A9BCA3;
@@ -25,7 +24,7 @@
     --card-foreground: 90 90 90;
     --popover: 249 247 245;
     --popover-foreground: 90 90 90;
-    --primary: 58 91 138; /* azul-confianca */
+    --primary: 37 72 138; /* azul-confianca atualizado */
     --primary-foreground: 249 247 245;
     --secondary: 234 227 217; /* bege-suave */
     --secondary-foreground: 90 90 90;
@@ -37,7 +36,7 @@
     --destructive-foreground: 249 247 245;
     --border: 234 227 217;
     --input: 234 227 217;
-    --ring: 58 91 138;
+    --ring: 37 72 138; /* azul-confianca atualizado */
     --radius: 0.75rem;
   }
 

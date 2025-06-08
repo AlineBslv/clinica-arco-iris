@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,7 +23,7 @@ export default {
 				'branco-ninho': '#F9F7F5',
 				'cinza-aconchego': '#5A5A5A',
 				'bege-suave': '#EAE3D9',
-				'azul-confianca': '#3A5B8A',
+				'azul-confianca': '#25488a',
 				'terracota': '#D98C7C',
 				'mostarda': '#E6B86C',
 				'verde-salvia': '#A9BCA3',
