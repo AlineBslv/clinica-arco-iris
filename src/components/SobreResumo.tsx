@@ -8,7 +8,7 @@ const SobreResumo = () => {
           {/* Conteúdo */}
           <div className="animate-on-scroll">
             <div className="inline-block px-4 py-2 rounded-full mb-6 bg-[#55a369]/[0.41]">
-              <span className="text-terracota font-medium">Quem Somos</span>
+              <span className="font-medium text-[#55a369]">Quem Somos</span>
             </div>
             
             <h2 className="text-azul-confianca mb-6">
