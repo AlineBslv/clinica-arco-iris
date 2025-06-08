@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowRight, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 const SobreResumo = () => {
-  return <section className="section-padding bg-bege-suave bg-[#55a369]/35">
+  return <section className="section-padding bg-bege-suave bg-[#55a369]/[0.17]">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Conteúdo */}
