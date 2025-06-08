@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { ArrowRight, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const SobreResumo = () => {
-  return (
-    <section className="section-padding bg-bege-suave">
+  return <section className="section-padding bg-bege-suave bg-[#55a369]/35">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Conteúdo */}
@@ -31,10 +28,7 @@ const SobreResumo = () => {
               em seu próprio tempo e ritmo.
             </p>
 
-            <Link
-              to="/sobre"
-              className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho inline-flex items-center space-x-2"
-            >
+            <Link to="/sobre" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho inline-flex items-center space-x-2">
               <span>Conheça Nossa História</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
@@ -43,11 +37,7 @@ const SobreResumo = () => {
           {/* Imagem */}
           <div className="animate-on-scroll">
             <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=800&q=80"
-                alt="Ambiente acolhedor da Casa Arco Íris"
-                className="rounded-2xl shadow-lg w-full h-[400px] object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=800&q=80" alt="Ambiente acolhedor da Casa Arco Íris" className="rounded-2xl shadow-lg w-full h-[400px] object-cover" />
               
               {/* Decoração */}
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-terracota/20 rounded-full blur-xl"></div>
@@ -56,8 +46,6 @@ const SobreResumo = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default SobreResumo;
