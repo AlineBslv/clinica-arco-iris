@@ -33,20 +33,20 @@ const FAQ = () => {
   };
 
   return (
-    <section className="section-padding bg-azul-claro/10">
+    <section className="section-padding bg-azul-sereno/10">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12 animate-on-scroll">
-            <div className="inline-block px-4 py-2 bg-azul-claro/20 rounded-full mb-6">
-              <span className="text-azul-claro font-medium">Dúvidas Comuns</span>
+            <div className="inline-block px-4 py-2 bg-azul-sereno/20 rounded-full mb-6">
+              <span className="text-azul-sereno font-medium">Dúvidas Comuns</span>
             </div>
             
-            <h2 className="text-azul-claro mb-6">
-              Perguntas <span className="text-azul-principal">Frequentes</span>
+            <h2 className="text-azul-confianca mb-6">
+              Perguntas <span className="text-azul-sereno">Frequentes</span>
             </h2>
             
-            <p className="text-cinza-texto">
+            <p className="text-cinza-aconchego">
               Esclarecemos as principais dúvidas sobre nossos serviços e abordagem terapêutica
             </p>
           </div>
@@ -56,16 +56,16 @@ const FAQ = () => {
             {faqs.map((faq, index) => (
               <div 
                 key={index}
-                className="bg-branco rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg animate-on-scroll"
+                className="bg-branco-ninho rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg animate-on-scroll"
               >
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-300"
+                  className="w-full px-6 py-6 text-left flex items-center justify-between hover:bg-bege-suave/50 transition-colors duration-300"
                 >
-                  <h3 className="font-lora font-semibold text-lg text-azul-claro pr-4">
+                  <h3 className="font-lora font-semibold text-lg text-azul-confianca pr-4">
                     {faq.pergunta}
                   </h3>
-                  <div className="flex-shrink-0 text-azul-claro">
+                  <div className="flex-shrink-0 text-azul-sereno">
                     {openIndex === index ? (
                       <Minus className="w-5 h-5" />
                     ) : (
@@ -82,7 +82,7 @@ const FAQ = () => {
                   } overflow-hidden`}
                 >
                   <div className="px-6 pb-6">
-                    <p className="text-cinza-texto leading-relaxed">
+                    <p className="text-cinza-aconchego leading-relaxed">
                       {faq.resposta}
                     </p>
                   </div>
@@ -93,7 +93,7 @@ const FAQ = () => {
 
           {/* CTA */}
           <div className="text-center mt-12 animate-on-scroll">
-            <p className="text-cinza-texto mb-6">
+            <p className="text-cinza-aconchego mb-6">
               Não encontrou a resposta que procurava?
             </p>
             <a
