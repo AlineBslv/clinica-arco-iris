@@ -1,42 +1,43 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Design System Casa Arco Íris */
+/* Novo Sistema de Cores - Casa Arco Íris */
 
 @layer base {
   :root {
-    /* Cores principais do tema */
-    --branco-ninho: #F9F7F5;
-    --cinza-aconchego: #5A5A5A;
-    --bege-suave: #EAE3D9;
-    --azul-confianca: #25488a;
-    --terracota: #D98C7C;
-    --mostarda: #E6B86C;
-    --verde-salvia: #A9BCA3;
-    --azul-sereno: #A2B6D4;
-    --violeta-lavanda: #C3B1E1;
+    /* Cores principais do novo guia de estilo */
+    --branco: #FFFFFF;
+    --cinza-texto: #333333;
+    --azul-principal: #25488a;
+    --azul-claro: #469fb1;
+    --verde: #55a369;
+    --violeta: #7b2d7c;
+    --laranja: #f99721;
+    --amarelo: #f3cb1c;
+    --vermelho-alerta: #e33b2e;
     
-    /* Sistema shadcn adaptado */
-    --background: 249 247 245; /* branco-ninho */
-    --foreground: 90 90 90; /* cinza-aconchego */
-    --card: 249 247 245;
-    --card-foreground: 90 90 90;
-    --popover: 249 247 245;
-    --popover-foreground: 90 90 90;
-    --primary: 37 72 138; /* azul-confianca atualizado */
-    --primary-foreground: 249 247 245;
-    --secondary: 234 227 217; /* bege-suave */
-    --secondary-foreground: 90 90 90;
-    --muted: 234 227 217;
-    --muted-foreground: 90 90 90;
-    --accent: 234 227 217;
-    --accent-foreground: 90 90 90;
-    --destructive: 239 68 68;
-    --destructive-foreground: 249 247 245;
-    --border: 234 227 217;
-    --input: 234 227 217;
-    --ring: 37 72 138; /* azul-confianca atualizado */
+    /* Sistema shadcn adaptado ao novo guia */
+    --background: 255 255 255; /* branco */
+    --foreground: 51 51 51; /* cinza-texto */
+    --card: 255 255 255;
+    --card-foreground: 51 51 51;
+    --popover: 255 255 255;
+    --popover-foreground: 51 51 51;
+    --primary: 37 72 138; /* azul-principal */
+    --primary-foreground: 255 255 255;
+    --secondary: 243 243 243; /* cinza muito claro */
+    --secondary-foreground: 51 51 51;
+    --muted: 250 250 250;
+    --muted-foreground: 107 114 126;
+    --accent: 250 250 250;
+    --accent-foreground: 51 51 51;
+    --destructive: 227 59 46; /* vermelho-alerta */
+    --destructive-foreground: 255 255 255;
+    --border: 229 229 229;
+    --input: 229 229 229;
+    --ring: 37 72 138; /* azul-principal */
     --radius: 0.75rem;
   }
 
@@ -45,7 +46,7 @@
   }
 
   body {
-    @apply bg-branco-ninho text-cinza-aconchego font-inter;
+    @apply bg-branco text-cinza-texto font-inter;
     font-size: 16px;
     line-height: 1.6;
   }
@@ -69,15 +70,42 @@
   p {
     @apply text-base md:text-lg leading-relaxed;
   }
+
+  /* Links seguem a cor azul principal */
+  a {
+    @apply text-azul-principal;
+  }
 }
 
 @layer components {
+  /* Botões principais com azul principal */
   .btn-primary {
-    @apply bg-azul-confianca text-branco-ninho px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg;
+    @apply bg-azul-principal text-branco px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg;
   }
 
   .btn-secondary {
-    @apply border-2 border-azul-confianca text-azul-confianca px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-azul-confianca hover:text-branco-ninho;
+    @apply border-2 border-azul-principal text-azul-principal px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-azul-principal hover:text-branco;
+  }
+
+  /* Classes específicas para cada seção conforme o guia */
+  .section-inicio {
+    @apply text-azul-claro;
+  }
+
+  .section-sobre {
+    @apply text-verde;
+  }
+
+  .section-servicos {
+    @apply text-violeta;
+  }
+
+  .section-equipe {
+    @apply text-laranja;
+  }
+
+  .section-contato {
+    @apply text-amarelo;
   }
 
   .section-padding {
@@ -89,11 +117,12 @@
   }
 
   .card-custom {
-    @apply bg-branco-ninho rounded-xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300;
+    @apply bg-branco rounded-xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100;
   }
 
-  .text-gradient {
-    @apply bg-gradient-to-r from-azul-confianca to-azul-sereno bg-clip-text text-transparent;
+  /* Alertas seguem o vermelho do guia */
+  .alert-error {
+    @apply bg-vermelho-alerta text-white;
   }
 }
 
@@ -126,11 +155,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-bege-suave;
+  @apply bg-gray-100;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-azul-confianca rounded-full;
+  @apply bg-azul-principal rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {

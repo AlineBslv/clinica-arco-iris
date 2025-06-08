@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -19,18 +20,18 @@ export default {
 		},
 		extend: {
 			colors: {
-				// Sistema de cores Casa Arco Íris
-				'branco-ninho': '#F9F7F5',
-				'cinza-aconchego': '#5A5A5A',
-				'bege-suave': '#EAE3D9',
-				'azul-confianca': '#25488a',
-				'terracota': '#D98C7C',
-				'mostarda': '#E6B86C',
-				'verde-salvia': '#A9BCA3',
-				'azul-sereno': '#A2B6D4',
-				'violeta-lavanda': '#C3B1E1',
+				// Nova paleta de cores baseada no guia de estilo
+				'branco': '#FFFFFF',
+				'cinza-texto': '#333333',
+				'azul-principal': '#25488a',
+				'azul-claro': '#469fb1',
+				'verde': '#55a369',
+				'violeta': '#7b2d7c',
+				'laranja': '#f99721',
+				'amarelo': '#f3cb1c',
+				'vermelho-alerta': '#e33b2e',
 				
-				// Cores do sistema shadcn
+				// Cores do sistema shadcn adaptadas
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
