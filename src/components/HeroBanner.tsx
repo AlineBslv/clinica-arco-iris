@@ -58,7 +58,7 @@ const HeroBanner = () => {
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
                 <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=80" alt="Evento de inauguração da Casa Arco Íris" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-r from-terracota/70 to-mostarda/50"></div>
+                
               </div>
 
               {/* Content */}
