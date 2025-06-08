@@ -33,9 +33,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-terracota to-azul-confianca rounded-full flex items-center justify-center">
-              <span className="text-branco-ninho font-lora font-semibold text-lg">CA</span>
-            </div>
+            
             <div className="hidden sm:block">
               
               
