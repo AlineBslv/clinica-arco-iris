@@ -98,7 +98,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="py-6 flex flex-col md:flex-row items-center justify-between text-sm text-branco-ninho/70">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <span>© 2024 Casa Arco Íris. Todos os direitos reservados.</span>
+            <span>© 2025 Casa Arco Íris. Todos os direitos reservados.</span>
           </div>
           
           <div className="flex items-center space-x-2">
