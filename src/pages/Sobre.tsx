@@ -1,13 +1,10 @@
-
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Heart, Users, Shield, Star } from 'lucide-react';
-
 const Sobre = () => {
   useScrollAnimation();
-
   const valores = [{
     icon: <Heart className="w-8 h-8" />,
     titulo: "Acolhimento",
@@ -25,19 +22,17 @@ const Sobre = () => {
     titulo: "Excelência",
     descricao: "Buscamos constantemente a excelência em nossos serviços e atendimento personalizado."
   }];
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-[55a3692b] bg-[#55a369]/[0.17]">
+      <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-[55a3692b] bg-[#55a369]">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-azul-confianca mb-6 text-[#333333]">
-              Quem Somos - <span className="text-terracota">Casa Arco Íris</span>
+            <h1 className="text-azul-confianca mb-6 text-white">
+              Quem Somos - <span className="text-white">Casa Arco Íris</span>
             </h1>
-            <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed text-white">
               Um espaço pensado com carinho para oferecer terapias especializadas 
               em um ambiente acolhedor e inclusivo
             </p>
@@ -50,7 +45,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll">
-              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#333333]">Nossa História</h2>
+              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#55a369]">Nossa História</h2>
               <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">
                 A Casa Arco Íris nasceu do sonho de criar um espaço verdadeiramente 
                 inclusivo, onde cada pessoa pudesse se sentir acolhida e compreendida. 
@@ -137,8 +132,6 @@ const Sobre = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Sobre;
