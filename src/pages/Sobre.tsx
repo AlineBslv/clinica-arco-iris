@@ -45,7 +45,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll">
-              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#55a369]">Nossa História</h2>
+              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#333333]">Nossa História</h2>
               <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">
                 A Casa Arco Íris nasceu do sonho de criar um espaço verdadeiramente 
                 inclusivo, onde cada pessoa pudesse se sentir acolhida e compreendida. 
