@@ -71,7 +71,7 @@ const Sobre = () => {
       </section>
 
       {/* Nossos Valores */}
-      <section className="section-padding bg-bege-suave">
+      <section className="section-padding bg-bege-suave bg-[#55a369]/[0.17]">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-azul-confianca mb-6">Nossos Valores</h2>
