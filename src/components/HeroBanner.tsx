@@ -10,7 +10,7 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/97e9a0e0-3170-4f87-b7bf-4ad3071c2cee.jpg" />
+                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/d4c22962-bdbd-4cc2-89f9-5d08be6441a6.png" />
                 
               </div>
 
@@ -48,7 +48,7 @@ const HeroBanner = () => {
               </div>
 
               {/* Decorative Elements */}
-              <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-azul-confianca to-transparent decoration-zinc-100 "></div>
+              <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-branco-ninho to-transparent z-10"></div>
             </div>
           </CarouselItem>
 
