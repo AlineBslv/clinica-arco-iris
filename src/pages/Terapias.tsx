@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -93,13 +92,13 @@ const Terapias = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-roxo-principal/10 to-bege-suave">
+      <section className="pt-32 pb-16 bg-roxo-principal">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-azul-confianca mb-6">
-              Nossos <span className="text-roxo-principal">Serviços</span>
+            <h1 className="text-branco-ninho mb-6">
+              Nossos <span className="text-branco-ninho">Serviços</span>
             </h1>
-            <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-branco-ninho max-w-3xl mx-auto leading-relaxed">
               Abordagens especializadas e humanizadas para promover o desenvolvimento 
               integral de crianças neurodivergentes e apoiar suas famílias
             </p>
