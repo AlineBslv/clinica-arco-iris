@@ -17,13 +17,13 @@ const HeroBanner = () => {
               {/* Content */}
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
-                  <h1 className="text-branco-ninho mb-6 animate-fade-in">
-                    Um espaço de <span className="text-violeta-lavanda text-[#25488a]">acolhimento</span> e 
+                  <h1 className="text-branco-ninho mb-6 animate-fade-in text-gray-700">
+                    Um espaço de <span className="text-violeta-lavanda text-[25488a] text-[#55a369]">acolhimento</span> e 
                     <br className="hidden md:block" />
-                    <span className="text-terracota"> desenvolvimento humano</span>
+                    <span className="text-gray-700"> desenvolvimento humano</span>
                   </h1>
                   
-                  <p className="text-xl md:text-2xl text-branco-ninho/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right">
+                  <p className="text-xl md:text-2xl text-branco-ninho/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right text-gray-800">
                     Sinta-se em casa para cuidar de você
                   </p>
 
@@ -57,7 +57,7 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=80" alt="Evento de inauguração da Casa Arco Íris" className="w-full h-full object-cover" />
+                <img alt="Evento de inauguração da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/2ad204b7-f3a1-4195-a441-6557b6a38260.jpg" />
                 
               </div>
 
