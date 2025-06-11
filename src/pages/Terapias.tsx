@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -97,7 +96,7 @@ const Terapias = () => {
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
             <h1 className="text-azul-confianca mb-6">
-              Nossas <span className="text-verde-salvia">Terapias</span>
+              Nossos <span className="text-verde-salvia">Terapias</span>
             </h1>
             <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
               Abordagens especializadas e humanizadas para promover o desenvolvimento 
