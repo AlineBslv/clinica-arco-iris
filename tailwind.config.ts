@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -34,6 +33,10 @@ export default {
 				'roxo-principal': '#7b2d7c',
 				'roxo-claro': '#a855a8',
 				'roxo-suave': '#d8b4d8',
+				// Nova paleta laranja para equipe
+				'laranja-principal': '#f99721',
+				'laranja-claro': '#ffab47',
+				'laranja-suave': '#ffe4cc',
 				
 				// Cores do sistema shadcn
 				border: 'hsl(var(--border))',

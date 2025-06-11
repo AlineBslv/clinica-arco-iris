@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -70,13 +69,13 @@ const Equipe = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-mostarda/10 to-bege-suave">
+      <section className="pt-32 pb-16 bg-laranja-principal">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-azul-confianca mb-6">
-              Nossa <span className="text-mostarda">Equipe</span>
+            <h1 className="text-branco-ninho mb-6">
+              Nossa <span className="text-branco-ninho">Equipe</span>
             </h1>
-            <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-branco-ninho max-w-3xl mx-auto leading-relaxed">
               Profissionais especializados e apaixonados por oferecer o melhor 
               cuidado em um ambiente acolhedor e inclusivo
             </p>
@@ -100,14 +99,14 @@ const Equipe = () => {
                     alt={membro.nome}
                     className="w-full h-64 object-cover rounded-xl"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-azul-confianca/50 to-transparent rounded-xl"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-laranja-principal/50 to-transparent rounded-xl"></div>
                 </div>
                 
                 <h3 className="text-xl font-semibold text-azul-confianca mb-2">
                   {membro.nome}
                 </h3>
                 
-                <p className="text-mostarda font-medium mb-2">
+                <p className="text-laranja-principal font-medium mb-2">
                   {membro.especialidade}
                 </p>
                 
@@ -117,7 +116,7 @@ const Equipe = () => {
 
                 <div className="flex flex-wrap gap-2">
                   {membro.areas.slice(0, 2).map((area, idx) => (
-                    <span key={idx} className="px-2 py-1 bg-mostarda/20 text-mostarda text-xs rounded-full">
+                    <span key={idx} className="px-2 py-1 bg-laranja-principal/20 text-laranja-principal text-xs rounded-full">
                       {area}
                     </span>
                   ))}
@@ -157,7 +156,7 @@ const Equipe = () => {
                     alt={membroSelecionado.nome}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
-                  <p className="text-mostarda font-medium mb-1">
+                  <p className="text-laranja-principal font-medium mb-1">
                     {membroSelecionado.especialidade}
                   </p>
                   <p className="text-cinza-aconchego text-sm">
@@ -179,7 +178,7 @@ const Equipe = () => {
                   <ul className="space-y-2 mb-6">
                     {membroSelecionado.formacao.map((item, idx) => (
                       <li key={idx} className="text-cinza-aconchego text-sm flex items-start">
-                        <span className="w-2 h-2 bg-mostarda rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        <span className="w-2 h-2 bg-laranja-principal rounded-full mt-2 mr-3 flex-shrink-0"></span>
                         {item}
                       </li>
                     ))}
@@ -190,7 +189,7 @@ const Equipe = () => {
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {membroSelecionado.areas.map((area, idx) => (
-                      <span key={idx} className="px-3 py-1 bg-mostarda/20 text-mostarda text-sm rounded-full">
+                      <span key={idx} className="px-3 py-1 bg-laranja-principal/20 text-laranja-principal text-sm rounded-full">
                         {area}
                       </span>
                     ))}
