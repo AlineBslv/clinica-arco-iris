@@ -17,10 +17,10 @@ const HeroBanner = () => {
               {/* Content */}
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
-                  <h1 className="text-branco-ninho mb-6 animate-fade-in text-gray-700">
+                  <h1 className="text-[#25488a]">
                     Um espaço de <span className="text-terracota ">acolhimento</span> e 
                     <br className="hidden md:block" />
-                    <span className="text-gray-700"> desenvolvimento humano</span>
+                    <span className="text-[#25488a]"> desenvolvimento humano</span>
                   </h1>
                   
                   <p className="text-xl md:text-2xl text-branco-ninho/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right text-gray-800">
