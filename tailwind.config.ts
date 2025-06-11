@@ -30,6 +30,10 @@ export default {
 				'verde-salvia': '#A9BCA3',
 				'azul-sereno': '#A2B6D4',
 				'violeta-lavanda': '#C3B1E1',
+				// Nova paleta roxa para serviços
+				'roxo-principal': '#7b2d7c',
+				'roxo-claro': '#a855a8',
+				'roxo-suave': '#d8b4d8',
 				
 				// Cores do sistema shadcn
 				border: 'hsl(var(--border))',

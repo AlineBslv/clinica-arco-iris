@@ -9,19 +9,19 @@ const TerapiasResumo = () => {
       icon: <Brain className="w-8 h-8" />,
       titulo: "Terapia Ocupacional",
       descricao: "Especialização em crianças neurodivergentes, focando no desenvolvimento de habilidades e autonomia.",
-      cor: "verde-salvia"
+      cor: "roxo-principal"
     },
     {
       icon: <Heart className="w-8 h-8" />,
       titulo: "Psicoterapia",
       descricao: "Espaço seguro para autoconhecimento e desenvolvimento emocional com abordagem humanizada.",
-      cor: "azul-sereno"
+      cor: "roxo-claro"
     },
     {
       icon: <Users className="w-8 h-8" />,
       titulo: "Orientação Familiar",
       descricao: "Suporte especializado para famílias, promovendo estratégias de convivência saudável.",
-      cor: "violeta-lavanda"
+      cor: "roxo-suave"
     }
   ];
 
@@ -30,12 +30,12 @@ const TerapiasResumo = () => {
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16 animate-on-scroll">
-          <div className="inline-block px-4 py-2 bg-verde-salvia/20 rounded-full mb-6">
-            <span className="text-verde-salvia font-medium">Nossos Serviços</span>
+          <div className="inline-block px-4 py-2 bg-roxo-principal/20 rounded-full mb-6">
+            <span className="text-roxo-principal font-medium">Nossos Serviços</span>
           </div>
           
           <h2 className="text-azul-confianca mb-6">
-            Como podemos te ajudar a <span className="text-verde-salvia">florescer?</span>
+            Como podemos te ajudar a <span className="text-roxo-principal">florescer?</span>
           </h2>
           
           <p className="text-cinza-aconchego max-w-2xl mx-auto">
@@ -72,7 +72,7 @@ const TerapiasResumo = () => {
         <div className="text-center animate-on-scroll">
           <Link
             to="/terapias"
-            className="btn-primary inline-flex items-center space-x-2 hover-lift"
+            className="btn-roxo inline-flex items-center space-x-2 hover-lift"
           >
             <span>Ver Todos os Serviços e Planos</span>
             <ArrowRight className="w-5 h-5" />
