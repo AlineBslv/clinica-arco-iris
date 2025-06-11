@@ -41,13 +41,13 @@ const Contato = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-azul-sereno/10 to-bege-suave">
+      <section className="pt-32 pb-16 bg-azul-claro-principal">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-azul-confianca mb-6">
-              Entre em <span className="text-azul-sereno">Contato</span>
+            <h1 className="text-branco-ninho mb-6">
+              Entre em <span className="text-azul-claro-suave">Contato</span>
             </h1>
-            <p className="text-xl text-cinza-aconchego max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-branco-ninho/90 max-w-3xl mx-auto leading-relaxed">
               Estamos aqui para acolher você e sua família. Escolha a forma 
               de contato que for mais conveniente
             </p>
@@ -61,10 +61,10 @@ const Contato = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {/* Agendar Online */}
             <div className="card-custom text-center hover-lift animate-on-scroll">
-              <div className="p-4 bg-verde-salvia/10 rounded-xl w-fit mx-auto mb-6">
-                <Calendar className="w-8 h-8 text-verde-salvia" />
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Calendar className="w-8 h-8 text-azul-claro-principal" />
               </div>
-              <h3 className="text-xl font-semibold text-azul-confianca mb-4">
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">
                 Agende Online
               </h3>
               <p className="text-cinza-aconchego mb-6">
@@ -74,7 +74,7 @@ const Contato = () => {
                 href="https://www.doctoralia.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary w-full"
+                className="btn-azul-claro w-full"
               >
                 Agendar Consulta
               </a>
@@ -82,10 +82,10 @@ const Contato = () => {
 
             {/* WhatsApp */}
             <div className="card-custom text-center hover-lift animate-on-scroll">
-              <div className="p-4 bg-terracota/10 rounded-xl w-fit mx-auto mb-6">
-                <Phone className="w-8 h-8 text-terracota" />
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Phone className="w-8 h-8 text-azul-claro-medio" />
               </div>
-              <h3 className="text-xl font-semibold text-azul-confianca mb-4">
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">
                 WhatsApp
               </h3>
               <p className="text-cinza-aconchego mb-6">
@@ -95,18 +95,18 @@ const Contato = () => {
                 href="https://wa.me/5511999999999"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho w-full"
+                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
               >
-                Chamar no WhatsApp
+                Mandar Mensagem
               </a>
             </div>
 
             {/* Telefone */}
             <div className="card-custom text-center hover-lift animate-on-scroll">
-              <div className="p-4 bg-azul-sereno/10 rounded-xl w-fit mx-auto mb-6">
-                <Phone className="w-8 h-8 text-azul-sereno" />
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Phone className="w-8 h-8 text-azul-claro-medio" />
               </div>
-              <h3 className="text-xl font-semibold text-azul-confianca mb-4">
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">
                 Telefone
               </h3>
               <p className="text-cinza-aconchego mb-6">
@@ -114,7 +114,7 @@ const Contato = () => {
               </p>
               <a
                 href="tel:+5511999999999"
-                className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full"
+                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
               >
                 (11) 99999-9999
               </a>
@@ -122,10 +122,10 @@ const Contato = () => {
 
             {/* E-mail */}
             <div className="card-custom text-center hover-lift animate-on-scroll">
-              <div className="p-4 bg-violeta-lavanda/10 rounded-xl w-fit mx-auto mb-6">
-                <Mail className="w-8 h-8 text-violeta-lavanda" />
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Mail className="w-8 h-8 text-azul-claro-medio" />
               </div>
-              <h3 className="text-xl font-semibold text-azul-confianca mb-4">
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">
                 E-mail
               </h3>
               <p className="text-cinza-aconchego mb-6">
@@ -133,7 +133,7 @@ const Contato = () => {
               </p>
               <a
                 href="mailto:contato@casaarcoiris.com.br"
-                className="btn-secondary text-violeta-lavanda border-violeta-lavanda hover:bg-violeta-lavanda hover:text-branco-ninho w-full"
+                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
               >
                 Enviar E-mail
               </a>
@@ -144,7 +144,7 @@ const Contato = () => {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Formulário */}
             <div className="animate-on-scroll">
-              <h2 className="text-2xl font-semibold text-azul-confianca mb-6">
+              <h2 className="text-2xl font-semibold text-azul-claro-principal mb-6">
                 Envie sua Mensagem
               </h2>
               
@@ -161,7 +161,7 @@ const Contato = () => {
                       value={formData.nome}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-sereno focus:border-azul-sereno outline-none transition-colors"
+                      className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
                       placeholder="Seu nome completo"
                     />
                   </div>
@@ -176,7 +176,7 @@ const Contato = () => {
                       name="telefone"
                       value={formData.telefone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-sereno focus:border-azul-sereno outline-none transition-colors"
+                      className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
                       placeholder="(11) 99999-9999"
                     />
                   </div>
@@ -193,7 +193,7 @@ const Contato = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-sereno focus:border-azul-sereno outline-none transition-colors"
+                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
                     placeholder="seu@email.com"
                   />
                 </div>
@@ -207,7 +207,7 @@ const Contato = () => {
                     name="assunto"
                     value={formData.assunto}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-sereno focus:border-azul-sereno outline-none transition-colors"
+                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
                   >
                     <option value="">Selecione um assunto</option>
                     <option value="agendamento">Agendamento de Consulta</option>
@@ -228,14 +228,14 @@ const Contato = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-sereno focus:border-azul-sereno outline-none transition-colors"
+                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
                     placeholder="Como podemos ajudar você?"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="btn-primary w-full flex items-center justify-center space-x-2"
+                  className="btn-azul-claro w-full flex items-center justify-center space-x-2"
                 >
                   <Send className="w-5 h-5" />
                   <span>Enviar Mensagem</span>
@@ -245,18 +245,18 @@ const Contato = () => {
 
             {/* Informações */}
             <div className="animate-on-scroll">
-              <h2 className="text-2xl font-semibold text-azul-confianca mb-6">
+              <h2 className="text-2xl font-semibold text-azul-claro-principal mb-6">
                 Informações Adicionais
               </h2>
 
               <div className="space-y-6">
                 {/* Endereço */}
                 <div className="flex items-start space-x-4">
-                  <div className="p-3 bg-azul-sereno/10 rounded-lg">
-                    <MapPin className="w-6 h-6 text-azul-sereno" />
+                  <div className="p-3 bg-azul-claro-suave/20 rounded-lg">
+                    <MapPin className="w-6 h-6 text-azul-claro-principal" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-azul-confianca mb-2">Endereço</h3>
+                    <h3 className="font-semibold text-azul-claro-principal mb-2">Endereço</h3>
                     <p className="text-cinza-aconchego">
                       Rua das Flores, 123<br />
                       Jardim Esperança<br />
@@ -267,11 +267,11 @@ const Contato = () => {
 
                 {/* Horários */}
                 <div className="flex items-start space-x-4">
-                  <div className="p-3 bg-verde-salvia/10 rounded-lg">
-                    <Clock className="w-6 h-6 text-verde-salvia" />
+                  <div className="p-3 bg-azul-claro-suave/20 rounded-lg">
+                    <Clock className="w-6 h-6 text-azul-claro-principal" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-azul-confianca mb-2">Horários de Atendimento</h3>
+                    <h3 className="font-semibold text-azul-claro-principal mb-2">Horários de Atendimento</h3>
                     <div className="text-cinza-aconchego space-y-1">
                       <p>Segunda a Sexta: 8h às 18h</p>
                       <p>Sábado: 8h às 12h</p>
@@ -282,8 +282,8 @@ const Contato = () => {
 
                 {/* Mapa */}
                 <div className="mt-8">
-                  <h3 className="font-semibold text-azul-confianca mb-4">Localização</h3>
-                  <div className="bg-bege-suave h-64 rounded-lg flex items-center justify-center">
+                  <h3 className="font-semibold text-azul-claro-principal mb-4">Localização</h3>
+                  <div className="bg-azul-claro-suave/10 h-64 rounded-lg flex items-center justify-center border border-azul-claro-suave/30">
                     <p className="text-cinza-aconchego">Mapa do Google Maps será integrado aqui</p>
                   </div>
                 </div>

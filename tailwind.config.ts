@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -37,6 +38,10 @@ export default {
 				'laranja-principal': '#f99721',
 				'laranja-claro': '#ffab47',
 				'laranja-suave': '#ffe4cc',
+				// Nova paleta azul-claro para contato
+				'azul-claro-principal': '#469fb1',
+				'azul-claro-medio': '#5db3c4',
+				'azul-claro-suave': '#b8dde6',
 				
 				// Cores do sistema shadcn
 				border: 'hsl(var(--border))',

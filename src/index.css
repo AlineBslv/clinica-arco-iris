@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,6 +27,11 @@
     --laranja-principal: #f99721;
     --laranja-claro: #ffab47;
     --laranja-suave: #ffe4cc;
+    
+    /* Nova paleta azul-claro para contato */
+    --azul-claro-principal: #469fb1;
+    --azul-claro-medio: #5db3c4;
+    --azul-claro-suave: #b8dde6;
     
     /* Sistema shadcn adaptado */
     --background: 249 247 245; /* branco-ninho */
@@ -98,6 +104,10 @@
     @apply bg-laranja-principal text-branco-ninho px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-laranja-claro hover:shadow-lg;
   }
 
+  .btn-azul-claro {
+    @apply bg-azul-claro-principal text-branco-ninho px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-azul-claro-medio hover:shadow-lg;
+  }
+
   .section-padding {
     @apply py-16 md:py-20 lg:py-24;
   }
@@ -120,6 +130,10 @@
 
   .text-gradient-laranja {
     @apply bg-gradient-to-r from-laranja-principal to-laranja-claro bg-clip-text text-transparent;
+  }
+
+  .text-gradient-azul-claro {
+    @apply bg-gradient-to-r from-azul-claro-principal to-azul-claro-medio bg-clip-text text-transparent;
   }
 }
 
