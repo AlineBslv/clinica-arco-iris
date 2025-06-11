@@ -1,10 +1,8 @@
-
 import React, { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Calendar, Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
-
 const Contato = () => {
   useScrollAnimation();
   const [formData, setFormData] = useState({
@@ -14,15 +12,13 @@ const Contato = () => {
     assunto: '',
     mensagem: ''
   });
-
-  const handleChange = (e) => {
+  const handleChange = e => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     // Aqui você implementaria o envio do formulário
     console.log('Formulário enviado:', formData);
@@ -35,9 +31,7 @@ const Contato = () => {
       mensagem: ''
     });
   };
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       
       {/* Hero Section */}
@@ -45,7 +39,7 @@ const Contato = () => {
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
             <h1 className="text-branco-ninho mb-6">
-              Entre em <span className="text-azul-claro-suave">Contato</span>
+              Entre em <span className="text-branco-ninho ">Contato</span>
             </h1>
             <p className="text-xl text-branco-ninho/90 max-w-3xl mx-auto leading-relaxed">
               Estamos aqui para acolher você e sua família. Escolha a forma 
@@ -70,12 +64,7 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Marque sua consulta de forma prática através do Doctoralia.
               </p>
-              <a
-                href="https://www.doctoralia.com.br"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-azul-claro w-full"
-              >
+              <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-azul-claro w-full">
                 Agendar Consulta
               </a>
             </div>
@@ -91,12 +80,7 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Converse conosco diretamente pelo WhatsApp.
               </p>
-              <a
-                href="https://wa.me/5511999999999"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
-              >
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
                 Mandar Mensagem
               </a>
             </div>
@@ -112,10 +96,7 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Ligue diretamente para agendar ou tirar dúvidas.
               </p>
-              <a
-                href="tel:+5511999999999"
-                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
-              >
+              <a href="tel:+5511999999999" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
                 (11) 99999-9999
               </a>
             </div>
@@ -131,10 +112,7 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Envie sua mensagem por e-mail.
               </p>
-              <a
-                href="mailto:contato@casaarcoiris.com.br"
-                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
-              >
+              <a href="mailto:contato@casaarcoiris.com.br" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
                 Enviar E-mail
               </a>
             </div>
@@ -154,31 +132,14 @@ const Contato = () => {
                     <label htmlFor="nome" className="block text-cinza-aconchego font-medium mb-2">
                       Nome *
                     </label>
-                    <input
-                      type="text"
-                      id="nome"
-                      name="nome"
-                      value={formData.nome}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
-                      placeholder="Seu nome completo"
-                    />
+                    <input type="text" id="nome" name="nome" value={formData.nome} onChange={handleChange} required className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors" placeholder="Seu nome completo" />
                   </div>
                   
                   <div>
                     <label htmlFor="telefone" className="block text-cinza-aconchego font-medium mb-2">
                       Telefone
                     </label>
-                    <input
-                      type="tel"
-                      id="telefone"
-                      name="telefone"
-                      value={formData.telefone}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
-                      placeholder="(11) 99999-9999"
-                    />
+                    <input type="tel" id="telefone" name="telefone" value={formData.telefone} onChange={handleChange} className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors" placeholder="(11) 99999-9999" />
                   </div>
                 </div>
 
@@ -186,29 +147,14 @@ const Contato = () => {
                   <label htmlFor="email" className="block text-cinza-aconchego font-medium mb-2">
                     E-mail *
                   </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
-                    placeholder="seu@email.com"
-                  />
+                  <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors" placeholder="seu@email.com" />
                 </div>
 
                 <div>
                   <label htmlFor="assunto" className="block text-cinza-aconchego font-medium mb-2">
                     Assunto
                   </label>
-                  <select
-                    id="assunto"
-                    name="assunto"
-                    value={formData.assunto}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
-                  >
+                  <select id="assunto" name="assunto" value={formData.assunto} onChange={handleChange} className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors">
                     <option value="">Selecione um assunto</option>
                     <option value="agendamento">Agendamento de Consulta</option>
                     <option value="informacoes">Informações sobre Terapias</option>
@@ -221,22 +167,10 @@ const Contato = () => {
                   <label htmlFor="mensagem" className="block text-cinza-aconchego font-medium mb-2">
                     Mensagem *
                   </label>
-                  <textarea
-                    id="mensagem"
-                    name="mensagem"
-                    value={formData.mensagem}
-                    onChange={handleChange}
-                    required
-                    rows={5}
-                    className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors"
-                    placeholder="Como podemos ajudar você?"
-                  />
+                  <textarea id="mensagem" name="mensagem" value={formData.mensagem} onChange={handleChange} required rows={5} className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors" placeholder="Como podemos ajudar você?" />
                 </div>
 
-                <button
-                  type="submit"
-                  className="btn-azul-claro w-full flex items-center justify-center space-x-2"
-                >
+                <button type="submit" className="btn-azul-claro w-full flex items-center justify-center space-x-2">
                   <Send className="w-5 h-5" />
                   <span>Enviar Mensagem</span>
                 </button>
@@ -294,8 +228,6 @@ const Contato = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Contato;
