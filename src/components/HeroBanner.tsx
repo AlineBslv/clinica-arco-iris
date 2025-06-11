@@ -10,7 +10,7 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/bab62061-db0d-4eaf-9f4d-f5b8477419fe.jpg" />
+                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/848b6fae-e330-4324-b720-8fd8dfda4514.png" />
                 
               </div>
 
