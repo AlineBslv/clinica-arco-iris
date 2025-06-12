@@ -32,7 +32,7 @@ const Footer = () => {
   }];
 
   return (
-    <footer className="bg-azul-confianca text-branco-ninho">
+    <footer className="bg-branco-ninho text-azul-confianca">
       <div className="container-custom">
         {/* Conteúdo Principal */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 py-12">
@@ -41,19 +41,19 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-6">
               <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/7e791a96-db6c-4076-97ad-09d05a881638.png" />
               <div>
-                <h3 className="font-lora font-semibold text-xl text-branco-ninho">Casa Arco-Íris</h3>
-                <p className="text-branco-ninho/80 text-sm">Centro de desenvolvimento humano</p>
+                <h3 className="font-lora font-semibold text-xl text-azul-confianca">Casa Arco-Íris</h3>
+                <p className="text-azul-confianca/80 text-sm">Centro de desenvolvimento humano</p>
               </div>
             </div>
             
-            <p className="text-branco-ninho/90 leading-relaxed mb-6 max-w-md">
+            <p className="text-azul-confianca/90 leading-relaxed mb-6 max-w-md">
               Um espaço de acolhimento e desenvolvimento humano, especializado em 
               atendimento humanizado e inclusivo para crianças neurodivergentes e suas famílias.
             </p>
 
             {/* Redes Sociais */}
             <div className="flex space-x-4">
-              {socialLinks.map(social => <a key={social.name} href={social.href} target="_blank" rel="noopener noreferrer" className="p-3 bg-branco-ninho/10 rounded-lg text-branco-ninho hover:bg-branco-ninho/20 transition-all duration-300 hover:-translate-y-1" aria-label={social.name}>
+              {socialLinks.map(social => <a key={social.name} href={social.href} target="_blank" rel="noopener noreferrer" className="p-3 bg-azul-confianca/10 rounded-lg text-azul-confianca hover:bg-azul-confianca/20 transition-all duration-300 hover:-translate-y-1" aria-label={social.name}>
                   {social.icon}
                 </a>)}
             </div>
@@ -64,7 +64,7 @@ const Footer = () => {
             <h4 className="font-lora font-semibold text-lg mb-6">Navegação</h4>
             <ul className="space-y-3">
               {menuItems.map(item => <li key={item.name}>
-                  <a href={item.href} className="text-branco-ninho/80 hover:text-branco-ninho transition-colors duration-300 inline-block">
+                  <a href={item.href} className="text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300 inline-block">
                     {item.name}
                   </a>
                 </li>)}
@@ -75,17 +75,17 @@ const Footer = () => {
           <div>
             <h4 className="font-lora font-semibold text-lg mb-6">Contato</h4>
             <div className="space-y-4">
-              <a href="tel:+5511999999999" className="flex items-center space-x-3 text-branco-ninho/80 hover:text-branco-ninho transition-colors duration-300">
+              <a href="tel:+5511999999999" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Phone className="w-4 h-4" />
                 <span className="text-sm">(11) 99999-9999</span>
               </a>
               
-              <a href="mailto:contato@casaarcoiris.com.br" className="flex items-center space-x-3 text-branco-ninho/80 hover:text-branco-ninho transition-colors duration-300">
+              <a href="mailto:contato@casaarcoiris.com.br" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Mail className="w-4 h-4" />
                 <span className="text-sm">contato@casaarcoiris.com.br</span>
               </a>
               
-              <div className="flex items-start space-x-3 text-branco-ninho/80">
+              <div className="flex items-start space-x-3 text-azul-confianca/80">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                 <span className="text-sm">
                   Rua das Flores, 123<br />
@@ -98,10 +98,10 @@ const Footer = () => {
         </div>
 
         {/* Linha de Separação */}
-        <div className="border-t border-branco-ninho/20"></div>
+        <div className="border-t border-azul-confianca/20"></div>
 
         {/* Copyright */}
-        <div className="py-6 flex flex-col md:flex-row items-center justify-between text-sm text-branco-ninho/70">
+        <div className="py-6 flex flex-col md:flex-row items-center justify-between text-sm text-branco-ninho/70 bg-azul-confianca">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <span>© 2025 Casa Arco Íris. Todos os direitos reservados.</span>
           </div>
