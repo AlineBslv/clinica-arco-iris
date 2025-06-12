@@ -38,10 +38,10 @@ const Contato = () => {
       <section className="pt-32 pb-16 bg-azul-claro-principal">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-branco-ninho mb-6">
+            <h1 className="text-branco-ninho ">
               Entre em <span className="text-branco-ninho ">Contato</span>
             </h1>
-            <p className="text-xl text-branco-ninho/90 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-branco-ninho max-w-3xl mx-auto leading-relaxed">
               Estamos aqui para acolher você e sua família. Escolha a forma 
               de contato que for mais conveniente
             </p>
