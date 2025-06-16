@@ -33,9 +33,7 @@ const HeroBanner = () => {
                       <span>Agende sua Conversa</span>
                     </a>
                     
-                    <a href="#sobre" className="btn-secondary bg-branco-ninho/10 border-branco-ninho text-branco-ninho hover:bg-branco-ninho hover:text-azul-confianca text-lg px-8 py-4">
-                      Conhecer a Casa
-                    </a>
+                    
                   </div>
 
                   {/* Scroll Indicator */}
