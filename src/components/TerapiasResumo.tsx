@@ -45,7 +45,7 @@ const TerapiasResumo = () => {
                 </div>
               </div>
               
-              <h3 className="font-semibold text-azul-confianca mb-4 text-[7b2d7c] text-[#7b2d7c]">
+              <h3 className="text-xl font-semibold text-azul-confianca mb-4">
                 {terapia.titulo}
               </h3>
               
