@@ -33,7 +33,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/69ec6f95-273b-46a7-b38c-8bb3a00c3a6e.png" />
+            <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/06df7f8a-344b-4f8f-a8c2-f96226da3456.png" />
             <div className="hidden sm:block">
               
               
