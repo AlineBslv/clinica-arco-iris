@@ -65,7 +65,7 @@ const HeroBanner = () => {
                   </div>
 
                   <h1 className="text-branco-ninho mb-6 animate-fade-in">
-                    <span className="text-mostarda">Inauguração</span> da Casa Arco Íris
+                    <span className="text-[#f99721]">Inauguração</span> da Casa Arco Íris
                     <br className="hidden md:block" />
                     <span className="text-branco-ninho">Celebre conosco!</span>
                   </h1>
@@ -80,9 +80,7 @@ const HeroBanner = () => {
                       <span>Garantir meu Convite</span>
                     </a>
                     
-                    <a href="#sobre" className="btn-secondary bg-branco-ninho/10 border-branco-ninho text-branco-ninho hover:bg-branco-ninho hover:text-azul-confianca text-lg px-8 py-4">
-                      Saiba Mais
-                    </a>
+                    
                   </div>
 
                   {/* Event Details */}
