@@ -60,7 +60,7 @@ const HeroBanner = () => {
               {/* Content */}
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
-                  <div className="inline-block px-6 py-3 bg-branco-ninho/20 rounded-full mb-6">
+                  <div className="inline-block px-6 py-3 bg-branco-ninho/20 rounded-full mb-6 bg-[25488a] bg-[#25488a]/[0.71]">
                     <span className="text-branco-ninho font-medium">Evento Especial</span>
                   </div>
 
@@ -75,7 +75,7 @@ const HeroBanner = () => {
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-scale-in">
-                    <a href="https://forms.google.com/inauguracao-casa-arco-iris" target="_blank" rel="noopener noreferrer" className="bg-mostarda text-azul-confianca px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg flex items-center space-x-2 hover-lift">
+                    <a href="https://forms.google.com/inauguracao-casa-arco-iris" target="_blank" rel="noopener noreferrer" className="bg-azul-confianca text-branco-ninho px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg flex items-center space-x-2 hover-lift">
                       <PartyPopper className="w-5 h-5" />
                       <span>Garantir meu Convite</span>
                     </a>
