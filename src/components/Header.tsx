@@ -1,13 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -15,7 +12,6 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
   const menuItems = [{
     name: 'Início',
     href: '/'
@@ -32,14 +28,12 @@ const Header = () => {
     name: 'Contato',
     href: '/contato'
   }];
-
-  return (
-    <header className="fixed top-0 w-full z-50 bg-branco-ninho/95 backdrop-blur-md shadow-lg transition-all duration-300">
+  return <header className="fixed top-0 w-full z-50 bg-branco-ninho/95 backdrop-blur-md shadow-lg transition-all duration-300">
       <div className="container-custom">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/ab3e1fdf-48b5-4114-a31f-86933b6209ea.png" />
+            <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/69ec6f95-273b-46a7-b38c-8bb3a00c3a6e.png" />
             <div className="hidden sm:block">
               
               
@@ -90,8 +84,6 @@ const Header = () => {
             </nav>
           </div>}
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
