@@ -1,7 +1,5 @@
-
 import React from 'react';
 import { Heart, Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
-
 const Footer = () => {
   const menuItems = [{
     name: 'Início',
@@ -16,7 +14,6 @@ const Footer = () => {
     name: 'Contato',
     href: '#contato'
   }];
-
   const socialLinks = [{
     name: 'Instagram',
     href: 'https://instagram.com/casaarcoiris',
@@ -30,16 +27,14 @@ const Footer = () => {
     href: 'mailto:contato@casaarcoiris.com.br',
     icon: <Mail className="w-5 h-5" />
   }];
-
-  return (
-    <footer className="bg-branco-ninho text-azul-confianca">
+  return <footer className="bg-branco-ninho text-azul-confianca">
       <div className="container-custom">
         {/* Conteúdo Principal */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 py-12">
           {/* Logo e Descrição */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/7e791a96-db6c-4076-97ad-09d05a881638.png" />
+              <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/86655b52-126d-4353-9f16-056829646735.png" />
               <div>
                 <h3 className="font-lora font-semibold text-xl text-azul-confianca">Casa Arco-Íris</h3>
                 <p className="text-azul-confianca/80 text-sm">Centro de desenvolvimento humano</p>
@@ -113,8 +108,6 @@ const Footer = () => {
           <span>para cuidar de você</span>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
