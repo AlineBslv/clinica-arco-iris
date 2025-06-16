@@ -16,17 +16,10 @@ const SobreResumo = () => {
               {' '}pensado para você
             </h2>
             
-            <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">
-              Na Casa Arco Íris, acreditamos que cada pessoa é única e merece um 
-              atendimento humanizado e inclusivo. Nosso espaço foi cuidadosamente 
-              planejado para proporcionar conforto e acolhimento.
-            </p>
+            <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">A Casa Arco-Íris é um espaço interdisciplinar voltado ao desenvolvimento humano integral de crianças, adolescentes e adultos. 
+Nosso cuidado une terapias clássicas e complementares em um ambiente com cara de casa: aconchegante, colorido, vivo e sensível.</p>
 
-            <p className="text-cinza-aconchego leading-relaxed mb-8">
-              Especializamo-nos no atendimento a crianças neurodivergentes e suas 
-              famílias, oferecendo um ambiente seguro onde cada um pode florescer 
-              em seu próprio tempo e ritmo.
-            </p>
+            
 
             <Link to="/sobre" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho inline-flex items-center space-x-2">
               <span>Conheça Nossa História</span>
