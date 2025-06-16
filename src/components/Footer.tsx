@@ -99,18 +99,18 @@ const Footer = () => {
 
         {/* Linha de Separação */}
         <div className="border-t border-azul-confianca/20"></div>
+      </div>
 
-        {/* Copyright */}
-        <div className="py-6 flex flex-col md:flex-row items-center justify-between text-sm text-branco-ninho/70 bg-azul-confianca">
-          <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <span>© 2025 Casa Arco Íris. Todos os direitos reservados.</span>
-          </div>
-          
-          <div className="flex items-center space-x-2">
-            <span>Feito com</span>
-            <Heart className="w-4 h-4 text-terracota" />
-            <span>para cuidar de você</span>
-          </div>
+      {/* Copyright - Largura Total */}
+      <div className="py-6 px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-sm text-branco-ninho/70 bg-azul-confianca w-full">
+        <div className="flex items-center space-x-2 mb-4 md:mb-0">
+          <span>© 2025 Casa Arco Íris. Todos os direitos reservados.</span>
+        </div>
+        
+        <div className="flex items-center space-x-2">
+          <span>Feito com</span>
+          <Heart className="w-4 h-4 text-terracota" />
+          <span>para cuidar de você</span>
         </div>
       </div>
     </footer>
