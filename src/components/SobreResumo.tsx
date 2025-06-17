@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { ArrowRight, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const SobreResumo = () => {
-  return (
-    <section className="section-padding bg-[#55a369]/[0.17]">
+  return <section className="section-padding bg-[#55a369]/[0.17]">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Conteúdo */}
@@ -19,9 +16,12 @@ const SobreResumo = () => {
               {' '}pensado para você
             </h2>
             
-            <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">
-              A Casa Arco-Íris é um espaço interdisciplinar voltado ao desenvolvimento humano integral de crianças, adolescentes e adultos. Nosso cuidado une terapias clássicas e complementares em um ambiente com cara de casa: aconchegante, colorido, vivo e sensível.
-            </p>
+            <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">A Casa Arco-Íris é um espaço interdisciplinar voltado ao desenvolvimento humano integral de crianças, adolescentes e adultos.
+
+
+Nosso cuidado une terapias clássicas e complementares em um ambiente com cara de casa: aconchegante, colorido, vivo e sensível.</p>
+
+            
 
             <Link to="/sobre" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho inline-flex items-center space-x-2">
               <span>Conheça Nossa História</span>
@@ -41,8 +41,6 @@ const SobreResumo = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default SobreResumo;
