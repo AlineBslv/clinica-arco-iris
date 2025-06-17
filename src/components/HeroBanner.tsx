@@ -1,8 +1,11 @@
+
 import React from 'react';
 import { ArrowDown, Calendar, PartyPopper } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+
 const HeroBanner = () => {
-  return <section id="inicio" className="min-h-screen relative overflow-hidden">
+  return (
+    <section id="inicio" className="min-h-screen relative overflow-hidden">
       <Carousel className="w-full h-full">
         <CarouselContent>
           {/* Slide 1 - Slide principal */}
@@ -10,33 +13,41 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/848b6fae-e330-4324-b720-8fd8dfda4514.png" />
-                
+                <img 
+                  alt="Ambiente acolhedor da Casa Arco Íris" 
+                  className="w-full h-full object-cover" 
+                  src="/lovable-uploads/848b6fae-e330-4324-b720-8fd8dfda4514.png" 
+                />
               </div>
 
               {/* Content */}
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
                   <h1 className="text-gray-800">
-                    Um espaço de <span className="text-[#25488a]">acolhimento</span> e 
+                    Casa Arco-Íris — Um centro de <span className="text-[#25488a]">desenvolvimento humano</span> 
                     <br className="hidden md:block" />
-                    <span className="text-gray-800"> desenvolvimento humano</span>
+                    <span className="text-gray-800"> com alma de lar</span>
                   </h1>
                   
-                  <p className="text-xl md:text-2xl text-branco-ninho/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right text-gray-800">Cuidamos de pessoas com excelência técnica, carinho e um ambiente acolhedor</p>
+                  <p className="text-xl md:text-2xl text-gray-800/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right">
+                    Cuidamos de pessoas com excelência técnica, carinho e um ambiente acolhedor
+                  </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-scale-in">
-                    <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 hover-lift">
+                    <a 
+                      href="https://www.doctoralia.com.br" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 hover-lift"
+                    >
                       <Calendar className="w-5 h-5" />
                       <span>Agende sua Conversa</span>
                     </a>
-                    
-                    
                   </div>
 
                   {/* Scroll Indicator */}
                   <div className="animate-bounce">
-                    <a href="#sobre" className="inline-block text-branco-ninho/70 hover:text-branco-ninho transition-colors duration-300">
+                    <a href="#sobre" className="inline-block text-gray-800/70 hover:text-gray-800 transition-colors duration-300">
                       <ArrowDown className="w-6 h-6" />
                     </a>
                   </div>
@@ -53,19 +64,22 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img alt="Evento de inauguração da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/60267907-43e2-4141-8e1d-f1e10df53c5f.jpg" />
-                
+                <img 
+                  alt="Evento de inauguração da Casa Arco Íris" 
+                  className="w-full h-full object-cover" 
+                  src="/lovable-uploads/60267907-43e2-4141-8e1d-f1e10df53c5f.jpg" 
+                />
               </div>
 
               {/* Content */}
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
-                  <div className="inline-block px-6 py-3 bg-branco-ninho/20 rounded-full mb-6 bg-[25488a] bg-[#25488a]/[0.71]">
+                  <div className="inline-block px-6 py-3 bg-[#25488a]/70 rounded-full mb-6">
                     <span className="text-branco-ninho font-medium">Evento Especial</span>
                   </div>
 
                   <h1 className="text-branco-ninho mb-6 animate-fade-in">
-                    <span className="text-branco-ninho ">Inauguração</span> da Casa Arco Íris
+                    <span className="text-branco-ninho">Inauguração</span> da Casa Arco Íris
                     <br className="hidden md:block" />
                     <span className="text-branco-ninho">Celebre conosco!</span>
                   </h1>
@@ -75,12 +89,15 @@ const HeroBanner = () => {
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-scale-in">
-                    <a href="https://forms.google.com/inauguracao-casa-arco-iris" target="_blank" rel="noopener noreferrer" className="bg-azul-confianca text-branco-ninho px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg flex items-center space-x-2 hover-lift">
+                    <a 
+                      href="https://forms.google.com/inauguracao-casa-arco-iris" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="bg-azul-confianca text-branco-ninho px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg flex items-center space-x-2 hover-lift"
+                    >
                       <PartyPopper className="w-5 h-5" />
                       <span>Garantir meu Convite</span>
                     </a>
-                    
-                    
                   </div>
 
                   {/* Event Details */}
@@ -110,6 +127,8 @@ const HeroBanner = () => {
         <CarouselPrevious className="left-4 bg-branco-ninho/20 border-branco-ninho/30 text-branco-ninho hover:bg-branco-ninho/30" />
         <CarouselNext className="right-4 bg-branco-ninho/20 border-branco-ninho/30 text-branco-ninho hover:bg-branco-ninho/30" />
       </Carousel>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroBanner;
