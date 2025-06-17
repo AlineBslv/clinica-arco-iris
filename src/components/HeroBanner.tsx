@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowDown, Calendar, PartyPopper } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -24,7 +23,7 @@ const HeroBanner = () => {
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
                   <h1 className="text-gray-800">
-                    Casa Arco-Íris — Um centro de <span className="text-[#25488a]">desenvolvimento humano</span> 
+                    Um centro de <span className="text-[#25488a]">desenvolvimento humano</span> 
                     <br className="hidden md:block" />
                     <span className="text-gray-800"> com alma de lar</span>
                   </h1>
