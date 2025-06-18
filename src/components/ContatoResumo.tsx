@@ -1,16 +1,13 @@
-
 import React from 'react';
 import { Calendar, Phone, Mail, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const ContatoResumo = () => {
-  return (
-    <section className="section-padding bg-bege-suave">
+  return <section className="section-padding bg-bege-suave">
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-12 animate-on-scroll">
           <div className="inline-block px-4 py-2 bg-azul-sereno/20 rounded-full mb-6">
-            <span className="text-azul-sereno font-medium">Entre em Contato</span>
+            <span className="text-azul-confianca font-medium">Entre em Contato</span>
           </div>
           
           <h2 className="text-azul-confianca mb-6">
@@ -35,12 +32,7 @@ const ContatoResumo = () => {
             <p className="text-cinza-aconchego mb-6">
               Marque sua consulta de forma prática e rápida através do Doctoralia.
             </p>
-            <a
-              href="https://www.doctoralia.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary w-full"
-            >
+            <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
               Agendar Consulta
             </a>
           </div>
@@ -56,12 +48,7 @@ const ContatoResumo = () => {
             <p className="text-cinza-aconchego mb-6">
               Converse conosco diretamente pelo WhatsApp para tirar dúvidas.
             </p>
-            <a
-              href="https://wa.me/5511999999999"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho w-full"
-            >
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho w-full">
               Chamar no WhatsApp
             </a>
           </div>
@@ -77,29 +64,19 @@ const ContatoResumo = () => {
             <p className="text-cinza-aconchego mb-6">
               Acesse nosso site oficial para mais informações.
             </p>
-            <a
-              href="https://www.casaarcoiris.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full"
-            >
+            <a href="https://www.casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full">
               Visitar Site
             </a>
           </div>
         </div>
 
         <div className="text-center animate-on-scroll">
-          <Link
-            to="/contato"
-            className="btn-secondary text-azul-confianca border-azul-confianca hover:bg-azul-confianca hover:text-branco-ninho inline-flex items-center space-x-2"
-          >
+          <Link to="/contato" className="btn-secondary text-azul-confianca border-azul-confianca hover:bg-azul-confianca hover:text-branco-ninho inline-flex items-center space-x-2">
             <span>Ver Mais Informações de Contato</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContatoResumo;
