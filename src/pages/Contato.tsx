@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Calendar, Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+
 const Contato = () => {
   useScrollAnimation();
   const [formData, setFormData] = useState({
@@ -12,13 +13,13 @@ const Contato = () => {
     assunto: '',
     mensagem: ''
   });
-  const handleChange = e => {
+  const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Aqui você implementaria o envio do formulário
     console.log('Formulário enviado:', formData);
@@ -31,7 +32,8 @@ const Contato = () => {
       mensagem: ''
     });
   };
-  return <div className="min-h-screen">
+  return (
+    <div className="min-h-screen">
       <Header />
       
       {/* Hero Section */}
@@ -64,7 +66,12 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Marque sua consulta de forma prática através do Doctoralia.
               </p>
-              <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-azul-claro w-full">
+              <a
+                href="https://www.doctoralia.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-azul-claro w-full"
+              >
                 Agendar Consulta
               </a>
             </div>
@@ -80,7 +87,12 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Converse conosco diretamente pelo WhatsApp.
               </p>
-              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
+              <a
+                href="https://wa.me/5511999999999"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
+              >
                 Mandar Mensagem
               </a>
             </div>
@@ -96,24 +108,32 @@ const Contato = () => {
               <p className="text-cinza-aconchego mb-6">
                 Ligue diretamente para agendar ou tirar dúvidas.
               </p>
-              <a href="tel:+5511999999999" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
+              <a
+                href="tel:+5511999999999"
+                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
+              >
                 (11) 99999-9999
               </a>
             </div>
 
-            {/* E-mail */}
+            {/* Website */}
             <div className="card-custom text-center hover-lift animate-on-scroll">
               <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
                 <Mail className="w-8 h-8 text-azul-claro-medio" />
               </div>
               <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">
-                E-mail
+                Website
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Envie sua mensagem por e-mail.
+                Acesse nosso site oficial.
               </p>
-              <a href="mailto:contato@casaarcoiris.com.br" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
-                Enviar E-mail
+              <a
+                href="https://www.casaarcoiris.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
+              >
+                Visitar Site
               </a>
             </div>
           </div>
@@ -170,7 +190,10 @@ const Contato = () => {
                   <textarea id="mensagem" name="mensagem" value={formData.mensagem} onChange={handleChange} required rows={5} className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors" placeholder="Como podemos ajudar você?" />
                 </div>
 
-                <button type="submit" className="btn-azul-claro w-full flex items-center justify-center space-x-2">
+                <button
+                  type="submit"
+                  className="btn-azul-claro w-full flex items-center justify-center space-x-2"
+                >
                   <Send className="w-5 h-5" />
                   <span>Enviar Mensagem</span>
                 </button>
@@ -192,9 +215,9 @@ const Contato = () => {
                   <div>
                     <h3 className="font-semibold text-azul-claro-principal mb-2">Endereço</h3>
                     <p className="text-cinza-aconchego">
-                      Rua das Flores, 123<br />
-                      Jardim Esperança<br />
-                      São Paulo/SP - CEP 01234-567
+                      Rua Marechal Mallet, 355<br />
+                      Parque da Vila Prudente<br />
+                      São Paulo/SP
                     </p>
                   </div>
                 </div>
@@ -217,8 +240,17 @@ const Contato = () => {
                 {/* Mapa */}
                 <div className="mt-8">
                   <h3 className="font-semibold text-azul-claro-principal mb-4">Localização</h3>
-                  <div className="bg-azul-claro-suave/10 h-64 rounded-lg flex items-center justify-center border border-azul-claro-suave/30">
-                    <p className="text-cinza-aconchego">Mapa do Google Maps será integrado aqui</p>
+                  <div className="bg-branco-ninho rounded-lg shadow-lg p-2">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4067!2d-46.5796!3d-23.5862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c4f3b4b4b4b%3A0x4b4b4b4b4b4b4b4b!2sRua%20Marechal%20Mallet%2C%20355%20-%20Parque%20da%20Vila%20Prudente%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                      width="100%"
+                      height="250"
+                      style={{ border: 0, borderRadius: '0.5rem' }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Localização da Casa Arco Íris"
+                    />
                   </div>
                 </div>
               </div>
@@ -228,6 +260,8 @@ const Contato = () => {
       </section>
 
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default Contato;

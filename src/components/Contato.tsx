@@ -47,16 +47,16 @@ const Contato = () => {
     },
     {
       icon: <Mail className="w-6 h-6" />,
-      titulo: "E-mail",
-      info: "contato@casaarcoiris.com.br",
-      link: "mailto:contato@casaarcoiris.com.br",
+      titulo: "Website",
+      info: "www.casaarcoiris.com.br",
+      link: "https://www.casaarcoiris.com.br",
       cor: "verde-salvia"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       titulo: "Endereço",
-      info: "Rua das Flores, 123 - Jardim Esperança - São Paulo/SP",
-      link: "https://maps.google.com/?q=Rua+das+Flores+123+São+Paulo",
+      info: "Rua Marechal Mallet, 355 - Parque da Vila Prudente - São Paulo/SP",
+      link: "https://maps.google.com/?q=Rua+Marechal+Mallet+355+Parque+da+Vila+Prudente+São+Paulo",
       cor: "terracota"
     },
     {
@@ -247,14 +247,14 @@ const Contato = () => {
         <div className="mt-16 animate-on-scroll">
           <div className="bg-branco-ninho rounded-2xl p-2 shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975!2d-46.6345!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAyLjAiUyA0NsKwMzgnMDQuMyJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4067!2d-46.5796!3d-23.5862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c4f3b4b4b4b%3A0x4b4b4b4b4b4b4b4b!2sRua%20Marechal%20Mallet%2C%20355%20-%20Parque%20da%20Vila%20Prudente%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
               width="100%"
               height="300"
               style={{ border: 0, borderRadius: '1rem' }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização da Casa Arco Íris"
+              title="Localização da Casa Arco Íris - Rua Marechal Mallet, 355"
             />
           </div>
         </div>

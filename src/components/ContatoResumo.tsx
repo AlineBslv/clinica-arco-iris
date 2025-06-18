@@ -7,6 +7,7 @@ const ContatoResumo = () => {
   return (
     <section className="section-padding bg-bege-suave">
       <div className="container-custom">
+        {/* Header */}
         <div className="text-center mb-12 animate-on-scroll">
           <div className="inline-block px-4 py-2 bg-azul-sereno/20 rounded-full mb-6">
             <span className="text-azul-sereno font-medium">Entre em Contato</span>
@@ -65,22 +66,24 @@ const ContatoResumo = () => {
             </a>
           </div>
 
-          {/* Email */}
+          {/* Website */}
           <div className="card-custom text-center hover-lift animate-on-scroll">
             <div className="p-4 bg-azul-sereno/10 rounded-xl w-fit mx-auto mb-6">
               <Mail className="w-8 h-8 text-azul-sereno" />
             </div>
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
-              E-mail
+              Website
             </h3>
             <p className="text-cinza-aconchego mb-6">
-              Envie sua mensagem por e-mail e retornaremos em breve.
+              Acesse nosso site oficial para mais informações.
             </p>
             <a
-              href="mailto:contato@casaarcoiris.com.br"
+              href="https://www.casaarcoiris.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full"
             >
-              Enviar E-mail
+              Visitar Site
             </a>
           </div>
         </div>
