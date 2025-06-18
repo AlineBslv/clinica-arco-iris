@@ -11,10 +11,10 @@ const ContatoResumo = () => {
           </div>
           
           <h2 className="text-azul-confianca mb-6">
-            Pronto para dar o <span className="text-azul-sereno">primeiro passo?</span>
+            Pronto para dar o <span className="text-azul-claro-principal ">primeiro passo?</span>
           </h2>
           
-          <p className="text-cinza-aconchego max-w-2xl mx-auto">
+          <p className="text-cinza-aconchego max-w-2xl mx-auto text-gray-800">
             Estamos aqui para acolher você e sua família. Entre em contato e 
             comece sua jornada de cuidado e desenvolvimento.
           </p>
@@ -29,7 +29,7 @@ const ContatoResumo = () => {
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               Agende Online
             </h3>
-            <p className="text-cinza-aconchego mb-6">
+            <p className="text-cinza-aconchego mb-6 text-gray-700">
               Marque sua consulta de forma prática e rápida através do Doctoralia.
             </p>
             <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
@@ -45,7 +45,7 @@ const ContatoResumo = () => {
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               WhatsApp
             </h3>
-            <p className="text-cinza-aconchego mb-6">
+            <p className="text-cinza-aconchego mb-6 text-gray-700">
               Converse conosco diretamente pelo WhatsApp para tirar dúvidas.
             </p>
             <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho w-full">
@@ -61,7 +61,7 @@ const ContatoResumo = () => {
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               Website
             </h3>
-            <p className="text-cinza-aconchego mb-6">
+            <p className="text-cinza-aconchego mb-6 text-gray-700">
               Acesse nosso site oficial para mais informações.
             </p>
             <a href="https://www.casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full">
