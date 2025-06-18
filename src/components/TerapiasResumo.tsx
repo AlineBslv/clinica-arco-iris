@@ -45,7 +45,7 @@ const TerapiasResumo = () => {
                 </div>
               </div>
               
-              <h3 className="text-xl font-semibold text-azul-confianca mb-4">
+              <h3 className="text-xl font-semibold text-roxo-principal mb-4">
                 {terapia.titulo}
               </h3>
               
