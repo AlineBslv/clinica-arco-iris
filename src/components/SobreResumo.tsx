@@ -16,7 +16,7 @@ const SobreResumo = () => {
               {' '}pensado para você
             </h2>
             
-            <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">A Casa Arco-Íris é um espaço interdisciplinar voltado ao desenvolvimento humano integral de crianças, adolescentes e adultos.
+            <p className="text-cinza-aconchego text-lg leading-relaxed mb-6 text-gray-800">A Casa Arco-Íris é um espaço interdisciplinar voltado ao desenvolvimento humano integral de crianças, adolescentes e adultos.
 
 
 Nosso cuidado une terapias clássicas e complementares em um ambiente com cara de casa: aconchegante, colorido, vivo e sensível.</p>
