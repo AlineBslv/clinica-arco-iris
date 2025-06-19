@@ -8,19 +8,19 @@ const TerapiasResumo = () => {
     {
       icon: <MessageCircle className="w-8 h-8" />,
       titulo: "Psicologia",
-      descricao: "Apoio emocional e comportamental para crianças, adolescentes e adultos. Trabalha questões como ansiedade, autoestima, relacionamentos e desenvolvimento pessoal, sempre com escuta ativa e acolhimento.",
+      descricao: "Apoio emocional para todas as idades, abordando ansiedade, autoestima, relacionamentos e desenvolvimento pessoal com escuta ativa e acolhimento.",
       cor: "roxo-principal"
     },
     {
       icon: <MessageCircle className="w-8 h-8" />,
       titulo: "Fonoaudiologia",
-      descricao: "Atua no desenvolvimento da comunicação e linguagem, desde atrasos na fala até questões relacionadas à deglutição, voz e audição. Essencial no suporte a crianças com dificuldades na aprendizagem ou no desenvolvimento da fala.",
+      descricao: "Desenvolve comunicação e linguagem, ajudando atrasos na fala, deglutição, voz e audição, essencial para crianças com dificuldades.",
       cor: "roxo-principal"
     },
     {
       icon: <Hand className="w-8 h-8" />,
       titulo: "Terapia Ocupacional",
-      descricao: "Promove a autonomia e funcionalidade em atividades do dia a dia, especialmente para pessoas com atrasos no desenvolvimento, dificuldades motoras ou sensoriais. Foco na independência e qualidade de vida.",
+      descricao: "Promove autonomia diária e melhora a qualidade de vida de pessoas com atrasos no desenvolvimento e dificuldades motoras ou sensoriais.",
       cor: "roxo-principal"
     }
   ];
