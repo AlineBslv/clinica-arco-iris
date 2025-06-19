@@ -29,9 +29,7 @@ const ContatoResumo = () => {
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               Agende Online
             </h3>
-            <p className="text-cinza-aconchego mb-6 text-gray-700">
-              Marque sua consulta de forma prática e rápida através do Doctoralia.
-            </p>
+            <p className="text-cinza-aconchego mb-6 text-gray-700">Marque sua consulta de forma ágil através do Doctoralia.</p>
             <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
               Agendar Consulta
             </a>
