@@ -23,17 +23,14 @@ const TerapiasResumo = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-on-scroll">
           <div className="inline-block px-4 py-2 bg-roxo-principal/20 rounded-full mb-6">
-            <span className="text-roxo-principal font-medium">Nossos Serviços</span>
+            <span className="text-roxo-principal font-medium">O que fazemos</span>
           </div>
           
           <h2 className="text-azul-confianca mb-6">
             Como podemos te ajudar a <span className="text-roxo-principal">florescer?</span>
           </h2>
           
-          <p className="text-cinza-aconchego max-w-2xl mx-auto">
-            Oferecemos abordagens terapêuticas especializadas, com foco especial no 
-            atendimento humanizado a crianças neurodivergentes e suas famílias.
-          </p>
+          <p className="text-cinza-aconchego max-w-2xl mx-auto">Oferecemos atendimentos presenciais, online e em escolas nas áreas de:</p>
         </div>
 
         {/* Terapias em Destaque */}
