@@ -7,24 +7,72 @@ const FAQ = () => {
 
   const faqs = [
     {
-      pergunta: "Como funciona a primeira consulta?",
-      resposta: "A primeira consulta é um momento de acolhimento e conhecimento mútuo. Durante essa conversa inicial, buscamos compreender suas necessidades, objetivos e expectativas. É um espaço seguro para tirar dúvidas e alinhar o melhor caminho terapêutico para você ou seu filho."
+      pergunta: "O que é a Casa Arco-Íris?",
+      resposta: "A Casa Arco-Íris é um espaço interdisciplinar voltado ao desenvolvimento humano integral de crianças, adolescentes e adultos. Nosso cuidado une terapias clássicas e complementares em um ambiente com cara de casa: aconchegante, colorido, vivo e sensível."
     },
     {
-      pergunta: "Quais planos de saúde são aceitos?",
-      resposta: "Trabalhamos com os principais convênios médicos e também oferecemos atendimento particular. Nossa equipe pode auxiliar com questões de reembolso e documentação necessária. Entre em contato para verificar se seu plano está em nossa rede credenciada."
+      pergunta: "Quais serviços são oferecidos na Casa Arco-Íris?",
+      resposta: "Oferecemos atendimentos interdisciplinares presenciais na casa, online e em escolas nas áreas de Psicologia, Fonoaudiologia, Terapia Ocupacional, Neuropsicologia, Psicopedagogia, Fisioterapia, Nutrição, Terapia ABA, Estética, Massoterapia, Acupuntura e Finanças comportamentais."
     },
     {
-      pergunta: "O que é terapia ocupacional e como pode ajudar?",
-      resposta: "A terapia ocupacional foca no desenvolvimento de habilidades necessárias para as atividades do dia a dia. Para crianças neurodivergentes, trabalhamos aspectos como coordenação motora, integração sensorial, autonomia e habilidades sociais, sempre respeitando o ritmo e as particularidades de cada criança."
+      pergunta: "Onde a Casa está localizada?",
+      resposta: "Estamos localizados na Rua Marechal Malet, 355 - Parque da Vila Prudente, São Paulo - SP, 03140-020, próximo ao Metrô da Vila Prudente, Linha Verde."
     },
     {
-      pergunta: "A Casa Arco Íris atende adultos também?",
-      resposta: "Sim! Embora tenhamos especialização em crianças neurodivergentes, oferecemos atendimento para todas as idades. Nosso ambiente acolhedor e abordagem humanizada beneficiam pessoas de diferentes faixas etárias que buscam desenvolvimento pessoal e bem-estar."
+      pergunta: "Quais são os horários de atendimento?",
+      resposta: "Nosso atendimento ocorre de segunda a sexta-feira, das 8h às 18h, e aos sábados, das 8h às 14h. Consulte horários específicos para cada serviço no site ou pelo atendimento."
     },
     {
-      pergunta: "Como é o ambiente da clínica?",
-      resposta: "Nossa 'casa' foi pensada para ser um espaço verdadeiramente acolhedor. Temos ambientes com luz natural, decoração que transmite calma, e até a presença de pets terapêuticos. Queremos que você se sinta em casa desde o primeiro momento."
+      pergunta: "A Casa atende crianças e adultos?",
+      resposta: "Sim! Atendemos todas as idades, desde bebês até idosos, com planos de cuidado personalizados e voltados às necessidades individuais de cada fase da vida."
+    },
+    {
+      pergunta: "A Casa Arco-Íris é voltada apenas para pessoas neuro divergentes?",
+      resposta: "Não. Atendemos tanto pessoas neurotípicas quanto neuro divergentes. Nosso compromisso é com a singularidade de cada ser humano, independentemente do diagnóstico."
+    },
+    {
+      pergunta: "O que é um atendimento interdisciplinar?",
+      resposta: "É quando diferentes profissionais trabalham juntos para oferecer um cuidado mais completo e integrado. Aqui, corpo, mente e comportamento são olhados em conjunto, respeitando cada pessoa como um ser único."
+    },
+    {
+      pergunta: "Como agendar um atendimento?",
+      resposta: "Você pode agendar através do Doctoralia no link fornecido. Também estamos disponíveis para tirar dúvidas sobre o agendamento nos nossos canais no Whatsapp, telefone e e-mail."
+    },
+    {
+      pergunta: "Preciso de encaminhamento médico?",
+      resposta: "Não. Você pode procurar diretamente a Casa para uma avaliação inicial e nossa equipe ajudará a definir quais profissionais e abordagens são ideais para o seu caso."
+    },
+    {
+      pergunta: "A Casa Arco-Íris atende por convênio?",
+      resposta: "Atualmente, nossos atendimentos são realizados de forma particular. Oferecemos Nota Fiscal para reembolso junto aos convênios e opções de pacotes com formas de pagamento facilitadas."
+    },
+    {
+      pergunta: "Quais são as formas de pagamento aceitas?",
+      resposta: "Aceitamos dinheiro, cartões de crédito e débito, Pix e transferências bancárias. Parcelamentos podem ser combinados em alguns casos."
+    },
+    {
+      pergunta: "Como funciona o primeiro atendimento?",
+      resposta: "O primeiro atendimento é uma avaliação detalhada feita por um dos nossos profissionais, para identificar suas necessidades e traçar um plano de cuidado personalizado."
+    },
+    {
+      pergunta: "Posso remarcar ou cancelar uma consulta?",
+      resposta: "Sim, solicitamos que remarque ou cancele com pelo menos 24 horas de antecedência, para evitar cobranças de taxa."
+    },
+    {
+      pergunta: "A Casa tem estrutura para acompanhantes ou familiares? Como é o ambiente da clínica?",
+      resposta: "Sim. Temos um espaço de convivência com jardim, café, coworking e ambiente acolhedor para quem aguarda enquanto o atendimento acontece. Aqui, todos se sentem em casa."
+    },
+    {
+      pergunta: "O que é a Terapia de Finanças Comportamentais?",
+      resposta: "É uma abordagem exclusiva que une psicologia e educação financeira para ajudar as pessoas a entenderem e mudarem sua relação com o dinheiro, promovendo equilíbrio emocional e autonomia."
+    },
+    {
+      pergunta: "Posso participar da comunidade da Casa mesmo sem fazer terapia?",
+      resposta: "Sim! Promovemos rodas de conversa, workshops e eventos abertos para toda a comunidade. Acreditamos na construção coletiva de um espaço acolhedor e transformador."
+    },
+    {
+      pergunta: "Como posso participar das rodas de conversa, workshops e eventos?",
+      resposta: "Divulgamos nossa agenda nas redes sociais e no site, incluindo as rodas de conversas e workshops. Você pode se inscrever diretamente pelos nossos canais ou conversar com a equipe para saber mais."
     }
   ];
 
