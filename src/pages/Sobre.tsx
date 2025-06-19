@@ -45,23 +45,12 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll">
-              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#55a369]">Nossa História</h2>
-              <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">
-                A Casa Arco Íris nasceu do sonho de criar um espaço verdadeiramente 
-                inclusivo, onde cada pessoa pudesse se sentir acolhida e compreendida. 
-                Nossa fundação se baseia na crença de que a diversidade é uma força 
-                e que cada indivíduo tem seu próprio caminho de desenvolvimento.
-              </p>
-              <p className="text-cinza-aconchego leading-relaxed mb-6">
-                Especializamo-nos no atendimento a crianças neurodivergentes e suas 
-                famílias, oferecendo um ambiente terapêutico que respeita as 
-                particularidades de cada um e promove o desenvolvimento integral.
-              </p>
-              <p className="text-cinza-aconchego leading-relaxed">
-                Nosso nome "Arco Íris" simboliza a diversidade e a beleza única 
-                de cada pessoa, assim como cada cor do arco íris é especial e 
-                contribui para a harmonia do todo.
-              </p>
+              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#55a369]">Bem-vindo à Casa Arco-Íris</h2>
+              <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">Somos um centro de desenvolvimento humano pensado para acolher, cuidar e transformar. Aqui, o cuidado vai além da terapia — é uma experiência sensorial e emocional que começa já na chegada: um ambiente com cara de casa, café quentinho, jardim com rede, espaço lúdico e terapias em cada canto.
+            </p>
+              <p className="text-cinza-aconchego leading-relaxed mb-6">Oferecemos atendimentos interdisciplinares para pessoas neurotípicas e neurodivergentes, com foco em corpo, mente e finanças. Nossa equipe reúne especialistas em Psicologia, Fonoaudiologia, Terapia Ocupacional, Fisioterapia, Nutrição, Terapia ABA, além de terapias complementares como massagens, acupuntura, estética e a exclusiva Terapia de Finanças Comportamentais.</p>
+              <p className="text-cinza-aconchego leading-relaxed">Mais do que clientes, aqui você é parte de uma comunidade. Criamos canais de escuta ativa, caixa de sugestões e grupos de troca para que famílias, profissionais e colaboradores participem da evolução da Casa. Todos são convidados a cocriar este espaço com a gente.
+            </p>
             </div>
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=800&q=80" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
