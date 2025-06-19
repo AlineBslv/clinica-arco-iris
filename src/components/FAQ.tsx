@@ -67,7 +67,7 @@ const FAQ = () => {
             </div>
             
             <h2 className="text-azul-confianca mb-6">
-              Perguntas <span className="text-azul-sereno">Frequentes</span>
+              Perguntas <span className="text-azul-confianca ">Frequentes</span>
             </h2>
             
             <p className="text-cinza-aconchego">
