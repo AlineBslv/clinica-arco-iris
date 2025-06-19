@@ -49,8 +49,10 @@ const Sobre = () => {
               <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">Somos um centro de desenvolvimento humano pensado para acolher, cuidar e transformar. Aqui, o cuidado vai além da terapia — é uma experiência sensorial e emocional que começa já na chegada: um ambiente com cara de casa, café quentinho, jardim com rede, espaço lúdico e terapias em cada canto.
             </p>
               <p className="text-cinza-aconchego leading-relaxed mb-6">Oferecemos atendimentos interdisciplinares para pessoas neurotípicas e neurodivergentes, com foco em corpo, mente e finanças. Nossa equipe reúne especialistas em Psicologia, Fonoaudiologia, Terapia Ocupacional, Fisioterapia, Nutrição, Terapia ABA, além de terapias complementares como massagens, acupuntura, estética e a exclusiva Terapia de Finanças Comportamentais.</p>
-              <p className="text-cinza-aconchego leading-relaxed">Mais do que clientes, aqui você é parte de uma comunidade. Criamos canais de escuta ativa, caixa de sugestões e grupos de troca para que famílias, profissionais e colaboradores participem da evolução da Casa. Todos são convidados a cocriar este espaço com a gente.
+              <p className="text-cinza-aconchego leading-relaxed mb-6">Mais do que clientes, aqui você é parte de uma comunidade. Criamos canais de escuta ativa, caixa de sugestões e grupos de troca para que famílias, profissionais e colaboradores participem da evolução da Casa. Todos são convidados a cocriar este espaço com a gente.
             </p>
+              <p className="text-cinza-aconchego leading-relaxed mb-6">Seja para cuidar dos filhos ou de si mesmo, trabalhar no nosso coworking enquanto a terapia acontece, descansar no quintal ou participar de nossos workshops e rodas de conversa — a Casa Arco-Íris existe para cuidar com excelência, acolher com afeto e transformar com propósito.</p>
+              <p className="text-cinza-aconchego leading-relaxed">Aqui, o cuidado é real, personalizado e humano. Aqui, você pertence.</p>
             </div>
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=800&q=80" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
