@@ -44,7 +44,7 @@ const Footer = () => {
               </div>
             </div>
             
-            <p className="text-azul-confianca/90 leading-relaxed mb-6 max-w-md">Um espaço de acolhimento e desenvolvimento humano, especializado em atendimento humanizado e inclusivo para crianças, adolescentes e adultos</p>
+            <p className="text-azul-confianca/90 leading-relaxed mb-6 max-w-md">Um espaço de acolhimento e desenvolvimento humano, especializado em atendimento humanizado e inclusivo para crianças, adolescentes e adultos.</p>
 
             {/* Redes Sociais */}
             <div className="flex space-x-4">
