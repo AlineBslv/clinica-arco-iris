@@ -52,7 +52,7 @@ const Sobre = () => {
               <p className="text-cinza-aconchego leading-relaxed mb-6">Mais do que clientes, aqui você é parte de uma comunidade. Criamos canais de escuta ativa, caixa de sugestões e grupos de troca para que famílias, profissionais e colaboradores participem da evolução da Casa. Todos são convidados a cocriar este espaço com a gente.
             </p>
               <p className="text-cinza-aconchego leading-relaxed mb-6">Seja para cuidar dos filhos ou de si mesmo, trabalhar no nosso coworking enquanto a terapia acontece, descansar no quintal ou participar de nossos workshops e rodas de conversa — a Casa Arco-Íris existe para cuidar com excelência, acolher com afeto e transformar com propósito.</p>
-              <p className="text-cinza-aconchego leading-relaxed">Aqui, o cuidado é real, personalizado e humano. Aqui, você pertence.</p>
+              <p className="text-azul-confianca leading-relaxed">Aqui, o cuidado é real, personalizado e humano. Aqui, você pertence.</p>
             </div>
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=800&q=80" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
