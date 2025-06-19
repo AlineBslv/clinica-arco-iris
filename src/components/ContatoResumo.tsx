@@ -1,8 +1,10 @@
 import React from 'react';
 import { Calendar, Phone, Mail, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
 const ContatoResumo = () => {
-  return <section className="section-padding bg-bege-suave">
+  return (
+    <section className="section-padding bg-bege-suave">
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-12 animate-on-scroll">
@@ -51,19 +53,22 @@ const ContatoResumo = () => {
             </a>
           </div>
 
-          {/* Website */}
+          {/* E-mail */}
           <div className="card-custom text-center hover-lift animate-on-scroll">
             <div className="p-4 bg-azul-sereno/10 rounded-xl w-fit mx-auto mb-6">
               <Mail className="w-8 h-8 text-azul-sereno" />
             </div>
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
-              Website
+              E-mail
             </h3>
             <p className="text-cinza-aconchego mb-6 text-gray-700">
-              Acesse nosso site oficial para mais informações.
+              Entre em contato conosco por e-mail para dúvidas e informações.
             </p>
-            <a href="https://www.casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full">
-              Visitar Site
+            <a 
+              href="mailto:contato@casaarcoiris.com.br" 
+              className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full"
+            >
+              Enviar E-mail
             </a>
           </div>
         </div>
@@ -75,6 +80,8 @@ const ContatoResumo = () => {
           </Link>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default ContatoResumo;
