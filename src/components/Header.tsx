@@ -73,8 +73,8 @@ const Header = () => {
                   </Link>)}
                 <div className="pt-4 flex flex-col space-y-3">
                   <a href="tel:+5511999999999" className="flex items-center space-x-2 text-azul-confianca hover:text-terracota transition-colors duration-300">
-                    <Phone className="w-5 h-5" />
-                    <span>Ligar Agora</span>
+                    
+                    
                   </a>
                   <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary text-center" onClick={() => setIsMenuOpen(false)}>
                     Agendar Consulta
