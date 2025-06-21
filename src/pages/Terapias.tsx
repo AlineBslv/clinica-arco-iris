@@ -161,7 +161,7 @@ const Terapias = () => {
                     {terapia.descricao}
                   </p>
 
-                  <h3 className="text-lg font-semibold text-azul-confianca mb-4">
+                  <h3 className="text-lg font-semibold text-roxo-principal mb-4">
                     O que oferecemos:
                   </h3>
                   
