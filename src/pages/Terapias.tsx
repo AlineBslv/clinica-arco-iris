@@ -149,17 +149,19 @@ const Terapias = () => {
                     </div>
                   </div>
                   
-                  <h2 className="text-2xl md:text-3xl font-lora font-semibold text-roxo-principal mb-4">
+                  <h2 className="text-2xl md:text-3xl font-lora font-semibold text-azul-confianca mb-4">
                     {terapia.titulo}
                   </h2>
                   
-                  
+                  <p className={`text-${terapia.cor} font-semibold text-lg mb-6`}>
+                    {terapia.subtitulo}
+                  </p>
                   
                   <p className="text-cinza-aconchego text-lg leading-relaxed mb-8">
                     {terapia.descricao}
                   </p>
 
-                  <h3 className="text-lg font-semibold text-roxo-principal mb-4">
+                  <h3 className="text-lg font-semibold text-azul-confianca mb-4">
                     O que oferecemos:
                   </h3>
                   
