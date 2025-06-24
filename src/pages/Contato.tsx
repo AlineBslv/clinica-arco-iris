@@ -44,8 +44,8 @@ const Contato = () => {
               Entre em <span className="text-branco-ninho ">Contato</span>
             </h1>
             <p className="text-xl text-branco-ninho/90 max-w-3xl mx-auto leading-relaxed">
-              Estamos aqui para acolher você e sua família. Escolha a forma 
-              de contato que for mais conveniente
+              Estamos à disposição para esclarecer suas dúvidas e 
+              agendar uma visita ao nosso espaço.
             </p>
           </div>
         </div>
@@ -106,7 +106,8 @@ const Contato = () => {
                 Telefone
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Ligue diretamente para agendar ou tirar dúvidas.
+                Ligue diretamente para agendar ou 
+                tirar dúvidas.
               </p>
               <a
                 href="tel:+5511999999999"
@@ -122,10 +123,10 @@ const Contato = () => {
                 <Mail className="w-8 h-8 text-azul-claro-medio" />
               </div>
               <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">
-                Website
+                E-mail
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Acesse nosso site oficial.
+                Entre em contato através do e-mail.
               </p>
               <a
                 href="https://www.casaarcoiris.com.br"
@@ -133,7 +134,7 @@ const Contato = () => {
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
               >
-                Visitar Site
+                Enviar E-mail
               </a>
             </div>
           </div>
