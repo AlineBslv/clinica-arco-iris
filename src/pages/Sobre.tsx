@@ -94,10 +94,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-azul-confianca mb-6 text-[#333333]">Nosso Espaço</h2>
-            <p className="text-cinza-aconchego max-w-2xl mx-auto">
-              Um ambiente cuidadosamente planejado para proporcionar conforto, 
-              segurança e bem-estar durante os atendimentos
-            </p>
+            <p className="text-cinza-aconchego max-w-2xl mx-auto">Mais do que uma clínica, somos uma casa com alma. Aqui você encontra:</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
