@@ -25,8 +25,6 @@ export default {
 				'cinza-aconchego': '#5A5A5A',
 				'bege-suave': '#EAE3D9',
 				'azul-confianca': '#25488a',
-				'terracota': '#55a369',
-				'mostarda': '#E6B86C',
 				'verde-salvia': '#A9BCA3',
 				'azul-sereno': '#A2B6D4',
 				'violeta-lavanda': '#C3B1E1',
