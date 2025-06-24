@@ -113,7 +113,7 @@ const Sobre = () => {
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=600&q=80" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Pets Terapêuticos</h3>
-              <p className="text-cinza-aconchego">Nossos companheiros de quatro patas que fazem parte da família da Casa.</p>
+              <p className="text-cinza-aconchego">Presença de pets amorosos e calmos para tornar o cuidado ainda mais afetuoso.</p>
             </div>
           </div>
         </div>
