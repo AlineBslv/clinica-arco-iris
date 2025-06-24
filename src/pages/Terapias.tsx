@@ -144,9 +144,7 @@ const Terapias = () => {
                   {terapia.destaque && <div className="inline-block px-3 py-1 bg-roxo-principal text-branco-ninho rounded-full text-sm font-medium mb-4">Serviços Oferecidos</div>}
                   
                   <div className={`p-4 bg-${terapia.cor}/10 rounded-xl w-fit mb-6`}>
-                    <div className="text-4xl">
-                      {terapia.icon}
-                    </div>
+                    
                   </div>
                   
                   <h2 className="text-2xl md:text-3xl font-lora font-semibold text-azul-confianca mb-4">
@@ -157,9 +155,7 @@ const Terapias = () => {
                     {terapia.subtitulo}
                   </p>
                   
-                  <p className="text-cinza-aconchego text-lg leading-relaxed mb-8">
-                    {terapia.descricao}
-                  </p>
+                  
 
                   <h3 className="text-lg font-semibold text-roxo-principal mb-4">
                     O que oferecemos:
