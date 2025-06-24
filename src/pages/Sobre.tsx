@@ -66,7 +66,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-azul-confianca mb-6 text-[#467653]">Nosso Propósito</h2>
-            <p className="text-cinza-aconchego max-w-2xl mx-auto">Promover desenvolvimento humano com qualidade, respeito e acolhimento, oferecendo atendimentos terapêuticos em um ambiente que une técnica, escuta e pertencimento.</p>
+            <p className="text-cinza-aconchego max-w-2xl mx-auto text-gray-700">Promover desenvolvimento humano com qualidade, respeito e acolhimento, oferecendo atendimentos terapêuticos em um ambiente que une técnica, escuta e pertencimento.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
