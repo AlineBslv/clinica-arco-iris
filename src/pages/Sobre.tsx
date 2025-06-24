@@ -100,8 +100,8 @@ const Sobre = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="animate-on-scroll">
               <img src="https://images.unsplash.com/photo-1631889993959-41b4e9c81d20?auto=format&fit=crop&w=600&q=80" alt="Sala de terapia confortável" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-azul-confianca mb-2">Salas de Terapia</h3>
-              <p className="text-cinza-aconchego">Ambientes acolhedores e equipados para diferentes modalidades terapêuticas.</p>
+              <h3 className="text-lg font-semibold text-azul-confianca mb-2">Sala de Espera Aconchegante</h3>
+              <p className="text-cinza-aconchego">Sala de espera com livros, brinquedos, café, chá e acolhimento logo na entrada</p>
             </div>
 
             <div className="animate-on-scroll">
