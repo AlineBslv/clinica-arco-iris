@@ -10,14 +10,14 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/848b6fae-e330-4324-b720-8fd8dfda4514.png" />
+                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/ffe3c893-7868-49a6-92c6-1893484ebb5d.png" />
                 
               </div>
 
               {/* Content */}
               <div className="container-custom relative z-10 text-center animate-fade-in">
                 <div className="max-w-4xl mx-auto">
-                  <h1 className="text-gray-800">
+                  <h1 className="text-gray-800 mb-6">
                     Um centro de <span className="text-[#25488a]">desenvolvimento humano</span>
                     <span className="text-gray-800"> com alma de lar</span>
                   </h1>
