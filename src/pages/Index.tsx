@@ -2,8 +2,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import HeroBanner from '../components/HeroBanner';
-import SobreResumo from '../components/SobreResumo';
-import TerapiasResumo from '../components/TerapiasResumo';
+import QuemSomosResumo from '../components/QuemSomosResumo';
+import NossosServicosResumo from '../components/NossosServicosResumo';
 import FAQ from '../components/FAQ';
 import ContatoResumo from '../components/ContatoResumo';
 import Footer from '../components/Footer';
@@ -16,8 +16,8 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <HeroBanner />
-      <SobreResumo />
-      <TerapiasResumo />
+      <QuemSomosResumo />
+      <NossosServicosResumo />
       <FAQ />
       <ContatoResumo />
       <Footer />
