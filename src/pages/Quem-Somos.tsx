@@ -55,7 +55,7 @@ const Sobre = () => {
               <p className="text-azul-confianca leading-relaxed">Aqui, o cuidado é real, personalizado e humano. Aqui, você pertence.</p>
             </div>
             <div className="animate-on-scroll">
-              <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=800&q=80" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
+              <img src="https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
             </div>
           </div>
         </div>
