@@ -16,7 +16,7 @@ const Footer = () => {
   }];
   const socialLinks = [{
     name: 'Instagram',
-    href: 'https://instagram.com/casa.arcoiris',
+    href: 'https://www.instagram.com/casa.arco_iris/',
     icon: <Instagram className="w-5 h-5" />
   }, {
     name: 'Facebook',
