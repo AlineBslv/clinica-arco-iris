@@ -2,25 +2,25 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import { Heart, Users, Shield, Star } from 'lucide-react';
+import { Heart, Users, Shield, Star, BrainCogIcon, MedalIcon, Handshake } from 'lucide-react';
 const Sobre = () => {
   useScrollAnimation();
   const valores = [{
-    icon: <Heart className="w-8 h-8" />,
-    titulo: "Acolhimento",
-    descricao: "Cada pessoa é recebida com carinho e respeito, em um ambiente seguro e acolhedor."
+    icon: <Handshake className="w-8 h-8" />,
+    titulo: "Qualidade Técnica e Ética Profissional",
+    descricao: "Comprometimento com a excelência e integridade em cada detalhe."
   }, {
     icon: <Users className="w-8 h-8" />,
-    titulo: "Inclusão",
-    descricao: "Celebramos a neurodivergência e promovemos práticas inclusivas em todos os atendimentos."
+    titulo: "Pertencimento e Escuta Ativa",
+    descricao: "Construímos um espaço onde cada voz é ouvida e respeitada."
   }, {
     icon: <Shield className="w-8 h-8" />,
-    titulo: "Confiança",
-    descricao: "Construímos relações baseadas em confiança, transparência e ética profissional."
+    titulo: "Respeito à Diversidade e às Singularidades",
+    descricao: "Celebramos a individualidade e abraçamos todas as diferenças."
   }, {
     icon: <Star className="w-8 h-8" />,
-    titulo: "Excelência",
-    descricao: "Buscamos constantemente a excelência em nossos serviços e atendimento personalizado."
+    titulo: "Ambiente Afetuoso e Acolhedor",
+    descricao: "Transformamos o cuidado em um abraço caloroso, onde todos se sentem em casa."
   }];
   return <div className="min-h-screen">
       <Header />
@@ -62,11 +62,11 @@ const Sobre = () => {
       </section>
 
       {/* Nossos Valores */}
-      <section className="section-padding bg-[#55a369]/10">
+      <section className="section-padding bg-[#55a369]">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-azul-confianca mb-6 text-[#467653]">Nosso Propósito</h2>
-            <p className="text-cinza-aconchego max-w-2xl mx-auto text-gray-700">Promover desenvolvimento humano com qualidade, respeito e acolhimento, oferecendo atendimentos terapêuticos em um ambiente que une técnica, escuta e pertencimento.</p>
+            <h2 className="text-azul-confianca mb-6 text-branco-ninho">Nosso Propósito</h2>
+            <p className="text-branco-ninho max-w-2xl mx-auto">Promover desenvolvimento humano com qualidade, respeito e acolhimento, oferecendo atendimentos terapêuticos em um ambiente que une técnica, escuta e pertencimento.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -97,19 +97,19 @@ const Sobre = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="animate-on-scroll">
-              <img src="https://images.unsplash.com/photo-1631889993959-41b4e9c81d20?auto=format&fit=crop&w=600&q=80" alt="Sala de terapia confortável" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="https://images.pexels.com/photos/10576704/pexels-photo-10576704.jpeg" alt="Sala de terapia confortável" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2">Sala de Espera Aconchegante</h3>
               <p className="text-cinza-aconchego">Sala de espera com livros, brinquedos, café, chá e acolhimento logo na entrada.</p>
             </div>
 
             <div className="animate-on-scroll">
-              <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=600&q=80" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="https://images.pexels.com/photos/756084/pexels-photo-756084.jpeg" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2.5 text-[#55a369]">Área de Convivência</h3>
               <p className="text-cinza-aconchego">Espaço coworking para acompanhantes. Parque no quintal, jardim com rede e ambientes terapêuticos livres.</p>
             </div>
 
             <div className="animate-on-scroll">
-              <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&w=600&q=80" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Pets Terapêuticos</h3>
               <p className="text-cinza-aconchego">Presença de pets amorosos e calmos para tornar o cuidado ainda mais afetuoso.</p>
             </div>

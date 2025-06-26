@@ -3,7 +3,7 @@ import { Brain, MessageCircle, Hand, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 const TerapiasResumo = () => {
   const terapiasDestaque = [{
-    icon: <MessageCircle className="w-8 h-8" />,
+    icon: <Brain className="w-8 h-8" />,
     titulo: "Psicologia",
     descricao: "Apoio emocional para todas as idades, abordando ansiedade, autoestima, relacionamentos e desenvolvimento pessoal com escuta ativa e acolhimento.",
     cor: "roxo-principal"
