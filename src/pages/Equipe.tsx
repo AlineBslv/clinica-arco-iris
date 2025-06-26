@@ -27,7 +27,7 @@ const Equipe = () => {
     nome: "Fernanda Grava",
     especialidade: "Pedagoga e Psicopedagoga",
     registro: "ABPP 496",
-    foto: "/public/lovable-uploads/Fernanda Grava Pedagoga.jpeg",
+    foto: "/lovable-uploads/Fernanda Grava Pedagoga.jpeg",
     biografia: "Especialista em TEA e ciência ABA, com foco em educação especial e inclusiva. Desde 2017, atuo clinicamente e em escolas, oferecendo suporte multidisciplinar para crianças com dificuldades de aprendizagem. Dedico-me a promover inclusão e facilitar o sucesso educacional de cada aluno.",
     formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
     areas: ["TEA e ABA", "Consultoria Inclusiva", "Alfabetização e Aprendizagem", "Equipe Multidisciplinar"]
