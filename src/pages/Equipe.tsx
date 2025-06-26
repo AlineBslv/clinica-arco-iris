@@ -8,29 +8,45 @@ const Equipe = () => {
   const [modalAberto, setModalAberto] = useState(false);
   const [membroSelecionado, setMembroSelecionado] = useState(null);
   const equipe = [{
-    nome: "Dra. Ana Carolina Silva",
-    especialidade: "Terapeuta Ocupacional",
-    registro: "CREFITO-3 12345/TO",
-    foto: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80",
-    biografia: "Especialista em Terapia Ocupacional com foco em neurodivergência. Formada pela USP com pós-graduação em Integração Sensorial. Mais de 8 anos de experiência no atendimento a crianças e adolescentes neurodivergentes.",
-    formacao: ["Graduação em Terapia Ocupacional - USP", "Pós-graduação em Integração Sensorial - FMUSP", "Certificação em TEA - Instituto Neurosaber", "Formação em Comunicação Alternativa"],
-    areas: ["Integração Sensorial", "TEA", "TDAH", "Comunicação Alternativa"]
+    nome: "Naiade Cristina Camilo",
+    especialidade: "Psicóloga - Especialista em ABA",
+    registro: "CRP 06/158361",
+    foto: "/lovable-uploads/Naiade Psicologa.jpeg",
+    biografia: "Psicóloga especializada em ABA para TEA e Desenvolvimento Atípico, formada pelo Instituto Par. Atuo em clínica de neurodiversidade e desenvolvimento infantil, integrando equipe multiprofissional. Com experiência em intervenções eficazes, meu trabalho promove o crescimento e bem-estar de cada indivíduo.",
+    formacao: ["Graduação em Psicologia - Uninove", "Especialização em Análise do Comportamento Aplicada ao Transtorno do Espectro Autista - Instituto Par", "Entendendo o Protocolo VB-MAPP - IEAC", "Guia para Criação do Plano de Ensino Individualizado (PEI) - IEAC"],
+    areas: ["TEA e ABA", "Consultoria Parental", "Integração Multidisciplinar", "Consultoria Escolar"]
   }, {
-    nome: "Dr. Carlos Eduardo Santos",
-    especialidade: "Psicólogo",
-    registro: "CRP 06/123456",
-    foto: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80",
-    biografia: "Psicólogo clínico especializado em atendimento humanizado a crianças e adolescentes. Formado pela PUC-SP com especialização em Terapia Cognitivo-Comportamental e abordagem lúdica.",
+    nome: "Michele Degan",
+    especialidade: "Nutricionista",
+    registro: "CRN-3 52851",
+    foto: "/lovable-uploads/Imagem Michele Nutricionista.jpeg",
+    biografia: "Especialista em Oncologia, Personal Diet, Nutrição Esportiva e Estética, com mais de sete anos de experiência em ambiente hospitalar e cinco anos em consultório. Focada em emagrecimento, hipertrofia e reeducação alimentar, ela oferece atendimento personalizado e acessível. Sua abordagem transforma hábitos alimentares com metas simples, ajudando clientes a atingir objetivos de saúde e bem-estar de forma eficaz.",
     formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
-    areas: ["Ansiedade", "Depressão", "Ludoterapia", "Neuropsicologia"]
+    areas: ["Nutrição Oncológica", "Nutrição Esportiva", "Nutrição Estética", "Educação Alimentar"]
   }, {
-    nome: "Dra. Mariana Oliveira",
-    especialidade: "Psicopedagoga",
-    registro: "ABPp 1234/SP",
-    foto: "https://images.unsplash.com/photo-1594824723286-5bf991ae7781?auto=format&fit=crop&w=400&q=80",
-    biografia: "Psicopedagoga com especialização em dificuldades de aprendizagem e orientação familiar. Experiência em intervenção escolar e desenvolvimento de estratégias pedagógicas inclusivas.",
-    formacao: ["Graduação em Pedagogia - UNICAMP", "Especialização em Psicopedagogia - PUC-Campinas", "Formação em ABA - Instituto ABA", "Curso de Orientação Familiar"],
-    areas: ["Dificuldades de Aprendizagem", "Orientação Familiar", "ABA", "Inclusão Escolar"]
+    nome: "Fernanda Grava",
+    especialidade: "Pedagoga e Psicopedagoga",
+    registro: "ABPP 496",
+    foto: "/public/lovable-uploads/Fernanda Grava Pedagoga.jpeg",
+    biografia: "Especialista em TEA e ciência ABA, com foco em educação especial e inclusiva. Desde 2017, atuo clinicamente e em escolas, oferecendo suporte multidisciplinar para crianças com dificuldades de aprendizagem. Dedico-me a promover inclusão e facilitar o sucesso educacional de cada aluno.",
+    formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
+    areas: ["TEA e ABA", "Consultoria Inclusiva", "Alfabetização e Aprendizagem", "Equipe Multidisciplinar"]
+  }, {
+    nome: "Thamyres Traynard",
+    especialidade: "Estética Avançada",
+    registro: "CRF-SP 101643",
+    foto: "/lovable-uploads/Thamyres Traynard Estetiscista.jpeg",
+    biografia: "Farmacêutica com pós-graduação em Estética Avançada pela Universidade São Camilo, especializada em rejuvenescimento, melasma e acne. Foco na estética regenerativa e na filosofia “tratar sem agredir”, promovendo bem-estar e integridade cutânea. Ofereço atendimento personalizado, humanizado e guiado por evidências, priorizando a saúde e autoestima dos pacientes.",
+    formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
+    areas: ["Rejuvenescimento", "Tratamento de Melasma", "Tratanento de Acne", "Estética Regenerativa"]
+  }, {
+    nome: "Andressa Fernanda da Costa Alencar",
+    especialidade: "Psicóloga",
+    registro: "CRP 06/216782",
+    foto: "/lovable-uploads/Andressa Fernanda Psico.jpeg",
+    biografia: "Psicóloga especializada em saúde mental, focada em mulheres e idosos. Com base na TCC e na Terapia Sócio-Histórica, ofereço atendimento humanizado e personalizado. Promovo autonomia, resolução de conflitos e saúde emocional, com ênfase na psicologia do envelhecimento e qualidade de vida.",
+    formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
+    areas: ["Saúde Mental", "Psicologia Cognitivo-Comportamental", "Psicologia do Envelhecimento", "Atendimento Humanizado"]
   }];
   const abrirModal = membro => {
     setMembroSelecionado(membro);
