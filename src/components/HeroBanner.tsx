@@ -10,7 +10,7 @@ const HeroBanner = () => {
             <div className="min-h-screen flex items-center justify-center relative">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
-                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/workspaces/arco-iris-acolhimento-digital/dist/lovable-uploads/848b6fae-e330-4324-b720-8fd8dfda4514.png" />
+                <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/ffe3c893-7868-49a6-92c6-1893484ebb5d.png" />
                 
               </div>
 
@@ -22,10 +22,8 @@ const HeroBanner = () => {
                     <span className="text-gray-800"> com alma de lar</span>
                   </h1>
                   
-                  <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right text-gray-800">
-                    Cuidamos de pessoas com excelência técnica, carinho e um ambiente acolhedor 
-                    </p>
-                    
+                  <p className="text-xl md:text-2xl text-branco-ninho/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right text-gray-800">Cuidamos de pessoas com excelência técnica, carinho e um ambiente acolhedor</p>
+
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-scale-in">
                     <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 hover-lift">
                       <Calendar className="w-5 h-5" />
