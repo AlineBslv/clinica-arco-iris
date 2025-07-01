@@ -88,7 +88,7 @@ const Contato = () => {
                 Converse conosco diretamente pelo WhatsApp.
               </p>
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511988072520"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
@@ -110,10 +110,10 @@ const Contato = () => {
                 tirar dúvidas.
               </p>
               <a
-                href="tel:+5511999999999"
+                href="tel:+5511988072520"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
               >
-                (11) 99999-9999
+                (11) 98807-2520
               </a>
             </div>
 
@@ -126,10 +126,10 @@ const Contato = () => {
                 E-mail
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Entre em contato através do e-mail.
+                Entre em contato através do nosso e-mail.
               </p>
               <a
-                href="https://www.casaarcoiris.com.br"
+                href="mailto:seu_email@exemplo.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
