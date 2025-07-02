@@ -32,7 +32,7 @@ const ContatoResumo = () => {
               Agende Online
             </h3>
             <p className="text-cinza-aconchego mb-6 text-gray-700">Marque sua consulta de forma ágil pelo WhatsApp.</p>
-            <a href=""https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
+            <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
               Agendar Consulta
             </a>
           </div>
