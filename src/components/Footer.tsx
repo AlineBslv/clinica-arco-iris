@@ -70,7 +70,7 @@ const Footer = () => {
           <div>
             <h4 className="font-lora font-semibold text-lg mb-6">Contato</h4>
             <div className="space-y-4">
-              <a href="tel:+5511999999999" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
+              <a href="tel:+5511988072520" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Phone className="w-4 h-4" />
                 <span className="text-sm">(11) 98807-2520</span>
               </a>

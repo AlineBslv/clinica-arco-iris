@@ -67,7 +67,7 @@ const Contato = () => {
                 Marque sua consulta de forma prática através do Whatsapp.
               </p>
               <a
-                href="https://wa.me/5511988072520"
+                href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-azul-claro w-full"
@@ -88,7 +88,7 @@ const Contato = () => {
                 Converse conosco diretamente pelo WhatsApp.
               </p>
               <a
-                href="https://wa.me/5511988072520"
+                href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20Arco-Íris"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
