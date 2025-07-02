@@ -31,14 +31,14 @@ const Terapias = () => {
     subtitulo: "Avalia e intervém nas funções cognitivas e comportamentais.",
     descricao: "Avaliação e intervenção especializada nas funções cognitivas, oferecendo suporte completo para diferentes necessidades neuropsicológicas.",
     detalhes: ["Avaliações neuropsicológicas completas (TDAH, TEA, dislexia, etc.)", "Relatórios para escola, laudos e encaminhamentos", "Reabilitação cognitiva para memória, atenção e funções executivas", "Apoio à aprendizagem com base no perfil cognitivo da criança", "Suporte a adultos em mudanças cognitivas (ex: pós-COVID, envelhecimento)"],
-    cor: "roxo-principal",
+    cor: "roxo-suave",
     destaque: false
   }, {
     titulo: "📚 Psicopedagogia",
     subtitulo: "Ajuda no processo de ensino-aprendizagem com estratégias personalizadas.",
     descricao: "Suporte especializado no processo de aprendizagem, desenvolvendo estratégias personalizadas para superar dificuldades escolares.",
     detalhes: ["Intervenção para dificuldades escolares (dislexia, discalculia)", "Organização dos estudos e rotina escolar", "Apoio à alfabetização e letramento", "Atendimento a estudantes com bloqueios ou desmotivação escolar", "Acompanhamento interdisciplinar com escola e família"],
-    cor: "roxo-claro",
+    cor: "roxo-suave",
     destaque: false
   }, {
     titulo: "💪 Fisioterapia",
@@ -52,14 +52,14 @@ const Terapias = () => {
     subtitulo: "Alimenta o corpo e a consciência com respeito e escuta.",
     descricao: "Orientação nutricional personalizada que respeita as necessidades individuais, promovendo hábitos saudáveis sem rigidez.",
     detalhes: ["Planejamento alimentar para crianças e adultos", "Educação nutricional para seletividade alimentar", "Apoio no tratamento de distúrbios alimentares (compulsão, ansiedade alimentar)", "Nutrição materno-infantil e na introdução alimentar", "Promoção de hábitos saudáveis sem dietas rígidas"],
-    cor: "roxo-principal",
+    cor: "roxo-suave",
     destaque: false
   }, {
     titulo: "🧠 Terapia ABA",
     subtitulo: "Desenvolve habilidades com base em análise do comportamento aplicada.",
     descricao: "Intervenção baseada em análise do comportamento aplicada, desenvolvendo habilidades sociais e de comunicação de forma estruturada.",
     detalhes: ["Treinamento de habilidades sociais e de comunicação", "Reforço positivo para comportamentos funcionais", "Apoio a crianças com TEA e atraso no desenvolvimento", "Envolvimento da família no processo terapêutico", "Intervenções estruturadas com metas claras e mensuráveis"],
-    cor: "roxo-claro",
+    cor: "roxo-suave",
     destaque: false
   }, {
     titulo: "💆‍♀️ Massoterapia",
@@ -73,14 +73,14 @@ const Terapias = () => {
     subtitulo: "Cuida da autoestima com sensibilidade e escuta.",
     descricao: "Cuidados estéticos com olhar humanizado, promovendo o autocuidado e fortalecendo a autoestima de forma respeitosa.",
     detalhes: ["Limpeza de pele e cuidados faciais", "Procedimentos de bem-estar e relaxamento corporal", "Atendimento estético com olhar humanizado", "Apoio à construção da autoimagem e autocuidado"],
-    cor: "roxo-principal",
+    cor: "roxo-suave",
     destaque: false
   }, {
     titulo: "🌿 Acupuntura",
     subtitulo: "Equilibra corpo e mente por meio da medicina tradicional chinesa.",
     descricao: "Terapia milenar que promove o equilíbrio energético e emocional através de técnicas da medicina tradicional chinesa.",
     detalhes: ["Alívio de dores físicas crônicas ou agudas", "Tratamento auxiliar para ansiedade, insônia e estresse", "Reequilíbrio energético e emocional", "Estímulo ao bem-estar geral"],
-    cor: "roxo-claro",
+    cor: "roxo-suave",
     destaque: false
   }, {
     titulo: "💰 Terapia de Finanças Comportamentais",

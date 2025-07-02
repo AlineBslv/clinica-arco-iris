@@ -25,7 +25,7 @@ const HeroBanner = () => {
                   <p className="text-xl md:text-2xl text-branco-ninho/90 mb-8 max-w-2xl mx-auto leading-relaxed animate-slide-in-right text-gray-800">Cuidamos de pessoas com excelência técnica, carinho e um ambiente acolhedor</p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-scale-in">
-                    <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 hover-lift">
+                    <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-8 py-4 flex items-center space-x-2 hover-lift">
                       <Calendar className="w-5 h-5" />
                       <span>Agende sua Conversa</span>
                     </a>

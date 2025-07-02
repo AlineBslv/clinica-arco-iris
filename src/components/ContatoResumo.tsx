@@ -31,8 +31,8 @@ const ContatoResumo = () => {
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               Agende Online
             </h3>
-            <p className="text-cinza-aconchego mb-6 text-gray-700">Marque sua consulta de forma ágil através do Doctoralia.</p>
-            <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
+            <p className="text-cinza-aconchego mb-6 text-gray-700">Marque sua consulta de forma ágil pelo WhatsApp.</p>
+            <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
               Agendar Consulta
             </a>
           </div>
@@ -48,7 +48,7 @@ const ContatoResumo = () => {
             <p className="text-cinza-aconchego mb-6 text-gray-700">
               Converse conosco diretamente pelo WhatsApp para tirar dúvidas.
             </p>
-            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho w-full">
+            <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20Arco-Íris" target="_blank" rel="noopener noreferrer" className="btn-secondary text-terracota border-terracota hover:bg-terracota hover:text-branco-ninho w-full">
               Chamar no WhatsApp
             </a>
           </div>
