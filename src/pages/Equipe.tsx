@@ -16,6 +16,46 @@ const Equipe = () => {
     formacao: ["Graduação em Psicologia - Uninove", "Especialização em Análise do Comportamento Aplicada ao Transtorno do Espectro Autista - Instituto Par", "Entendendo o Protocolo VB-MAPP - IEAC", "Guia para Criação do Plano de Ensino Individualizado (PEI) - IEAC"],
     areas: ["TEA e ABA", "Consultoria Parental", "Integração Multidisciplinar", "Consultoria Escolar"]
   }, {
+    nome: "Alessandra Sant'Anna de Siqueira",
+    especialidade: "Fonoaudiologa",
+    registro: "CRFa 2-21684",
+    foto: "/lovable-uploads/Alessandra fono.jpg",
+    biografia: "Psicólogo clínico formado pela UMESP, com extensão em psicanálise pela USP. Meu foco é em saúde integral, trabalhando com crianças e adultos. Tenho experiência em ansiedade, depressão, transtornos do humor e atendimentos especializados para vítimas de violência e o público LGBTQINAP. Vamos juntos explorar o inconsciente e promover bem-estar biopsicossocial.",
+    formacao: ["Graduação em Psicologia - UMESP", "Extensão em Psicanálise - USP", "Pós graduação em Neurociência, Comportamento e Psicopatologia - PUC-PR e Artmed"],
+    areas: ["Psicanálise", "Saúde Mental", "Apoio a Vítimas de Violência", "Inclusão LGBTQINAP"]
+  }, {
+    nome: "Paulo Clécio Silva de Souza",
+    especialidade: "Psicólogo - Especialista em Psicanálise",
+    registro: "CRP 06/175800",
+    foto: "/lovable-uploads/Paulo Clécio Psicologo.jpeg",
+    biografia: "Psicólogo clínico formado pela UMESP, com extensão em psicanálise pela USP. Meu foco é em saúde integral, trabalhando com crianças e adultos. Tenho experiência em ansiedade, depressão, transtornos do humor e atendimentos especializados para vítimas de violência e o público LGBTQINAP. Vamos juntos explorar o inconsciente e promover bem-estar biopsicossocial. Agende sua sessão!",
+    formacao: ["Graduação em Psicologia - UMESP", "Extensão em Psicanálise - USP", "Pós graduação em Neurociência, Comportamento e Psicopatologia - PUC-PR e Artmed"],
+    areas: ["Psicanálise", "Saúde Mental", "Apoio a Vítimas de Violência", "Inclusão LGBTQINAP"]
+  }, {
+    nome: "Fernanda Grava",
+    especialidade: "Pedagoga e Psicopedagoga",
+    registro: "ABPP 496",
+    foto: "/lovable-uploads/Fernanda Grava Pedagoga.jpeg",
+    biografia: "Especialista em TEA e ciência ABA, com foco em educação especial e inclusiva. Desde 2017, atuo clinicamente e em escolas, oferecendo suporte multidisciplinar para crianças com dificuldades de aprendizagem. Dedico-me a promover inclusão e facilitar o sucesso educacional de cada aluno.",
+    formacao: ["Graduação em Pedagogia - Unisantana", "Formação em Psicopedagogia Clínica e Institucional - Unicsul", "Especialização em Transtorno do Espectro Autista - Famesc-RJ", "Especialização em ABA e estratégias naturalistas - Instituto Singular"],
+    areas: ["TEA e ABA", "Consultoria Inclusiva", "Alfabetização e Aprendizagem", "Equipe Multidisciplinar"]
+  }, {
+    nome: "Yu Yun Ting",
+    especialidade: "Psicóloga",
+    registro: "CRP 06/216782",
+    foto: "/lovable-uploads/Andressa Fernanda Psico.jpeg",
+    biografia: "Psicóloga especializada em saúde mental, focada em mulheres e idosos. Com base na TCC e na Terapia Sócio-Histórica, ofereço atendimento humanizado e personalizado. Promovo autonomia, resolução de conflitos e saúde emocional, com ênfase na psicologia do envelhecimento e qualidade de vida.",
+    formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
+    areas: ["Saúde Mental", "Psicologia Cognitivo-Comportamental", "Psicologia do Envelhecimento", "Atendimento Humanizado"]
+  }, {
+    nome: "Andressa Fernanda da Costa Alencar",
+    especialidade: "Psicóloga",
+    registro: "CRP 06/216782",
+    foto: "/lovable-uploads/Andressa Fernanda Psico.jpeg",
+    biografia: "Psicóloga especializada em saúde mental, focada em mulheres e idosos. Com base na TCC e na Terapia Sócio-Histórica, ofereço atendimento humanizado e personalizado. Promovo autonomia, resolução de conflitos e saúde emocional, com ênfase na psicologia do envelhecimento e qualidade de vida.",
+    formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
+    areas: ["Saúde Mental", "Psicologia Cognitivo-Comportamental", "Psicologia do Envelhecimento", "Atendimento Humanizado"]
+  }, {
     nome: "Michele Degan",
     especialidade: "Nutricionista",
     registro: "CRN-3 52851",
@@ -23,14 +63,6 @@ const Equipe = () => {
     biografia: "Especialista em Oncologia, Personal Diet, Nutrição Esportiva e Estética, com mais de sete anos de experiência em ambiente hospitalar e cinco anos em consultório. Focada em emagrecimento, hipertrofia e reeducação alimentar, ela oferece atendimento personalizado e acessível. Sua abordagem transforma hábitos alimentares com metas simples, ajudando clientes a atingir objetivos de saúde e bem-estar de forma eficaz.",
     formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
     areas: ["Nutrição Oncológica", "Nutrição Esportiva", "Nutrição Estética", "Educação Alimentar"]
-  }, {
-    nome: "Fernanda Grava",
-    especialidade: "Pedagoga e Psicopedagoga",
-    registro: "ABPP 496",
-    foto: "/lovable-uploads/Fernanda Grava Pedagoga.jpeg",
-    biografia: "Especialista em TEA e ciência ABA, com foco em educação especial e inclusiva. Desde 2017, atuo clinicamente e em escolas, oferecendo suporte multidisciplinar para crianças com dificuldades de aprendizagem. Dedico-me a promover inclusão e facilitar o sucesso educacional de cada aluno.",
-    formacao: ["Graduação em Psicologia - PUC-SP", "Especialização em TCC - Instituto Beck", "Formação em Ludoterapia - Instituto Play", "Curso de Neuropsicologia Infantil"],
-    areas: ["TEA e ABA", "Consultoria Inclusiva", "Alfabetização e Aprendizagem", "Equipe Multidisciplinar"]
   }, {
     nome: "Thamyres Traynard",
     especialidade: "Estética Avançada",
