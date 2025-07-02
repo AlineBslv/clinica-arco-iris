@@ -40,7 +40,7 @@ const Footer = () => {
               <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/86655b52-126d-4353-9f16-056829646735.png" />
               <div>
                 <h3 className="font-lora font-semibold text-xl text-azul-confianca">Casa Arco-Íris</h3>
-                <p className="text-azul-confianca/80 text-sm">Centro de desenvolvimento humano</p>
+                <p className="text-azul-confianca/80 text-sm">Centro de Desenvolvimento Humano</p>
               </div>
             </div>
             
@@ -72,7 +72,7 @@ const Footer = () => {
             <div className="space-y-4">
               <a href="tel:+5511999999999" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">(11) 99999-9999</span>
+                <span className="text-sm">(11) 98807-2520</span>
               </a>
               
               <a href="https://www.casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">

@@ -64,10 +64,10 @@ const Contato = () => {
                 Agende Online
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Marque sua consulta de forma prática através do Doctoralia.
+                Marque sua consulta de forma prática através do Whatsapp.
               </p>
               <a
-                href="https://www.doctoralia.com.br"
+                href="https://wa.me/5511988072520"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-azul-claro w-full"
@@ -232,7 +232,7 @@ const Contato = () => {
                     <h3 className="font-semibold text-azul-claro-principal mb-2">Horários de Atendimento</h3>
                     <div className="text-cinza-aconchego space-y-1">
                       <p>Segunda a Sexta: 8h às 18h</p>
-                      <p>Sábado: 8h às 12h</p>
+                      <p>Sábado: 8h às 13h</p>
                       <p>Domingo: Fechado</p>
                     </div>
                   </div>
