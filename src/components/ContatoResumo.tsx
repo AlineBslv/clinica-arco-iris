@@ -39,8 +39,8 @@ const ContatoResumo = () => {
 
           {/* WhatsApp */}
           <div className="card-custom text-center hover-lift animate-on-scroll">
-            <div className="p-4 bg-terracota/10 rounded-xl w-fit mx-auto mb-6">
-              <Phone className="w-8 h-8 text-terracota" />
+            <div className="p-4 bg-azul-confianca/10 rounded-xl w-fit mx-auto mb-6">
+              <Phone className="w-8 h-8 text-azul-confianca" />
             </div>
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               WhatsApp
@@ -55,8 +55,8 @@ const ContatoResumo = () => {
 
           {/* E-mail */}
           <div className="card-custom text-center hover-lift animate-on-scroll">
-            <div className="p-4 bg-azul-sereno/10 rounded-xl w-fit mx-auto mb-6">
-              <Mail className="w-8 h-8 text-azul-sereno" />
+            <div className="p-4 bg-azul-confianca/10 rounded-xl w-fit mx-auto mb-6">
+              <Mail className="w-8 h-8 text-azul-confianca" />
             </div>
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               E-mail
@@ -66,7 +66,7 @@ const ContatoResumo = () => {
             </p>
             <a 
               href="mailto:contato@casaarcoiris.com.br" 
-              className="btn-secondary text-azul-sereno border-azul-sereno hover:bg-azul-sereno hover:text-branco-ninho w-full"
+              className="btn-secondary text-azul-confianca border-azul-confianca hover:bg-azul-confianca hover:text-branco-ninho w-full"
             >
               Enviar E-mail
             </a>

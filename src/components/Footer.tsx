@@ -16,15 +16,15 @@ const Footer = () => {
   }];
   const socialLinks = [{
     name: 'Instagram',
-    href: 'https://www.instagram.com/casa.arco_iris/',
+    href: 'https://www.instagram.com/casaarcoiris.oficial/',
     icon: <Instagram className="w-5 h-5" />
   }, {
     name: 'Facebook',
-    href: 'https://facebook.com/casaarcoiris',
+    href: 'https://facebook.com/casaarcoiris.oficial',
     icon: <Facebook className="w-5 h-5" />
   }, {
     name: 'E-mail',
-    href: 'https://www.casaarcoiris.com.br',
+    href: 'mailto:contato@casaarcoiris.com.br',
     icon: <Mail className="w-5 h-5" />
   }];
   return <footer className="bg-branco-ninho text-azul-confianca">
@@ -75,9 +75,9 @@ const Footer = () => {
                 <span className="text-sm">(11) 98807-2520</span>
               </a>
               
-              <a href="https://www.casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
+              <a href="mailto:contato@casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">www.casaarcoiris.com.br</span>
+                <span className="text-sm">contato@casaarcoiris.com.br</span>
               </a>
               
               <div className="flex items-start space-x-3 text-azul-confianca/80">
