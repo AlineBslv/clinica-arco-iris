@@ -196,7 +196,7 @@ const Terapias = () => {
                     </li>)}
                 </ul>
 
-                <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className={`${plano.destaque ? 'btn-roxo' : `btn-secondary text-${plano.cor} border-${plano.cor} hover:bg-${plano.cor} hover:text-branco-ninho`} w-full text-center`}>
+                <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20saber%20sobre%20os%20planos" target="_blank" rel="noopener noreferrer" className={`${plano.destaque ? 'btn-roxo' : `btn-secondary text-${plano.cor} border-${plano.cor} hover:bg-${plano.cor} hover:text-branco-ninho`} w-full text-center`}>
                   Agendar Consulta
                 </a>
               </div>)}

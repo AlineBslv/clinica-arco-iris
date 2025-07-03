@@ -41,8 +41,8 @@ const Contato = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       titulo: "Telefone",
-      info: "(11) 99999-9999",
-      link: "tel:+5511999999999",
+      info: "(11) 98807-2520",
+      link: "tel:+5511988072520",
       cor: "azul-sereno"
     },
     {

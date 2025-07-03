@@ -129,7 +129,7 @@ const Contato = () => {
                 Entre em contato através do nosso e-mail.
               </p>
               <a
-                href="mailto:seu_email@exemplo.com"
+                href="mailto:contato@casaarcoiris.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
