@@ -103,15 +103,15 @@ const Sobre = () => {
             </div>
 
             <div className="animate-on-scroll">
-              <img src="https://images.pexels.com/photos/756084/pexels-photo-756084.jpeg" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="https://images.pexels.com/photos/5527569/pexels-photo-5527569.jpeg" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2.5 text-[#55a369]">Área de Convivência</h3>
               <p className="text-cinza-aconchego">Espaço coworking para acompanhantes. Parque no quintal, jardim com rede e ambientes terapêuticos livres.</p>
             </div>
 
             <div className="animate-on-scroll">
-              <img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Pets Terapêuticos</h3>
-              <p className="text-cinza-aconchego">Presença de pets amorosos e calmos para tornar o cuidado ainda mais afetuoso.</p>
+              <img src="https://images.pexels.com/photos/5256144/pexels-photo-5256144.jpeg" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Pet Friendly</h3>
+              <p className="text-cinza-aconchego">A presença de pets é muito bem-vinda. Inclusive, também temos pets em nosso espaço.</p>
             </div>
           </div>
         </div>

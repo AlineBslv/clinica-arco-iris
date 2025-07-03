@@ -6,25 +6,25 @@ const Footer = () => {
     href: '#inicio'
   }, {
     name: 'Quem Somos',
-    href: '#sobre'
+    href: 'sobre'
   }, {
     name: 'Nossos Serviços',
-    href: '#terapias'
+    href: 'terapias'
   }, {
     name: 'Contato',
-    href: '#contato'
+    href: 'contato'
   }];
   const socialLinks = [{
     name: 'Instagram',
-    href: 'https://www.instagram.com/casa.arco_iris/',
+    href: 'https://www.instagram.com/casaarcoiris.oficial/',
     icon: <Instagram className="w-5 h-5" />
   }, {
     name: 'Facebook',
-    href: 'https://facebook.com/casaarcoiris',
+    href: 'https://facebook.com/casaarcoiris.oficial',
     icon: <Facebook className="w-5 h-5" />
   }, {
     name: 'E-mail',
-    href: 'https://www.casaarcoiris.com.br',
+    href: 'mailto:contato@casaarcoiris.com.br',
     icon: <Mail className="w-5 h-5" />
   }];
   return <footer className="bg-branco-ninho text-azul-confianca">
@@ -40,7 +40,7 @@ const Footer = () => {
               <img alt="Casa Arco-Íris - Centro de desenvolvimento humano" className="h-12 w-auto" src="/lovable-uploads/86655b52-126d-4353-9f16-056829646735.png" />
               <div>
                 <h3 className="font-lora font-semibold text-xl text-azul-confianca">Casa Arco-Íris</h3>
-                <p className="text-azul-confianca/80 text-sm">Centro de desenvolvimento humano</p>
+                <p className="text-azul-confianca/80 text-sm">Centro de Desenvolvimento Humano</p>
               </div>
             </div>
             
@@ -70,14 +70,14 @@ const Footer = () => {
           <div>
             <h4 className="font-lora font-semibold text-lg mb-6">Contato</h4>
             <div className="space-y-4">
-              <a href="tel:+5511999999999" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
+              <a href="tel:+5511988072520" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">(11) 99999-9999</span>
+                <span className="text-sm">(11) 98807-2520</span>
               </a>
               
-              <a href="https://www.casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
+              <a href="mailto:contato@casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-azul-confianca/80 hover:text-azul-confianca transition-colors duration-300">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">www.casaarcoiris.com.br</span>
+                <span className="text-sm">contato@casaarcoiris.com.br</span>
               </a>
               
               <div className="flex items-start space-x-3 text-azul-confianca/80">

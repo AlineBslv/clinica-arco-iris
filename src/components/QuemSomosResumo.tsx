@@ -32,7 +32,7 @@ Nosso cuidado une terapias clássicas e complementares em um ambiente com cara d
           {/* Imagem */}
           <div className="animate-on-scroll">
             <div className="relative">
-              <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=800&q=80" alt="Ambiente acolhedor da Casa Arco Íris" className="rounded-2xl shadow-lg w-full h-[400px] object-cover" />
+              <img src="https://images.pexels.com/photos/5840868/pexels-photo-5840868.jpeg" alt="Ambiente acolhedor da Casa Arco Íris" className="rounded-2xl shadow-lg w-full h-[400px] object-cover" />
               
               {/* Decoração */}
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-terracota/20 rounded-full blur-xl"></div>

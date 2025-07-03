@@ -53,7 +53,7 @@ const Header = () => {
             <a href="tel:+5511999999999" className="text-azul-confianca hover:text-terracota transition-colors duration-300">
               
             </a>
-            <a href="https://www.doctoralia.com.br" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Agendar Consulta
             </a>
           </div>

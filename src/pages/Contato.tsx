@@ -64,10 +64,10 @@ const Contato = () => {
                 Agende Online
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Marque sua consulta de forma prática através do Doctoralia.
+                Marque sua consulta de forma prática através do Whatsapp.
               </p>
               <a
-                href="https://www.doctoralia.com.br"
+                href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-azul-claro w-full"
@@ -88,7 +88,7 @@ const Contato = () => {
                 Converse conosco diretamente pelo WhatsApp.
               </p>
               <a
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20Arco-Íris"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
@@ -110,10 +110,10 @@ const Contato = () => {
                 tirar dúvidas.
               </p>
               <a
-                href="tel:+5511999999999"
+                href="tel:+5511988072520"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
               >
-                (11) 99999-9999
+                (11) 98807-2520
               </a>
             </div>
 
@@ -126,10 +126,10 @@ const Contato = () => {
                 E-mail
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Entre em contato através do e-mail.
+                Entre em contato através do nosso e-mail.
               </p>
               <a
-                href="https://www.casaarcoiris.com.br"
+                href="mailto:contato@casaarcoiris.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full"
@@ -232,7 +232,7 @@ const Contato = () => {
                     <h3 className="font-semibold text-azul-claro-principal mb-2">Horários de Atendimento</h3>
                     <div className="text-cinza-aconchego space-y-1">
                       <p>Segunda a Sexta: 8h às 18h</p>
-                      <p>Sábado: 8h às 12h</p>
+                      <p>Sábado: 8h às 13h</p>
                       <p>Domingo: Fechado</p>
                     </div>
                   </div>
