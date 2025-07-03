@@ -6,13 +6,13 @@ const Footer = () => {
     href: '#inicio'
   }, {
     name: 'Quem Somos',
-    href: '#sobre'
+    href: 'sobre'
   }, {
     name: 'Nossos Serviços',
-    href: '#terapias'
+    href: 'terapias'
   }, {
     name: 'Contato',
-    href: '#contato'
+    href: 'contato'
   }];
   const socialLinks = [{
     name: 'Instagram',
