@@ -102,7 +102,7 @@ const FAQ = () => {
             <p className="text-cinza-aconchego mb-6">
               Não encontrou a resposta que procurava?
             </p>
-            <a href="#contato" className="btn-primary hover-lift">
+            <a href="contato" className="btn-primary hover-lift">
               Entre em Contato Conosco
             </a>
           </div>
