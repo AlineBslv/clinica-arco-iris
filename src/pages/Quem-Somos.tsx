@@ -55,7 +55,7 @@ const Sobre = () => {
               <p className="text-azul-confianca leading-relaxed">Aqui, o cuidado é real, personalizado e humano. Aqui, você pertence.</p>
             </div>
             <div className="animate-on-scroll">
-              <img src="https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
+              <img src="/lovable-uploads/Image Quem Somos.png" alt="Nossa equipe acolhedora" className="rounded-2xl shadow-lg w-full h-[500px] object-cover" />
             </div>
           </div>
         </div>
@@ -97,19 +97,19 @@ const Sobre = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="animate-on-scroll">
-              <img src="https://images.pexels.com/photos/10576704/pexels-photo-10576704.jpeg" alt="Sala de terapia confortável" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="/lovable-uploads/Image Quem Somos Sala de espera.png" alt="Sala de terapia confortável" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2">Sala de Espera Aconchegante</h3>
               <p className="text-cinza-aconchego">Sala de espera com livros, brinquedos, café, chá e acolhimento logo na entrada.</p>
             </div>
 
             <div className="animate-on-scroll">
-              <img src="https://images.pexels.com/photos/5527569/pexels-photo-5527569.jpeg" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="/lovable-uploads/Image Quem Somos Cooworking.png" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2.5 text-[#55a369]">Área de Convivência</h3>
               <p className="text-cinza-aconchego">Espaço coworking para acompanhantes. Parque no quintal, jardim com rede e ambientes terapêuticos livres.</p>
             </div>
 
             <div className="animate-on-scroll">
-              <img src="https://images.pexels.com/photos/5256144/pexels-photo-5256144.jpeg" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
+              <img src="/lovable-uploads/Image Quem Somos pets.png" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
               <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Pet Friendly</h3>
               <p className="text-cinza-aconchego">A presença de pets é muito bem-vinda. Inclusive, também temos pets em nosso espaço.</p>
             </div>
