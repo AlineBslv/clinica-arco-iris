@@ -64,10 +64,10 @@ const Contato = () => {
                 Agende Online
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Marque sua consulta de forma prática através do Whatsapp.
+                Marque sua consulta de forma prática.
               </p>
               <a
-                href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta"
+                href="https://consultorio.me/pro/casa-arco-iris"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-azul-claro w-full"

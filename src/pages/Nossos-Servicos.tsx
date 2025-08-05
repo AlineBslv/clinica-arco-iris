@@ -158,7 +158,7 @@ const Terapias = () => {
                 </div>
 
                 <div className={`animate-on-scroll ${index % 2 === 1 ? 'lg:col-start-1' : ''}`}>
-                  <img src={`https://images.pexels.com/photos/${index === 0 ? '7176039/pexels-photo-7176039.jpeg' : index === 1 ? '8653718/pexels-photo-8653718.jpeg' : index === 2 ? '18990732/pexels-photo-18990732.jpeg' : index === 3 ? '8204995/pexels-photo-8204995.jpeg' : index === 4 ? '8535568/pexels-photo-8535568.jpeg' : index === 5 ? '9288101/pexels-photo-9288101.jpeg' : index === 6 ? '8844568/pexels-photo-8844568.jpeg' : index === 7 ? '8535193/pexels-photo-8535193.jpeg' : index === 8 ? '6187641/pexels-photo-6187641.jpeg' : index === 9 ? '4586708/pexels-photo-4586708.jpeg' : index === 10 ? '5473184/pexels-photo-5473184.jpeg' : '669610/pexels-photo-669610.jpeg'}?auto=format&fit=crop&w=800&q=80`} alt={`${terapia.titulo} - Casa Arco Íris`} className="rounded-2xl shadow-lg w-full h-[400px] object-cover" />
+                  <img src={`/public/lovable-uploads/${index === 0 ? 'psicoterapia.png' : index === 1 ? 'Fono.png' : index === 2 ? 'terapia ocupacional.png' : index === 3 ? 'Neuropsicologo.png' : index === 4 ? 'Psicopedagogia.png' : index === 5 ? 'Fisio.png' : index === 6 ? 'nutriçao.png' : index === 7 ? 'Terapia ABA.png' : index === 8 ? 'Massoterapia.png' : index === 9 ? 'Estetica.png' : index === 10 ? 'Acumputura.png' : 'Finanças.png'}?auto=format&fit=crop&w=800&q=80`} alt={`${terapia.titulo} - Casa Arco Íris`} className="rounded-2xl shadow-lg w-full h-[400px] object-cover" />
                 </div>
               </div>)}
           </div>
