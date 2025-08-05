@@ -31,8 +31,8 @@ const ContatoResumo = () => {
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               Agende Online
             </h3>
-            <p className="text-cinza-aconchego mb-6 text-gray-700">Marque sua consulta de forma ágil pelo WhatsApp.</p>
-            <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
+            <p className="text-cinza-aconchego mb-6 text-gray-700">Marque sua consulta de forma ágil.</p>
+            <a href="https://consultorio.me/pro/casa-arco-iris" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
               Agendar Consulta
             </a>
           </div>
