@@ -11,7 +11,7 @@ const HeroBanner = () => {
           <div className="min-h-screen flex items-center justify-center relative">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
-              <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/banner principal.png" />
+              <img alt="Ambiente acolhedor da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/Banner 1.png" />
             </div>
             {/* Content */}
             <div className="container-custom relative z-10 text-center animate-fade-in">
@@ -38,13 +38,12 @@ const HeroBanner = () => {
           <div className="min-h-screen flex items-center justify-center relative">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
-              <img alt="Evento de inauguração da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/Slide da inauguração.png" />
+              <img alt="Evento de inauguração da Casa Arco Íris" className="w-full h-full object-cover" src="/lovable-uploads/Banner 2.png" />
             </div>
             {/* Content */}
             <div className="container-custom relative z-10 text-center animate-fade-in">
               <div className="max-w-4xl mx-auto">
                 <div className="inline-block px-6 py-3 bg-branco-ninho/20 rounded-full mb-6 bg-[25488a] bg-[#25488a]/[0.71]">
-                  <span className="text-branco-ninho font-medium">Evento Especial</span>
                 </div>
                 <h1 className="text-branco-ninho mb-6 animate-fade-in">
                   <span className="text-branco-ninho "> </span>
@@ -55,18 +54,9 @@ const HeroBanner = () => {
                   Venha conhecer nosso espaço e nossa equipe!
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-scale-in">
-                  <a href="https://forms.gle/V47etPrP4io2g44q6" target="_blank" rel="noopener noreferrer" className="bg-azul-confianca text-branco-ninho px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg flex items-center space-x-2 hover-lift">
-                    <PartyPopper className="w-5 h-5" />
-                    <span>Garantir meu Convite</span>
+                  <a href="https://maps.app.goo.gl/wqhvmeUzi7P2XG5U7" target="_blank" rel="noopener noreferrer" className="bg-azul-confianca text-branco-ninho px-8 py-4 rounded-lg font-medium text-lg transition-all duration-300 hover:bg-opacity-90 hover:shadow-lg flex items-center space-x-2 hover-lift">
+                    <span>Conhecer Espaço</span>
                   </a>
-                </div>
-                {/* Event Details */}
-                <div className="bg-branco-ninho/10 backdrop-blur-md rounded-xl p-6 max-w-md mx-auto mb-12">
-                  <p className="text-branco-ninho/90 text-sm">
-                    📅 <strong>Data:</strong> 06/07/2025<br />
-                    📍 <strong>Local:</strong> Rua Marechal Mallet nº 355, Parque da Vila Prudente, São Paulo/SP<br />
-                    🎉 <strong>Atividades:</strong> Tour pelo local, conheça a nossa equipe e participe da roda de conversa
-                  </p>
                 </div>
               </div>
             </div>
