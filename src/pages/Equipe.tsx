@@ -11,7 +11,7 @@ const Equipe = () => {
     nome: "Naiade Cristina Camilo",
     especialidade: "Psicologia - Especialista em ABA",
     registro: "CRP 06/158361",
-    foto: "/lovable-uploads/Naiade Psicologa.jpeg",
+    foto: "/lovable-uploads/Naiade Psicologa.jpg",
     biografia: "Psicóloga especializada em ABA para TEA e Desenvolvimento Atípico, formada pelo Instituto Par. Atuo em clínica de neurodiversidade e desenvolvimento infantil, integrando equipe multiprofissional. Com experiência em intervenções eficazes, meu trabalho promove o crescimento e bem-estar de cada indivíduo.",
     formacao: ["Graduação em Psicologia - Uninove", "Especialização em Análise do Comportamento Aplicada ao Transtorno do Espectro Autista - Instituto Par", "Entendendo o Protocolo VB-MAPP - IEAC", "Guia para Criação do Plano de Ensino Individualizado (PEI) - IEAC"],
     areas: ["TEA e ABA", "Consultoria Parental", "Integração Multidisciplinar", "Consultoria Escolar"]
@@ -20,22 +20,22 @@ const Equipe = () => {
     especialidade: "Fonoaudiologia",
     registro: "CRFa 2-21684",
     foto: "/lovable-uploads/Alessandra fono.jpg",
-    biografia: "Psicólogo clínico formado pela UMESP, com extensão em psicanálise pela USP. Meu foco é em saúde integral, trabalhando com crianças e adultos. Tenho experiência em ansiedade, depressão, transtornos do humor e atendimentos especializados para vítimas de violência e o público LGBTQINAP. Vamos juntos explorar o inconsciente e promover bem-estar biopsicossocial.",
-    formacao: ["Graduação em Psicologia - UMESP", "Extensão em Psicanálise - USP", "Pós graduação em Neurociência, Comportamento e Psicopatologia - PUC-PR e Artmed"],
-    areas: ["Psicanálise", "Saúde Mental", "Apoio a Vítimas de Violência", "Inclusão LGBTQINAP"]
+    biografia: "",
+    formacao: [""],
+    areas: ["", "", "", ""]
   }, {
-    nome: "Paulo Clécio Silva de Souza",
-    especialidade: "Psicologia - Especialista em Psicanálise",
-    registro: "CRP 06/175800",
-    foto: "/lovable-uploads/Paulo Clécio Psicologo.jpeg",
-    biografia: "Psicólogo clínico formado pela UMESP, com extensão em psicanálise pela USP. Meu foco é em saúde integral, trabalhando com crianças e adultos. Tenho experiência em ansiedade, depressão, transtornos do humor e atendimentos especializados para vítimas de violência e o público LGBTQINAP. Vamos juntos explorar o inconsciente e promover bem-estar biopsicossocial. Agende sua sessão!",
-    formacao: ["Graduação em Psicologia - UMESP", "Extensão em Psicanálise - USP", "Pós graduação em Neurociência, Comportamento e Psicopatologia - PUC-PR e Artmed"],
-    areas: ["Psicanálise", "Saúde Mental", "Apoio a Vítimas de Violência", "Inclusão LGBTQINAP"]
+    nome: "Sabrina Neri de Assis",
+    especialidade: "Neuropsicologia e Psicologia",
+    registro: "CRP 06/164156",
+    foto: "/lovable-uploads/Sabrina neuropsicologa.jpg",
+    biografia: "Psicóloga com graduação pela UNIP e mestrado em Psicobiologia (em andamento) na UNIFESP. Especialista em Reabilitação Cognitiva e Neuropsicologia pelo HCFMUSP. Atuo como assistente de Laudo Neuropsicológico e ofereço psicoterapia baseada em evidências. Com experiência em reabilitação neuropsicológica e saúde mental de cuidadores, busco promover bem-estar integral.",
+    formacao: ["Graduação em Psicologia - UNIP", "Especialização em Neuropsicologia com formação em Reabilitação Cognitiva  HCFMUSP", "Mestrado em Psicobiologia (em andamento) - UNIFESP"],
+    areas: ["Avaliação Neuropsicológica", "Transtornos do Neurodesenvolvimento", "Psicoterapia", "Reabilitação Neuropsicológica"]
   }, {
     nome: "Fernanda Grava",
     especialidade: "Pedagogia e Psicopedagogia",
     registro: "ABPP 496",
-    foto: "/lovable-uploads/Fernanda Grava Pedagoga.jpeg",
+    foto: "/lovable-uploads/Fernanda Grava Pedagoga.jpg",
     biografia: "Especialista em TEA e ciência ABA, com foco em educação especial e inclusiva. Desde 2017, atuo clinicamente e em escolas, oferecendo suporte multidisciplinar para crianças com dificuldades de aprendizagem. Dedico-me a promover inclusão e facilitar o sucesso educacional de cada aluno.",
     formacao: ["Graduação em Pedagogia - Unisantana", "Formação em Psicopedagogia Clínica e Institucional - Unicsul", "Especialização em Transtorno do Espectro Autista - Famesc-RJ", "Especialização em ABA e estratégias naturalistas - Instituto Singular"],
     areas: ["TEA e ABA", "Consultoria Inclusiva", "Alfabetização e Aprendizagem", "Equipe Multidisciplinar"]
@@ -43,15 +43,31 @@ const Equipe = () => {
     nome: "Andressa Fernanda da Costa Alencar",
     especialidade: "Psicologia",
     registro: "CRP 06/216782",
-    foto: "/lovable-uploads/Andressa Fernanda Psico.jpeg",
+    foto: "/lovable-uploads/Andressa Fernanda Psico.jpg",
     biografia: "Psicóloga especializada em saúde mental, focada em mulheres e pessoas idosas. Com base na TCC e na Terapia Sócio-Histórica, ofereço atendimento humanizado e personalizado. Promovo autonomia, resolução de conflitos e saúde emocional, com ênfase na psicologia do envelhecimento e qualidade de vida.",
     formacao: ["                 ", "                 ", "                  ", "                 "],
     areas: ["Saúde Mental", "Psicologia Cognitivo-Comportamental", "Psicologia do Envelhecimento", "Atendimento Humanizado"]
-  }, {
+    }, {
+    nome: "Barbara Sousa Pereira Freitas",
+    especialidade: "Fonoaudiologia Online",
+    registro: "CRFa 2-21755",
+    foto: "/lovable-uploads/Barbara fono.jpg",
+    biografia: "Fonoaudióloga especializada em motricidade orofacial, linguagem oral, e TEA. Graduada pela FMU, com pós em Intervenção ABA. Tenho vasta experiência em leitura, escrita e voz, aliada a um compromisso com atendimento humanizado e de qualidade. Sempre em busca de aprimorar meus conhecimentos para oferecer o melhor aos meus clientes.",
+    formacao: ["Graduação em Fonoaudiologia - FMU", "Pós-Graduação em Intervenção ABA para Autistas e Deficiência Intelectual- CBI OF MIAMI" , "Curso avançado do Protocolo VB- MAPP - Academia do Autismo" ],
+    areas: ["Motricidade Orofacial", "Linguagem Oral", "Transtorno do Espectro Autista (TEA)", "Leitura e Escrita"]
+    }, {
+    nome: "Dayse Cristina Spinardi Furmanski",
+    especialidade: "Fonoaudiologia",
+    registro: "CRFa 2-23990",
+    foto: "/lovable-uploads/Daisy Fono.jpg",
+    biografia: "",
+    formacao: ["", "" , "" ],
+    areas: ["", "", "", ""]
+    }, {
     nome: "Yu Yun Ting",
     especialidade: "Terapeutia Ocupacional",
     registro: "CREFITO-3 8404-TO",
-    foto: "/lovable-uploads/Yu Terapia Ocupacional.jpeg",
+    foto: "/lovable-uploads/Yu Terapia Ocupacional.jpg",
     biografia: "Terapeuta ocupacional especializada em reabilitação neurofuncional e terapia da mão pela UNIFESP. Com expertise em integração sensorial, terapia snoezlen, e formação em dor e contensão induzida, ofereço cuidados personalizados. Pós-graduanda em Acupuntura e medicina chinesa, aplico fotobiomodulação transcraniana e confecciono órteses sob medida.",
     formacao: ["Especialização em Reabilitação Física e Reabilitação do Membro Superior - UNIFESP", "Curso de Formação em Terapia Snoezelen - Snoezelen Brasil", "Formação em terapia de contensão induzida (adulto e pediátrico) - AACD", "Pós graduanda em Acupuntura e medicina chinesa"],
     areas: ["Reabilitação Neurofuncional", "Integração Sensorial", "Terapia da Dor", "Órteses Sob Medida"]
@@ -59,26 +75,34 @@ const Equipe = () => {
     nome: "Michele Degan",
     especialidade: "Nutricão",
     registro: "CRN-3 52851",
-    foto: "/lovable-uploads/Imagem Michele Nutricionista.jpeg",
+    foto: "/lovable-uploads/Imagem Michele Nutricionista.jpg",
     biografia: "Especialista em Oncologia, Personal Diet, Nutrição Esportiva e Estética, com mais de sete anos de experiência em ambiente hospitalar e cinco anos em consultório. Focada em emagrecimento, hipertrofia e reeducação alimentar, ela oferece atendimento personalizado e acessível. Sua abordagem transforma hábitos alimentares com metas simples, ajudando clientes a atingir objetivos de saúde e bem-estar de forma eficaz.",
     formacao: ["Pós-Graduação em Nutrição Esportiva e Estética", "          ", "                    ", "                     "],
     areas: ["Nutrição Oncológica", "Nutrição Esportiva", "Nutrição Estética", "Educação Alimentar"]
   }, {
     nome: "Thamyres Traynard",
-    especialidade: "Estética Avançada",
+    especialidade: "Farmácia Estética",
     registro: "CRF-SP 101643",
-    foto: "/lovable-uploads/Thamyres Traynard Estetiscista.jpeg",
+    foto: "/lovable-uploads/Thamyres Traynard Estetiscista.jpg",
     biografia: "Farmacêutica com pós-graduação em Estética Avançada pela Universidade São Camilo, especializada em rejuvenescimento, melasma e acne. Foco na estética regenerativa e na filosofia “tratar sem agredir”, promovendo bem-estar e integridade cutânea. Ofereço atendimento personalizado, humanizado e guiado por evidências, priorizando a saúde e autoestima dos pacientes.",
     formacao: ["Pós-Graduação em Estética Avançada - Universidade São Camilo", "Graduação em Farmácia", "            ", "              "],
     areas: ["Rejuvenescimento", "Tratamento de Melasma", "Tratanento de Acne", "Estética Regenerativa"]
   }, {
-    nome: "Ariany Beatriz Silva Borges",
-    especialidade: "Educação Física",
-    registro: "CREF 174944-G/SP",
-    foto: "/lovable-uploads/Aryana Educacao fisica.jpeg",
-    biografia: "Personal trainer formada pela Universidade Paulista, especializada em alta performance, emagrecimento, hipertrofia e bem-estar. Meu lema é 'Amar o que faz e fazer o que ama', impulsionando pessoas a buscar sua melhor versão. Acredito no equilíbrio entre corpo e mente para alcançar resultados duradouros.",
-    formacao: ["Graduação em Educação Física - UNIP", "Pós graduação em Biomecânica e Cinesiologia - ", "Especialização em Treinamento feminino - "],
-    areas: ["Alta Performance", "Bem-Estar", "Hipertrofia", "Emagrecimento Saudável"]
+    nome: "Michele Sousa Arruda de Oliveira",
+    especialidade: "Estética",
+    registro: "",
+    foto: "/lovable-uploads/Michele Sousa Estética.jpg",
+    biografia: "Esteticista apaixonada por estética facial e corporal, formada em Cosmetologia e Estética pela UNIP. Tenho vasta experiência em tratamentos como radiofrequência, eletrolipólise e drenagem linfática. Meu compromisso é com o bem-estar dos clientes, garantindo um atendimento ético e comunicação eficaz. Atualmente, planejo expandir meus conhecimentos com uma graduação em Biomedicina.",
+    formacao: ["Cosmetologia e Estética - UNIP", "Graduação em Farmácia", "Técnico Administrativo - Etec Jorge Street",],
+    areas: ["Estética Facial", "Estética Corporal", "Massoterapia", "Tecnologia Estética"]
+  }, {
+    nome: "Eduardo Ângelo Galli",
+    especialidade: "Consultoria Financeira",
+    registro: "",
+    foto: "/lovable-uploads/Eduardo financeiro.jpg",
+    biografia: "",
+    formacao: ["", "", ""],
+    areas: ["", "", "", ""]
   }];
   const abrirModal = membro => {
     setMembroSelecionado(membro);
