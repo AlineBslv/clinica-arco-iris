@@ -59,7 +59,7 @@ const Equipe = () => {
     nome: "Dayse Cristina Spinardi Furmanski",
     especialidade: "Fonoaudiologia",
     registro: "CRFa 2-23990",
-    foto: "/lovable-uploads/Daisy Fono.jpg",
+    foto: "/lovable-uploads/Dayse Fono.jpg",
     biografia: "",
     formacao: ["", "" , "" ],
     areas: ["", "", "", ""]
