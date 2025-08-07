@@ -51,7 +51,7 @@ const Equipe = () => {
     nome: "Barbara Sousa Pereira Freitas",
     especialidade: "Fonoaudiologia Online",
     registro: "CRFa 2-21755",
-    foto: "/lovable-uploads/Barbara fono.jpg",
+    foto: "/lovable-uploads/Barbara fonoa.jpg",
     biografia: "Fonoaudióloga especializada em motricidade orofacial, linguagem oral, e TEA. Graduada pela FMU, com pós em Intervenção ABA. Tenho vasta experiência em leitura, escrita e voz, aliada a um compromisso com atendimento humanizado e de qualidade. Sempre em busca de aprimorar meus conhecimentos para oferecer o melhor aos meus clientes.",
     formacao: ["Graduação em Fonoaudiologia - FMU", "Pós-Graduação em Intervenção ABA para Autistas e Deficiência Intelectual- CBI OF MIAMI" , "Curso avançado do Protocolo VB- MAPP - Academia do Autismo" ],
     areas: ["Motricidade Orofacial", "Linguagem Oral", "Transtorno do Espectro Autista (TEA)", "Leitura e Escrita"]
