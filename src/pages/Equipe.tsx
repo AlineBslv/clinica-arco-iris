@@ -17,7 +17,7 @@ const Equipe = () => {
     areas: ["TEA e ABA", "Consultoria Parental", "Integração Multidisciplinar", "Consultoria Escolar"]
   }, {
     nome: "Alessandra Sant'Anna de Siqueira",
-    especialidade: "Fonoaudiologia",
+    especialidade: "Fonoaudiologia Neurofuncional",
     registro: "CRFa 2-21684",
     foto: "/lovable-uploads/Alessandra fono.jpg",
     biografia: "",
@@ -65,7 +65,7 @@ const Equipe = () => {
     areas: ["", "", "", ""]
     }, {
     nome: "Yu Yun Ting",
-    especialidade: "Terapeutia Ocupacional",
+    especialidade: "Terapia Ocupacional",
     registro: "CREFITO-3 8404-TO",
     foto: "/lovable-uploads/Yu Terapia Ocupacional.jpg",
     biografia: "Terapeuta ocupacional especializada em reabilitação neurofuncional e terapia da mão pela UNIFESP. Com expertise em integração sensorial, terapia snoezlen, e formação em dor e contensão induzida, ofereço cuidados personalizados. Pós-graduanda em Acupuntura e medicina chinesa, aplico fotobiomodulação transcraniana e confecciono órteses sob medida.",
@@ -73,7 +73,7 @@ const Equipe = () => {
     areas: ["Reabilitação Neurofuncional", "Integração Sensorial", "Terapia da Dor", "Órteses Sob Medida"]
   }, {
     nome: "Michele Degan",
-    especialidade: "Nutricão",
+    especialidade: "Nutricão Esportiva",
     registro: "CRN-3 52851",
     foto: "/lovable-uploads/Imagem Michele Nutricionista.jpg",
     biografia: "Especialista em Oncologia, Personal Diet, Nutrição Esportiva e Estética, com mais de sete anos de experiência em ambiente hospitalar e cinco anos em consultório. Focada em emagrecimento, hipertrofia e reeducação alimentar, ela oferece atendimento personalizado e acessível. Sua abordagem transforma hábitos alimentares com metas simples, ajudando clientes a atingir objetivos de saúde e bem-estar de forma eficaz.",
@@ -89,7 +89,7 @@ const Equipe = () => {
     areas: ["Rejuvenescimento", "Tratamento de Melasma", "Tratanento de Acne", "Estética Regenerativa"]
   }, {
     nome: "Michele Sousa Arruda de Oliveira",
-    especialidade: "Estética",
+    especialidade: "Estética e Massoterapia",
     registro: "",
     foto: "/lovable-uploads/Michele Sousa Estética.jpg",
     biografia: "Esteticista apaixonada por estética facial e corporal, formada em Cosmetologia e Estética pela UNIP. Tenho vasta experiência em tratamentos como radiofrequência, eletrolipólise e drenagem linfática. Meu compromisso é com o bem-estar dos clientes, garantindo um atendimento ético e comunicação eficaz. Atualmente, planejo expandir meus conhecimentos com uma graduação em Biomedicina.",
@@ -99,7 +99,7 @@ const Equipe = () => {
     nome: "Eduardo Ângelo Galli",
     especialidade: "Consultoria Financeira",
     registro: "",
-    foto: "/lovable-uploads/Eduardo financeiro.jpg",
+    foto: "/lovable-uploads/Edu Consultoria Financeira.jpg",
     biografia: "",
     formacao: ["", "", ""],
     areas: ["", "", "", ""]
