@@ -5,18 +5,18 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { ArrowRight, Check } from 'lucide-react';
 
 // 1. Importar as imagens para que o sistema de build as gerencie corretamente
-import imgPsicologia from '/dist/lovable-uploads/psicoterapia.png';
-import imgFono from '/dist/lovable-uploads/Fono.png';
-import imgTO from '/dist/lovable-uploads/terapia ocupacional.png';
-import imgNeuro from '/dist/lovable-uploads/Neuropsicologo.png';
-import imgPsicopedagogia from '/dist/lovable-uploads/Psicopedagogia.png';
-import imgFisio from '/dist/lovable-uploads/Fisio.png';
-import imgNutricao from '/dist/lovable-uploads/nutriçao.png';
-import imgABA from '/dist/lovable-uploads/Terapia ABA.png';
-import imgMassoterapia from '/dist/lovable-uploads/Massoterapia.png';
-import imgEstetica from '/dist/lovable-uploads/Estetica.png';
-import imgAcupuntura from '/dist/lovable-uploads/Acumputura.png';
-import imgFinancas from '/dist/lovable-uploads/Finanças.png';
+import imgPsicologia from '/lovable-uploads/psicoterapia.png';
+import imgFono from '/lovable-uploads/Fono.png';
+import imgTO from '/lovable-uploads/terapia ocupacional.png';
+import imgNeuro from '/lovable-uploads/Neuropsicologo.png';
+import imgPsicopedagogia from '/lovable-uploads/Psicopedagogia.png';
+import imgFisio from '/lovable-uploads/Fisio.png';
+import imgNutricao from '/lovable-uploads/nutriçao.png';
+import imgABA from '/lovable-uploads/Terapia ABA.png'; 
+import imgMassoterapia from '/lovable-uploads/Massoterapia.png';
+import imgEstetica from '/lovable-uploads/Estetica.png';
+import imgAcupuntura from '/lovable-uploads/Acumputura.png';
+import imgFinancas from '/lovable-uploads/Finanças.png';
 
 const Terapias = () => {
   useScrollAnimation();
