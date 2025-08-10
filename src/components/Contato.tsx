@@ -10,7 +10,7 @@ const Contato = () => {
   useScrollAnimation();
 
   // Sua chave de acesso do Web3Forms que você gerou
-  const ACCESS_KEY = 'e93db5b4-3b0a-428c-8eec-244bc7101cb7';
+  const ACCESS_KEY = 'dbc14553-82e3-49ba-a6f6-2ced34e9210f';
 
   const [formData, setFormData] = useState({
     nome: '',
