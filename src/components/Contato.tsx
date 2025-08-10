@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import axios from 'axios'; // 📦 Importamos o axios
+import axios from 'axios';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
@@ -8,9 +8,9 @@ import { Calendar, Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 
 const Contato = () => {
   useScrollAnimation();
-
-  // Sua chave de acesso do Web3Forms que você gerou
-  const ACCESS_KEY = 'dbc14553-82e3-49ba-a6f6-2ced34e9210f';
+  
+  // URL do seu endpoint do FormBold
+  const FORM_ENDPOINT = 'https://formbold.com/s/oyGRN';
 
   const [formData, setFormData] = useState({
     nome: '',
@@ -20,7 +20,6 @@ const Contato = () => {
     mensagem: ''
   });
 
-  // Novos estados para controlar o envio e a mensagem de resposta
   const [isSending, setIsSending] = useState(false);
   const [responseMessage, setResponseMessage] = useState('');
 
@@ -31,35 +30,24 @@ const Contato = () => {
     });
   };
 
-  // Lógica de envio com async/await e axios
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSending(true);
     setResponseMessage('');
 
-    const data = {
-      ...formData,
-      access_key: ACCESS_KEY,
-      subject: `Nova mensagem de ${formData.nome} - Contato Site`,
-      from_name: "Casa Arco Íris",
-    };
-
     try {
-      const res = await axios.post('https://api.web3forms.com/submit', data);
+      await axios.post(FORM_ENDPOINT, formData, {
+        headers: { 'Content-Type': 'application/json' }
+      });
 
-      if (res.data.success) {
-        setResponseMessage('✅ Mensagem enviada com sucesso! Retornaremos em breve.');
-        // Limpa o formulário
-        setFormData({
-          nome: '',
-          email: '',
-          telefone: '',
-          assunto: '',
-          mensagem: ''
-        });
-      } else {
-        setResponseMessage('❌ Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.');
-      }
+      setResponseMessage('✅ Mensagem enviada com sucesso! Retornaremos em breve.');
+      setFormData({ // Limpa o formulário
+        nome: '',
+        email: '',
+        telefone: '',
+        assunto: '',
+        mensagem: ''
+      });
     } catch (error) {
       console.error('Erro no envio do formulário:', error);
       setResponseMessage('❌ Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.');
@@ -71,24 +59,68 @@ const Contato = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      
-      {/* O resto do seu JSX permanece igual... */}
       <section className="pt-32 pb-16 bg-azul-claro-principal">
-        {/* ... */}
+        <div className="container-custom">
+          <div className="text-center animate-on-scroll">
+            <h1 className="text-branco-ninho mb-6">
+              Entre em <span className="text-branco-ninho ">Contato</span>
+            </h1>
+            <p className="text-xl text-branco-ninho/90 max-w-3xl mx-auto leading-relaxed">
+              Estamos à disposição para esclarecer suas dúvidas e agendar uma visita ao nosso espaço.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section className="section-padding bg-branco-ninho">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-            {/* Seus cards de contato aqui... */}
+            {/* Cards de Contato */}
+            <div className="card-custom text-center hover-lift animate-on-scroll">
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Calendar className="w-8 h-8 text-azul-claro-principal" />
+              </div>
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">Agende Online</h3>
+              <p className="text-cinza-aconchego mb-6">Marque sua consulta de forma prática.</p>
+              <a href="https://consultorio.me/pro/casa-arco-iris" target="_blank" rel="noopener noreferrer" className="btn-azul-claro w-full">
+                Agendar Consulta
+              </a>
+            </div>
+            <div className="card-custom text-center hover-lift animate-on-scroll">
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Phone className="w-8 h-8 text-azul-claro-medio" />
+              </div>
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">WhatsApp</h3>
+              <p className="text-cinza-aconchego mb-6">Converse conosco diretamente pelo WhatsApp.</p>
+              <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20Arco-Íris" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
+                Mandar Mensagem
+              </a>
+            </div>
+            <div className="card-custom text-center hover-lift animate-on-scroll">
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Phone className="w-8 h-8 text-azul-claro-medio" />
+              </div>
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">Telefone</h3>
+              <p className="text-cinza-aconchego mb-6">Ligue diretamente para agendar ou tirar dúvidas.</p>
+              <a href="tel:+5511988072520" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
+                (11) 98807-2520
+              </a>
+            </div>
+            <div className="card-custom text-center hover-lift animate-on-scroll">
+              <div className="p-4 bg-azul-claro-suave/20 rounded-xl w-fit mx-auto mb-6">
+                <Mail className="w-8 h-8 text-azul-claro-medio" />
+              </div>
+              <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">E-mail</h3>
+              <p className="text-cinza-aconchego mb-6">Entre em contato através do nosso e-mail.</p>
+              <a href="mailto:contato@casaarcoiris.com.br" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
+                Enviar E-mail
+              </a>
+            </div>
           </div>
-
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="animate-on-scroll">
               <h2 className="text-2xl font-semibold text-azul-claro-principal mb-6">Envie sua Mensagem</h2>
-              
               <form onSubmit={handleSubmit} className="space-y-6">
-                {/* Inputs do formulário aqui... */}
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="nome" className="block text-cinza-aconchego font-medium mb-2">Nome *</label>
@@ -117,27 +149,45 @@ const Contato = () => {
                   <label htmlFor="mensagem" className="block text-cinza-aconchego font-medium mb-2">Mensagem *</label>
                   <textarea id="mensagem" name="mensagem" value={formData.mensagem} onChange={handleChange} required rows={5} className="w-full px-4 py-3 border border-bege-suave rounded-lg focus:ring-2 focus:ring-azul-claro-principal focus:border-azul-claro-principal outline-none transition-colors" placeholder="Como podemos ajudar você?" />
                 </div>
-                
-                <button
-                  type="submit"
-                  disabled={isSending} // Desabilita o botão durante o envio
-                  className="btn-azul-claro w-full flex items-center justify-center space-x-2 disabled:opacity-70 disabled:cursor-not-allowed"
-                >
+                <button type="submit" disabled={isSending} className="btn-azul-claro w-full flex items-center justify-center space-x-2 disabled:opacity-70 disabled:cursor-not-allowed">
                   <Send className="w-5 h-5" />
                   <span>{isSending ? 'Enviando...' : 'Enviar Mensagem'}</span>
                 </button>
-                
-                {/* Exibe a mensagem de sucesso ou erro */}
                 {responseMessage && <p className="mt-4 text-center text-cinza-aconchego">{responseMessage}</p>}
               </form>
             </div>
             <div className="animate-on-scroll">
-              {/* Suas informações adicionais aqui... */}
+              <h2 className="text-2xl font-semibold text-azul-claro-principal mb-6">Informações Adicionais</h2>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="p-3 bg-azul-claro-suave/20 rounded-lg"><MapPin className="w-6 h-6 text-azul-claro-principal" /></div>
+                  <div>
+                    <h3 className="font-semibold text-azul-claro-principal mb-2">Endereço</h3>
+                    <p className="text-cinza-aconchego">Rua Marechal Mallet, 355<br />Parque da Vila Prudente<br />São Paulo/SP</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="p-3 bg-azul-claro-suave/20 rounded-lg"><Clock className="w-6 h-6 text-azul-claro-principal" /></div>
+                  <div>
+                    <h3 className="font-semibold text-azul-claro-principal mb-2">Horários de Atendimento</h3>
+                    <div className="text-cinza-aconchego space-y-1">
+                      <p>Segunda a Sexta: 8h às 18h</p>
+                      <p>Sábado: 8h às 13h</p>
+                      <p>Domingo: Fechado</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-8">
+                  <h3 className="font-semibold text-azul-claro-principal mb-4">Localização</h3>
+                  <div className="bg-branco-ninho rounded-lg shadow-lg p-2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.631502444588!2d-46.57948838448135!3d-23.5814818684698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c1a8d3b3b1b%3A0x6b1a3b1b1b1b1b1b!2sRua%20Marechal%20Mallet%2C%20355%20-%20Parque%20da%20Vila%20Prudente%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003140-010%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1620315264859!5m2!1spt-BR!2sbr" width="100%" height="250" style={{ border: 0, borderRadius: '0.5rem' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Localização da Casa Arco Íris" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
