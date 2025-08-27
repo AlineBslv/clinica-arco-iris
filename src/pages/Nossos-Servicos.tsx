@@ -144,7 +144,7 @@ const Terapias = () => {
       <section className="pt-32 pb-16 bg-roxo-principal">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
-            <h1 className="text-branco-ninho mb-6">Nossos <span className="text-branco-ninho">Serviços</span></h1>
+            <h1 className="text-branco-ninho mb-6">Nossas <span className="text-branco-ninho">Especialidades</span></h1>
             <p className="text-xl text-branco-ninho max-w-3xl mx-auto leading-relaxed">
               Na Casa Arco-Íris, oferecemos atendimentos interdisciplinares que cuidam do ser humano por inteiro. Conheça nossas áreas de atuação e descubra como cada uma pode transformar vidas com carinho, técnica e propósito
             </p>
