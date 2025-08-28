@@ -50,11 +50,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:+5511999999999" className="text-azul-confianca hover:text-terracota transition-colors duration-300">
+            <a href="tel:+5511944694777" className="text-azul-confianca hover:text-terracota transition-colors duration-300">
               
             </a>
-            <a href="https://consultorio.me/pro/casa-arco-iris" target="_blank" rel="noopener noreferrer" className="btn-primary">
-              Agendar Consulta
+            <a href="https://wa.me/5511944694777/?text=Olá%20gostaria%20de%20marcar%20uma%20conversa" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              Agendar Conversa
             </a>
           </div>
 
@@ -76,8 +76,8 @@ const Header = () => {
                     
                     
                   </a>
-                  <a href="https://consultorio.me/pro/casa-arco-iris" target="_blank" rel="noopener noreferrer" className="btn-primary text-center" onClick={() => setIsMenuOpen(false)}>
-                    Agendar Consulta
+                  <a href="https://wa.me/5511944694777/?text=Olá%20gostaria%20de%20marcar%20uma%20conversa" target="_blank" rel="noopener noreferrer" className="btn-primary text-center" onClick={() => setIsMenuOpen(false)}>
+                    Agendar Conversa
                   </a>
                 </div>
               </div>
