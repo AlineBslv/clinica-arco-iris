@@ -35,7 +35,7 @@ const Equipe = () => {
     especialidade: "Psicologia - Especialista em ABA",
     registro: "CRP 06/158361",
     foto: fotoNaiade,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/naiade-cristina-camilo",
     biografia: "Psicóloga especializada em ABA para TEA e Desenvolvimento Atípico, formada pelo Instituto Par. Atuo em clínica de neurodiversidade e desenvolvimento infantil, integrando equipe multiprofissional. Com experiência em intervenções eficazes, meu trabalho promove o crescimento e bem-estar de cada indivíduo.",
     formacao: ["Graduação em Psicologia - Uninove", "Especialização em Análise do Comportamento Aplicada ao Transtorno do Espectro Autista - Instituto Par", "Entendendo o Protocolo VB-MAPP - IEAC", "Guia para Criação do Plano de Ensino Individualizado (PEI) - IEAC"],
     areas: ["TEA e ABA", "Consultoria Parental", "Integração Multidisciplinar", "Consultoria Escolar"]
@@ -44,7 +44,7 @@ const Equipe = () => {
     especialidade: "Fonoaudiologia Neurofuncional",
     registro: "CRFa 2-21684",
     foto: fotoAlessandra,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/alessandra-santanna-de-siqueira",
     biografia: "",
     formacao: [],
     areas: []
@@ -53,7 +53,7 @@ const Equipe = () => {
     especialidade: "Neuropsicologia e Psicologia",
     registro: "CRP 06/164156",
     foto: fotoSabrina,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/sabrina-neri-de-assis",
     biografia: "Psicóloga com graduação pela UNIP e mestrado em Psicobiologia (em andamento) na UNIFESP. Especialista em Reabilitação Cognitiva e Neuropsicologia pelo HCFMUSP. Atuo como assistente de Laudo Neuropsicológico e ofereço psicoterapia baseada em evidências. Com experiência em reabilitação neuropsicológica e saúde mental de cuidadores, busco promover bem-estar integral.",
     formacao: ["Graduação em Psicologia - UNIP", "Especialização em Neuropsicologia com formação em Reabilitação Cognitiva HCFMUSP", "Mestrado em Psicobiologia (em andamento) - UNIFESP"],
     areas: ["Avaliação Neuropsicológica", "Transtornos do Neurodesenvolvimento", "Psicoterapia", "Reabilitação Neuropsicológica"]
@@ -62,7 +62,7 @@ const Equipe = () => {
     especialidade: "Pedagogia e Psicopedagogia",
     registro: "ABPP 496",
     foto: fotoFernanda,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/fernanda-grava",
     biografia: "Especialista em TEA e ciência ABA, com foco em educação especial e inclusiva. Desde 2017, atuo clinicamente e em escolas, oferecendo suporte multidisciplinar para crianças com dificuldades de aprendizagem. Dedico-me a promover inclusão e facilitar o sucesso educacional de cada aluno.",
     formacao: ["Graduação em Pedagogia - Unisantana", "Formação em Psicopedagogia Clínica e Institucional - Unicsul", "Especialização em Transtorno do Espectro Autista - Famesc-RJ", "Especialização em ABA e estratégias naturalistas - Instituto Singular"],
     areas: ["TEA e ABA", "Consultoria Inclusiva", "Alfabetização e Aprendizagem", "Equipe Multidisciplinar"]
@@ -71,7 +71,7 @@ const Equipe = () => {
     especialidade: "Psicologia",
     registro: "CRP 06/216782",
     foto: fotoAndressa,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/andressa-fernanda-da-costa-alencar",
     biografia: "Psicóloga especializada em saúde mental, focada em mulheres e pessoas idosas. Com base na TCC e na Terapia Sócio-Histórica, ofereço atendimento humanizado e personalizado. Promovo autonomia, resolução de conflitos e saúde emocional, com ênfase na psicologia do envelhecimento e qualidade de vida.",
     formacao: [],
     areas: ["Saúde Mental", "Psicologia Cognitivo-Comportamental", "Psicologia do Envelhecimento", "Atendimento Humanizado"]
@@ -80,7 +80,7 @@ const Equipe = () => {
     especialidade: "Fonoaudiologia Online",
     registro: "CRFa 2-21755",
     foto: fotoBarbara,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/barbara-sousa-pereira-freitas",
     biografia: "Fonoaudióloga especializada em motricidade orofacial, linguagem oral, e TEA. Graduada pela FMU, com pós em Intervenção ABA. Tenho vasta experiência em leitura, escrita e voz, aliada a um compromisso com atendimento humanizado e de qualidade. Sempre em busca de aprimorar meus conhecimentos para oferecer o melhor aos meus clientes.",
     formacao: ["Graduação em Fonoaudiologia - FMU", "Pós-Graduação em Intervenção ABA para Autistas e Deficiência Intelectual- CBI OF MIAMI", "Curso avançado do Protocolo VB- MAPP - Academia do Autismo"],
     areas: ["Motricidade Orofacial", "Linguagem Oral", "Transtorno do Espectro Autista (TEA)", "Leitura e Escrita"]
@@ -89,7 +89,7 @@ const Equipe = () => {
     especialidade: "Fonoaudiologia",
     registro: "CRFa 2-23990",
     foto: fotoDayse,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/dayse-cristina-spinardi-furmanski",
     biografia: "",
     formacao: [],
     areas: []
@@ -98,7 +98,7 @@ const Equipe = () => {
     especialidade: "Terapia Ocupacional",
     registro: "CREFITO-3 8404-TO",
     foto: fotoYu,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/yu-yun-ting",
     biografia: "Terapeuta ocupacional especializada em reabilitação neurofuncional e terapia da mão pela UNIFESP. Com expertise em integração sensorial, terapia snoezlen, e formação em dor e contensão induzida, ofereço cuidados personalizados. Pós-graduanda em Acupuntura e medicina chinesa, aplico fotobiomodulação transcraniana e confecciono órteses sob medida.",
     formacao: ["Especialização em Reabilitação Física e Reabilitação do Membro Superior - UNIFESP", "Curso de Formação em Terapia Snoezelen - Snoezelen Brasil", "Formação em terapia de contensão induzida (adulto e pediátrico) - AACD", "Pós graduanda em Acupuntura e medicina chinesa"],
     areas: ["Reabilitação Neurofuncional", "Integração Sensorial", "Terapia da Dor", "Órteses Sob Medida"]
@@ -107,7 +107,7 @@ const Equipe = () => {
     especialidade: "Nutricão Esportiva",
     registro: "CRN-3 52851",
     foto: fotoMicheleD,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/michele-degan-costa",
     biografia: "Especialista em Oncologia, Personal Diet, Nutrição Esportiva e Estética, com mais de sete anos de experiência em ambiente hospitalar e cinco anos em consultório. Focada em emagrecimento, hipertrofia e reeducação alimentar, ela oferece atendimento personalizado e acessível. Sua abordagem transforma hábitos alimentares com metas simples, ajudando clientes a atingir objetivos de saúde e bem-estar de forma eficaz.",
     formacao: ["Pós-Graduação em Nutrição Esportiva e Estética"],
     areas: ["Nutrição Oncológica", "Nutrição Esportiva", "Nutrição Estética", "Educação Alimentar"]
@@ -116,7 +116,7 @@ const Equipe = () => {
     especialidade: "Farmácia Estética",
     registro: "CRF-SP 101643",
     foto: fotoThamyres,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/thamyres-rachel-rodrigues-traynard",
     biografia: "Farmacêutica com pós-graduação em Estética Avançada pela Universidade São Camilo, especializada em rejuvenescimento, melasma e acne. Foco na estética regenerativa e na filosofia “tratar sem agredir”, promovendo bem-estar e integridade cutânea. Ofereço atendimento personalizado, humanizado e guiado por evidências, priorizando a saúde e autoestima dos pacientes.",
     formacao: ["Pós-Graduação em Estética Avançada - Universidade São Camilo", "Graduação em Farmácia"],
     areas: ["Rejuvenescimento", "Tratamento de Melasma", "Tratanento de Acne", "Estética Regenerativa"]
@@ -125,7 +125,7 @@ const Equipe = () => {
     especialidade: "Estética e Massoterapia",
     registro: "",
     foto: fotoMicheleS,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/michele-sousa-arruda-de-oliveira",
     biografia: "Esteticista apaixonada por estética facial e corporal, formada em Cosmetologia e Estética pela UNIP. Tenho vasta experiência em tratamentos como radiofrequência, eletrolipólise e drenagem linfática. Meu compromisso é com o bem-estar dos clientes, garantindo um atendimento ético e comunicação eficaz. Atualmente, planejo expandir meus conhecimentos com uma graduação em Biomedicina.",
     formacao: ["Cosmetologia e Estética - UNIP", "Técnico Administrativo - Etec Jorge Street"],
     areas: ["Estética Facial", "Estética Corporal", "Massoterapia", "Tecnologia Estética"]
@@ -134,7 +134,7 @@ const Equipe = () => {
     especialidade: "Consultoria Financeira",
     registro: "",
     foto: fotoEduardo,
-    linkAgendamento: "",
+    linkAgendamento: "https://consultorio.me/pro/eduardo-angelo-galli",
     biografia: "",
     formacao: [],
     areas: []
