@@ -17,6 +17,9 @@ import fotoMicheleD from "/lovable-uploads/Imagem Michele Nutricionista.jpg";
 import fotoThamyres from "/lovable-uploads/Thamyres Traynard Estetiscista.jpg";
 import fotoMicheleS from "/lovable-uploads/Michele Sousa Estética.jpg";
 import fotoEduardo from "/lovable-uploads/Edu Consultoria Financeira.jpg";
+import fotoMariaJ from "/lovable-uploads/Maria Educaçao Fisica.jpg";
+import fotoThamyrisM from "/lovable-uploads/Thamyris nutricao.jpg";
+import fotoTamaraC from "/lovable-uploads/Tamara Massoterapia.jpg";
 
 const Equipe = () => {
   // A animação foi a causa do bug de invisibilidade, por isso está desativada.
@@ -39,15 +42,6 @@ const Equipe = () => {
     biografia: "Psicóloga especializada em ABA para TEA e Desenvolvimento Atípico, formada pelo Instituto Par. Atuo em clínica de neurodiversidade e desenvolvimento infantil, integrando equipe multiprofissional. Com experiência em intervenções eficazes, meu trabalho promove o crescimento e bem-estar de cada indivíduo.",
     formacao: ["Graduação em Psicologia - Uninove", "Especialização em Análise do Comportamento Aplicada ao Transtorno do Espectro Autista - Instituto Par", "Entendendo o Protocolo VB-MAPP - IEAC", "Guia para Criação do Plano de Ensino Individualizado (PEI) - IEAC"],
     areas: ["TEA e ABA", "Consultoria Parental", "Integração Multidisciplinar", "Consultoria Escolar"]
-  }, {
-    nome: "Alessandra Sant'Anna de Siqueira",
-    especialidade: "Fonoaudiologia Neurofuncional",
-    registro: "CRFa 2-21684",
-    foto: fotoAlessandra,
-    linkAgendamento: "https://consultorio.me/pro/alessandra-santanna-de-siqueira",
-    biografia: "",
-    formacao: [],
-    areas: []
   }, {
     nome: "Sabrina Neri de Assis",
     especialidade: "Neuropsicologia e Psicologia",
@@ -76,6 +70,15 @@ const Equipe = () => {
     formacao: [],
     areas: ["Saúde Mental", "Psicologia Cognitivo-Comportamental", "Psicologia do Envelhecimento", "Atendimento Humanizado"]
   }, {
+    nome: "Alessandra Sant'Anna de Siqueira",
+    especialidade: "Fonoaudiologia Neurofuncional",
+    registro: "CRFa 2-21684",
+    foto: fotoAlessandra,
+    linkAgendamento: "https://consultorio.me/pro/alessandra-santanna-de-siqueira",
+    biografia: "",
+    formacao: [],
+    areas: []
+  }, { 
     nome: "Barbara Sousa Pereira Freitas",
     especialidade: "Fonoaudiologia Online",
     registro: "CRFa 2-21755",
@@ -112,6 +115,15 @@ const Equipe = () => {
     formacao: ["Pós-Graduação em Nutrição Esportiva e Estética"],
     areas: ["Nutrição Oncológica", "Nutrição Esportiva", "Nutrição Estética", "Educação Alimentar"]
   }, {
+    nome: "Thamyris Marcelino Nakamura",
+    especialidade: "Nutrição infantil",
+    registro: "CRN-3 83892/P",
+    foto: fotoThamyrisM,
+    linkAgendamento: "https://consultorio.me/pro/casa-arco-iris",
+    biografia: "",
+    formacao: [""],
+    areas: []
+  }, {
     nome: "Thamyres Traynard",
     especialidade: "Farmácia Estética",
     registro: "CRF-SP 101643",
@@ -129,6 +141,24 @@ const Equipe = () => {
     biografia: "Esteticista apaixonada por estética facial e corporal, formada em Cosmetologia e Estética pela UNIP. Tenho vasta experiência em tratamentos como radiofrequência, eletrolipólise e drenagem linfática. Meu compromisso é com o bem-estar dos clientes, garantindo um atendimento ético e comunicação eficaz. Atualmente, planejo expandir meus conhecimentos com uma graduação em Biomedicina.",
     formacao: ["Cosmetologia e Estética - UNIP", "Técnico Administrativo - Etec Jorge Street"],
     areas: ["Estética Facial", "Estética Corporal", "Massoterapia", "Tecnologia Estética"]
+  }, {
+    nome: "Tamara Chiyoda Bezerra",
+    especialidade: "Massoterapia",
+    registro: "",
+    foto: fotoTamaraC,
+    linkAgendamento: "https://consultorio.me/pro/casa-arco-iris",
+    biografia: "",
+    formacao: [],
+    areas: []
+  }, {
+    nome: "Maria Julia Garcia Reis",
+    especialidade: "Educação Física",
+    registro: "196752-G/SP",
+    foto: fotoMariaJ,
+    linkAgendamento: "https://consultorio.me/pro/maria-julia-garcia-reis-educadora-fisica",
+    biografia: "",
+    formacao: [],
+    areas: []
   }, {
     nome: "Eduardo Ângelo Galli",
     especialidade: "Consultoria Financeira",
