@@ -18,7 +18,7 @@ import imgEstetica from '/lovable-uploads/Estetica.png';
 import imgAcupuntura from '/lovable-uploads/Acumputura.png';
 import imgFinancas from '/lovable-uploads/Finanças.png';
 
-const Terapias = () => {
+const Especialidades = () => {
   useScrollAnimation();
 
   // 2. Adicionar a propriedade 'imagem' em cada objeto da terapia
@@ -225,4 +225,4 @@ const Terapias = () => {
   );
 };
 
-export default Terapias;
+export default Especialidades;

@@ -17,10 +17,13 @@ const Header = () => {
     href: '/'
   }, {
     name: 'Quem Somos',
-    href: '/sobre'
+    href: '/quem-somos'
   }, {
-    name: 'Nossos Serviços',
-    href: '/serviços'
+    name: 'Especialidades',
+    href: '/especialidades'
+  }, {
+    name: 'Times Terapêuticos',
+    href: '/times-terapeuticos'
   }, {
     name: 'Nossa Equipe',
     href: '/equipe'

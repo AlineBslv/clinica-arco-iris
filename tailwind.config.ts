@@ -25,7 +25,7 @@ export default {
 				'cinza-aconchego': '#5A5A5A',
 				'bege-suave': '#EAE3D9',
 				'azul-confianca': '#25488a',
-				'verde-salvia': '#A9BCA3',
+				'verde-salvia': '#55a369',
 				'azul-sereno': '#A2B6D4',
 				'violeta-lavanda': '#C3B1E1',
 				// Nova paleta roxa para serviços

@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Heart, Users, Shield, Star, BrainCogIcon, MedalIcon, Handshake } from 'lucide-react';
-const Sobre = () => {
+const QuemSomos = () => {
   useScrollAnimation();
   const valores = [{
     icon: <Handshake className="w-8 h-8" />,
@@ -26,7 +26,7 @@ const Sobre = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-[55a3692b] bg-[#55a369]">
+      <section className="pt-32 pb-16 from-terracota/10 to-bege-suave bg-verde-salvia">
         <div className="container-custom">
           <div className="text-center animate-on-scroll">
             <h1 className="text-azul-confianca mb-6 text-white">
@@ -45,7 +45,7 @@ const Sobre = () => {
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="animate-on-scroll">
-              <h2 className="text-azul-confianca mb-6 text-[55a369] text-[#55a369]">Bem-vindo à Casa Arco-Íris</h2>
+              <h2 className="text-azul-confianca mb-6">Bem-vindo à Casa Arco-Íris</h2>
               <p className="text-cinza-aconchego text-lg leading-relaxed mb-6">Somos um centro de desenvolvimento humano pensado para acolher, cuidar e transformar. Aqui, o cuidado vai além da terapia — é uma experiência sensorial e emocional que começa já na chegada: um ambiente com cara de casa, café quentinho, jardim com rede, espaço lúdico e terapias em cada canto.
             </p>
               <p className="text-cinza-aconchego leading-relaxed mb-6">Oferecemos atendimentos interdisciplinares para pessoas neurotípicas e neurodivergentes, com foco em corpo, mente e finanças. Nossa equipe reúne especialistas em Psicologia, Fonoaudiologia, Terapia Ocupacional, Fisioterapia, Nutrição, Terapia ABA, além de terapias complementares como massagens, acupuntura, estética e a exclusiva Terapia de Finanças Comportamentais.</p>
@@ -62,7 +62,7 @@ const Sobre = () => {
       </section>
 
       {/* Nossos Valores */}
-      <section className="section-padding bg-[#55a369]">
+      <section className="section-padding bg-verde-salvia">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
             <h2 className="text-azul-confianca mb-6 text-branco-ninho">Nosso Propósito</h2>
@@ -91,7 +91,7 @@ const Sobre = () => {
       <section className="section-padding bg-branco-ninho">
         <div className="container-custom">
           <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-azul-confianca mb-6 text-[#333333]">Nosso Espaço</h2>
+            <h2 className="text-azul-confianca mb-6">Nosso Espaço</h2>
             <p className="text-cinza-aconchego max-w-2xl mx-auto">Mais do que uma clínica, somos uma casa com alma. Aqui você encontra:</p>
           </div>
 
@@ -104,13 +104,13 @@ const Sobre = () => {
 
             <div className="animate-on-scroll">
               <img src="/lovable-uploads/Image Quem Somos Cooworking.png" alt="Área de convivência" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-azul-confianca mb-2.5 text-[#55a369]">Área de Convivência</h3>
+              <h3 className="text-lg font-semibold text-azul-confianca mb-2.5">Área de Convivência</h3>
               <p className="text-cinza-aconchego">Espaço coworking para acompanhantes. Parque no quintal, jardim com rede e ambientes terapêuticos livres.</p>
             </div>
 
             <div className="animate-on-scroll">
               <img src="/lovable-uploads/Image Quem Somos pets.png" alt="Nossos pets terapêuticos" className="rounded-xl shadow-lg w-full h-64 object-cover mb-4" />
-              <h3 className="text-lg font-semibold text-azul-confianca mb-2 text-[#55a369]">Pet Friendly</h3>
+              <h3 className="text-lg font-semibold text-azul-confianca mb-2">Pet Friendly</h3>
               <p className="text-cinza-aconchego">A presença de pets é muito bem-vinda. Inclusive, também temos pets em nosso espaço.</p>
             </div>
           </div>
@@ -120,4 +120,4 @@ const Sobre = () => {
       <Footer />
     </div>;
 };
-export default Sobre;
+export default QuemSomos;
