@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import HeroBanner from '../components/HeroBanner';
 import QuemSomosResumo from '../components/QuemSomosResumo';
+import PlanosAssinatura from '../components/PlanosAssinatura';
 import NossosServicosResumo from '../components/NossosServicosResumo';
 import FAQ from '../components/FAQ';
 import ContatoResumo from '../components/ContatoResumo';
@@ -17,6 +18,7 @@ const Index = () => {
       <Header />
       <HeroBanner />
       <QuemSomosResumo />
+      <PlanosAssinatura variant="homepage" />
       <NossosServicosResumo />
       <FAQ />
       <ContatoResumo />

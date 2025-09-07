@@ -31,7 +31,7 @@ export default {
 				// Nova paleta roxa para serviços
 				'roxo-principal': '#7b2d7c',
 				'roxo-claro': '#a855a8',
-				'roxo-suave': '#d8b4d8',
+				'roxo-suave': '#F2EAF2',
 				// Nova paleta laranja para equipe
 				'laranja-principal': '#f99721',
 				'laranja-claro': '#ffab47',
@@ -40,6 +40,10 @@ export default {
 				'azul-claro-principal': '#469fb1',
 				'azul-claro-medio': '#5db3c4',
 				'azul-claro-suave': '#b8dde6',
+				// Nova paleta azul-claro para contato
+				'verde-principal': '#55a369',
+				'verde-medio': '#89b896',
+				'verde-suave': '#cee1d3',
 				
 				// Cores do sistema shadcn
 				border: 'hsl(var(--border))',

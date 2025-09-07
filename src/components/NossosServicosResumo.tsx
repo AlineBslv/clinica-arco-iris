@@ -18,7 +18,7 @@ const TerapiasResumo = () => {
     descricao: "Promove autonomia diária e melhora a qualidade de vida de pessoas com atrasos no desenvolvimento e dificuldades motoras ou sensoriais.",
     cor: "roxo-principal"
   }];
-  return <section className="section-padding bg-branco-ninho">
+  return <section className="section-padding bg-roxo-suave">
       <div className="container-custom">
         {/* Header */}
         <div className="text-center mb-16 animate-on-scroll">

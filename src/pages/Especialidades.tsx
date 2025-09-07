@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import PlanosAssinatura from '../components/PlanosAssinatura';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { ArrowRight, Check } from 'lucide-react';
 
@@ -120,21 +121,6 @@ const Especialidades = () => {
     imagem: imgFinancas
   }];
 
-  const planos = [{
-    nome: "Plano Horizonte",
-    descricao: "Ideal para acompanhamento regular com flexibilidade",
-    preco: "Consulte valores",
-    caracteristicas: ["Consultas individuais mensais", "Agendamento flexível", "Relatórios de evolução trimestrais", "Orientações familiares", "Suporte via WhatsApp"],
-    cor: "roxo-claro",
-    destaque: false
-  }, {
-    nome: "Plano Prisma",
-    descricao: "Acompanhamento intensivo e multidisciplinar",
-    preco: "Consulte valores",
-    caracteristicas: ["Sessões semanais intensivas", "Equipe multidisciplinar", "Acompanhamento familiar contínuo", "Relatórios mensais detalhados", "Orientação escolar", "Suporte de emergência"],
-    cor: "roxo-principal",
-    destaque: true
-  }];
 
   return (
     <div className="min-h-screen">
@@ -187,38 +173,8 @@ const Especialidades = () => {
         </div>
       </section>
 
-      {/* Planos (código inalterado) */}
-      <section className="section-padding bg-gradient-to-br from-roxo-suave/20 to-bege-suave">
-        <div className="container-custom">
-          <div className="text-center mb-16 animate-on-scroll">
-            <h2 className="text-azul-confianca mb-6">Nossos Planos de Atendimento</h2>
-            <p className="text-cinza-aconchego max-w-2xl mx-auto">
-              Escolha o plano que melhor se adapta às necessidades da sua família
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {planos.map((plano, index) => (
-              <div key={index} className={`card-custom hover-lift animate-on-scroll ${plano.destaque ? 'ring-2 ring-roxo-principal relative' : ''}`}>
-                {plano.destaque && <div className="absolute -top-3 left-6 bg-roxo-principal text-branco-ninho px-4 py-2 rounded-full text-sm font-medium">Mais Procurado</div>}
-                <div className={`inline-block px-4 py-2 bg-${plano.cor}/20 text-${plano.cor} rounded-full text-sm font-medium mb-6`}>{plano.nome}</div>
-                <p className="text-cinza-aconchego text-lg mb-4">{plano.descricao}</p>
-                <div className="text-2xl font-bold text-azul-confianca mb-6">{plano.preco}</div>
-                <ul className="space-y-4 mb-8">
-                  {plano.caracteristicas.map((caracteristica, idx) => (
-                    <li key={idx} className="flex items-start space-x-3">
-                      <Check className={`w-5 h-5 text-${plano.cor} mt-1 flex-shrink-0`} />
-                      <span className="text-cinza-aconchego">{caracteristica}</span>
-                    </li>
-                  ))}
-                </ul>
-                <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20saber%20sobre%20os%20planos" target="_blank" rel="noopener noreferrer" className={`${plano.destaque ? 'btn-roxo' : `btn-secondary text-${plano.cor} border-${plano.cor} hover:bg-${plano.cor} hover:text-branco-ninho`} w-full text-center`}>
-                  Agendar Consulta
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Planos de Assinatura */}
+      <PlanosAssinatura variant="especialidades" />
 
       <Footer />
     </div>
