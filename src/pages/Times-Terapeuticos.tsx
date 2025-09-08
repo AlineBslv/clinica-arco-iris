@@ -109,12 +109,12 @@ const timesData: Time[] = [
       "Orientação Parental"
     ],
     integrantes: [
-      { foto: "/public/lovable-uploads/Naiade Psicologa.jpg", nome: "Naiade Cristina Camilo", especialidade: "Psicóloga ABA", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Naiade" },
+      { foto: "/public/lovable-uploads/Naiade Psicologa.jpg", nome: "Naiade Cristina Camilo", especialidade: "Psicologia ABA", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Naiade" },
       { foto: "/public/lovable-uploads/Sabrina neuropsicologa.jpg", nome: "Sabrina Neri de Assis", especialidade: "Neuropsicologia e Psicologia", link: "https://api.whatsapp.com/send?phone=511944694777&text=Quero+agendar+com+a+Sabrina" },
-      { foto: "/public/lovable-uploads/Fernanda Grava Pedagoga.jpg", nome: "Fernanda Grava", especialidade: "Psicopedagogia", link: "https://api.whatsapp.com/send?phone=511944694777&text=Quero+agendar+com+a+Fernanda" },
-      { foto: "/placeholder.svg", nome: "Fernanda Grava", especialidade: "Psicopedagogia", link: "https://api.whatsapp.com/send?phone=5511999990004&text=Quero+agendar+com+a+Fernanda" },
-      { foto: "/placeholder.svg", nome: "Carlos Mendes", especialidade: "Neuropsicólogo", link: "https://api.whatsapp.com/send?phone=5511999990005&text=Quero+agendar+com+o+Carlos" },
-      { foto: "/placeholder.svg", nome: "Amanda Castro", especialidade: "Orientadora Parental", link: "https://api.whatsapp.com/send?phone=5511999990006&text=Quero+agendar+com+a+Amanda" }
+      { foto: "/public/lovable-uploads/Fernanda Grava Pedagoga.jpg", nome: "Fernanda Grava", especialidade: "Psicopedagogia ABA", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Fernanda" },
+      { foto: "/public/lovable-uploads/Alessandra fono.jpg", nome: "Alessandra Sant'Anna", especialidade: "Fonoaudiologia Neurofuncional", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Alessandra" },
+      { foto: "/public/lovable-uploads/Yu Terapia Ocupacional.jpg", nome: "Yu Yun Ting", especialidade: "Terapia Ocupacional", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Yu" },
+      { foto: "/public/lovable-uploads/Thamyris nutricao.jpg", nome: "Thamyris Marcelino", especialidade: "Nutrição infantil", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Thamyris" }
     ]
   },
   {
@@ -131,12 +131,13 @@ const timesData: Time[] = [
       "Avaliação Neuropsicológica"
     ],
     integrantes: [
-      { foto: "/placeholder.svg", nome: "Juliana Vasconcelos", especialidade: "Fonoaudióloga", link: "https://api.whatsapp.com/send?phone=5511999990007&text=Quero+agendar+com+a+Juliana" },
-      { foto: "/placeholder.svg", nome: "Rafael Pires", especialidade: "Psicoterapeuta Infantil", link: "https://api.whatsapp.com/send?phone=5511999990008&text=Quero+agendar+com+o+Rafael" },
-      { foto: "/placeholder.svg", nome: "Simone Paula", especialidade: "Psicopedagoga", link: "https://api.whatsapp.com/send?phone=5511999990009&text=Quero+agendar+com+a+Simone" },
-      { foto: "/placeholder.svg", nome: "Helena Duarte", especialidade: "Terapeuta Ocupacional", link: "https://api.whatsapp.com/send?phone=5511999990010&text=Quero+agendar+com+a+Helena" },
-      { foto: "/placeholder.svg", nome: "Marina Lopes", especialidade: "Orientadora Parental", link: "https://api.whatsapp.com/send?phone=5511999990011&text=Quero+agendar+com+a+Marina" },
-      { foto: "/placeholder.svg", nome: "Thiago Ferreira", especialidade: "Neuropsicólogo", link: "https://api.whatsapp.com/send?phone=5511999990012&text=Quero+agendar+com+o+Thiago" }
+      { foto: "/public/lovable-uploads/Andressa Fernanda Psico.jpg", nome: "Andressa Fernanda", especialidade: "Psicoterapia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Andressa" },
+      { foto: "/public/lovable-uploads/Fernanda Grava Pedagoga.jpg", nome: "Fernanda Grava", especialidade: "Pedagogia e Psicopedagogia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Fernanda" },
+      { foto: "/public/lovable-uploads/Naiade Psicologa.jpg", nome: "Naiade Cristina Camilo", especialidade: "Psicologia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Naiade" },
+      { foto: "/public/lovable-uploads/Barbara fonoa.jpg", nome: "Barbara Sousa", especialidade: "Fonoaudiologia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Barbara" },
+      { foto: "/public/lovable-uploads/Alessandra fono.jpg", nome: "Alessandra Sant'Anna", especialidade: "Fonoaudiologia Neurofuncional", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Alessandra" },
+      { foto: "/public/lovable-uploads/Sabrina neuropsicologa.jpg", nome: "Sabrina Neri de Assis", especialidade: "Neuropsicologia e Psicologia", link: "https://api.whatsapp.com/send?phone=511944694777&text=Quero+agendar+com+a+Sabrina" },
+      { foto: "/public/lovable-uploads/Yu Terapia Ocupacional.jpg", nome: "Yu Yun Ting", especialidade: "Terapia Ocupacional", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Yu" }
     ]
   },
   {
@@ -156,15 +157,14 @@ const timesData: Time[] = [
       "Coaching"
     ],
     integrantes: [
-      { foto: "/placeholder.svg", nome: "Lucas Andrade", especialidade: "Nutricionista Esportivo", link: "https://api.whatsapp.com/send?phone=5511999990013&text=Quero+agendar+com+o+Lucas" },
-      { foto: "/placeholder.svg", nome: "Sofia Martins", especialidade: "Consultora Financeira", link: "https://api.whatsapp.com/send?phone=5511999990014&text=Quero+agendar+com+a+Sofia" },
-      { foto: "/placeholder.svg", nome: "Bruno Silva", especialidade: "Psicólogo do Esporte", link: "https://api.whatsapp.com/send?phone=5511999990015&text=Quero+agendar+com+o+Bruno" },
-      { foto: "/placeholder.svg", nome: "Vivian Prado", especialidade: "Fonoaudióloga Voz", link: "https://api.whatsapp.com/send?phone=5511999990016&text=Quero+agendar+com+a+Vivian" },
-      { foto: "/placeholder.svg", nome: "Gabriela Bessa", especialidade: "Fonoaudióloga Estética", link: "https://api.whatsapp.com/send?phone=5511999990017&text=Quero+agendar+com+a+Gabriela" },
-      { foto: "/placeholder.svg", nome: "André Campos", especialidade: "Massoterapeuta", link: "https://api.whatsapp.com/send?phone=5511999990018&text=Quero+agendar+com+o+André" },
-      { foto: "/placeholder.svg", nome: "Letícia Vidal", especialidade: "Farmacêutica Esteta", link: "https://api.whatsapp.com/send?phone=5511999990019&text=Quero+agendar+com+a+Letícia" },
-      { foto: "/placeholder.svg", nome: "Felipe Gomes", especialidade: "Personal Trainer", link: "https://api.whatsapp.com/send?phone=5511999990020&text=Quero+agendar+com+o+Felipe" },
-      { foto: "/placeholder.svg", nome: "Carla Lopes", especialidade: "Coach de Alta Performance", link: "https://api.whatsapp.com/send?phone=5511999990021&text=Quero+agendar+com+a+Carla" }
+      { foto: "/public/lovable-uploads/Imagem Michele Nutricionista.jpg", nome: "Michele Degan", especialidade: "Nutricão Esportiva", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Michele" },
+      { foto: "/public/lovable-uploads/Edu Consultoria Financeira.jpg", nome: "Eduardo Ângelo Galli", especialidade: "Consultoria Financeira", link: "https://api.whatsapp.com/send?phone=5511944694777&4&text=Quero+agendar+com+o+Eduardo" },
+      { foto: "/public/lovable-uploads/Maria Educaçao Fisica.jpg", nome: "Maria Julia Garcia Reis", especialidade: "Educação Física", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Maria+Julia" },
+      { foto: "/public/lovable-uploads/Thamyres Traynard Estetiscista.jpg", nome: "Thamyres Traynard", especialidade: "Farmácia Estética", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Thamyres" },
+      { foto: "/public/lovable-uploads/Michele Sousa Estética.jpg", nome: "Michele Sousa", especialidade: "Estética e Massoterapia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Michele+Sousa" },
+      { foto: "/public/lovable-uploads/Tamara Massoterapia.jpg", nome: "Tamara Chiyoda Bezerra", especialidade: "Massoterapia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+o+Tamara" },
+      { foto: "/public/lovable-uploads/Andressa Fernanda Psico.jpg", nome: "Andressa Fernanda", especialidade: "Psicologia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Andressa" },
+      { foto: "/public/lovable-uploads/Barbara fonoa.jpg", nome: "Barbara Sousa", especialidade: "Fonoaudiologia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Barbara" }
     ]
   },
   {
@@ -192,14 +192,13 @@ const timesData: Time[] = [
       "Yoga"
     ],
     integrantes: [
-      { foto: "/placeholder.svg", nome: "Michele Oliveira", especialidade: "Esteticista", link: "https://api.whatsapp.com/send?phone=5511999990022&text=Quero+agendar+com+a+Michele" },
-      { foto: "/placeholder.svg", nome: "Carla Ferreira", especialidade: "Massoterapeuta", link: "https://api.whatsapp.com/send?phone=5511999990023&text=Quero+agendar+com+a+Carla" },
-      { foto: "/placeholder.svg", nome: "Diego Ramos", especialidade: "Personal Trainer", link: "https://api.whatsapp.com/send?phone=5511999990024&text=Quero+agendar+com+o+Diego" },
-      { foto: "/placeholder.svg", nome: "Mariana Souza", especialidade: "Psicoterapeuta", link: "https://api.whatsapp.com/send?phone=5511999990025&text=Quero+agendar+com+a+Mariana" },
-      { foto: "/placeholder.svg", nome: "Tatiana Maia", especialidade: "Acupunturista", link: "https://api.whatsapp.com/send?phone=5511999990026&text=Quero+agendar+com+a+Tatiana" },
-      { foto: "/placeholder.svg", nome: "Pedro Mota", especialidade: "Nutricionista", link: "https://api.whatsapp.com/send?phone=5511999990027&text=Quero+agendar+com+o+Pedro" },
-      { foto: "/placeholder.svg", nome: "Luiza Tavares", especialidade: "Instrutora de Yoga", link: "https://api.whatsapp.com/send?phone=5511999990028&text=Quero+agendar+com+a+Luiza" },
-      { foto: "/placeholder.svg", nome: "Roberta Figueira", especialidade: "Fonoaudióloga Estética", link: "https://api.whatsapp.com/send?phone=5511999990029&text=Quero+agendar+com+a+Roberta" }
+      { foto: "/public/lovable-uploads/Yu Terapia Ocupacional.jpg", nome: "Yu Yun Ting", especialidade: "Massagem Oriental", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Yu" },
+      { foto: "/public/lovable-uploads/Imagem Michele Nutricionista.jpg", nome: "Michele Degan", especialidade: "Nutricão Esportiva", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Michele" },
+      { foto: "/public/lovable-uploads/Tamara Massoterapia.jpg", nome: "Tamara Chiyoda Bezerra", especialidade: "Massoterapia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+o+Tamara" },
+      { foto: "/public/lovable-uploads/Michele Sousa Estética.jpg", nome: "Michele Sousa", especialidade: "Estética e Massoterapia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Michele+Sousa" },
+      { foto: "/public/lovable-uploads/Thamyres Traynard Estetiscista.jpg", nome: "Thamyres Traynard", especialidade: "Farmácia Estética", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Thamyres" },
+      { foto: "/public/lovable-uploads/Maria Educaçao Fisica.jpg", nome: "Maria Julia Garcia Reis", especialidade: "Educação Física", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Maria+Julia" },
+      { foto: "/public/lovable-uploads/Andressa Fernanda Psico.jpg", nome: "Andressa Fernanda", especialidade: "Psicoterapia", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Andressa" }
     ]
   }
 ];
