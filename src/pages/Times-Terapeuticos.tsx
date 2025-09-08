@@ -285,8 +285,10 @@ const TimesTerapeuticos = () => {
             >
               Ver Nossa Equipe
             </a>
-            <a 
-              href="/contato" 
+            <a
+              href="https://api.whatsapp.com/send/?phone=5511944694777&text=Ol%C3%A1+gostaria+de+agendar+uma+consulta&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary bg-laranja-principal hover:bg-laranja-principal/90"
             >
               Agendar Consulta

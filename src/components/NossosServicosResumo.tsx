@@ -55,7 +55,7 @@ const TerapiasResumo = () => {
         {/* CTA */}
         <div className="text-center animate-on-scroll">
           <Link to="/terapias" className="btn-roxo inline-flex items-center space-x-2 hover-lift">
-            <span>Ver Todos os Serviços</span>
+            <span>Ver Todas as Especialidades</span>
             <ArrowRight className="w-5 h-5" />
           </Link>
         </div>
