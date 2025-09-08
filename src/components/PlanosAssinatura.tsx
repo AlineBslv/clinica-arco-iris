@@ -18,7 +18,7 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
       ],
       preco: "Pagamento Mensal",
       fidelidade: "6 meses de fidelidade",
-      whatsappLink: "https://api.whatsapp.com/send/?phone=5511988072520&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Online",
+      whatsappLink: "https://api.whatsapp.com/send/?phone=5511944694777&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Online",
       cor: "azul-confianca",
       destaque: false
     },
@@ -33,7 +33,7 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
       ],
       preco: "Pagamento Mensal",
       fidelidade: "6 meses de fidelidade",
-      whatsappLink: "https://api.whatsapp.com/send/?phone=5511988072520&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Horizonte",
+      whatsappLink: "https://api.whatsapp.com/send/?phone=5511944694777&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Horizonte",
       cor: "roxo-principal",
       destaque: true,
       badge: "Mais Procurado"
@@ -49,7 +49,7 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
       ],
       preco: "Pagamento Mensal",
       fidelidade: "6 meses de fidelidade",
-      whatsappLink: "https://api.whatsapp.com/send/?phone=5511988072520&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Íris",
+      whatsappLink: "https://api.whatsapp.com/send/?phone=5511944694777&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Íris",
       cor: "verde-principal",
       destaque: false
     },
@@ -65,7 +65,7 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
       ],
       preco: "Pagamento Mensal",
       fidelidade: "6 meses de fidelidade",
-      whatsappLink: "https://api.whatsapp.com/send/?phone=5511988072520&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Prisma",
+      whatsappLink: "https://api.whatsapp.com/send/?phone=5511944694777&text=Olá%2C+vim+pelo+site+e+gostaria+de+saber+mais+sobre+o+Plano+Prisma",
       cor: "laranja-principal",
       destaque: false
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
+import { Heart, Instagram, Facebook, Mail, Phone, MapPin, Briefcase } from 'lucide-react';
 const Footer = () => {
   const menuItems = [{
     name: 'Início',
@@ -86,6 +86,13 @@ const Footer = () => {
                   Rua Marechal Mallet, 355<br />
                   Parque da Vila Prudente<br />
                   São Paulo/SP
+                </span>
+              </div>
+              
+              <div className="flex items-start space-x-3 text-azul-confianca/80">
+                <Briefcase className="w-4 h-4 mt-1 flex-shrink-0" />
+                <span className="text-sm">
+                  CNPJ: 62.432.764/0001-03
                 </span>
               </div>
             </div>

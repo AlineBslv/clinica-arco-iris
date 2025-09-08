@@ -85,7 +85,7 @@ const Contato = () => {
                 WhatsApp
               </h3>
               <p className="text-cinza-aconchego mb-6">
-                Converse conosco diretamente pelo WhatsApp.
+                Converse conosco pelo WhatsApp.
               </p>
               <a
                 href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20Arco-Íris"

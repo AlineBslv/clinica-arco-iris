@@ -88,15 +88,6 @@ const Equipe = () => {
     formacao: ["Graduação em Fonoaudiologia - FMU", "Pós-Graduação em Intervenção ABA para Autistas e Deficiência Intelectual- CBI OF MIAMI", "Curso avançado do Protocolo VB- MAPP - Academia do Autismo"],
     areas: ["Motricidade Orofacial", "Linguagem Oral", "Transtorno do Espectro Autista (TEA)", "Leitura e Escrita"]
   }, {
-    nome: "Dayse Cristina Spinardi Furmanski",
-    especialidade: "Fonoaudiologia",
-    registro: "CRFa 2-23990",
-    foto: fotoDayse,
-    linkAgendamento: "https://consultorio.me/pro/dayse-cristina-spinardi-furmanski",
-    biografia: "",
-    formacao: [],
-    areas: []
-  }, {
     nome: "Yu Yun Ting",
     especialidade: "Terapia Ocupacional",
     registro: "CREFITO-3 8404-TO",

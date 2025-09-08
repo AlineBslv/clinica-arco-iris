@@ -91,7 +91,7 @@ const Contato = () => {
                 <Phone className="w-8 h-8 text-azul-claro-medio" />
               </div>
               <h3 className="text-xl font-semibold text-azul-claro-principal mb-4">WhatsApp</h3>
-              <p className="text-cinza-aconchego mb-6">Converse conosco diretamente pelo WhatsApp.</p>
+              <p className="text-cinza-aconchego mb-6">Converse conosco pelo WhatsApp.</p>
               <a href="https://wa.me/5511988072520?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Casa%20Arco-Íris" target="_blank" rel="noopener noreferrer" className="btn-secondary text-azul-claro-principal border-azul-claro-principal hover:bg-azul-claro-principal hover:text-branco-ninho w-full">
                 Mandar Mensagem
               </a>
