@@ -173,6 +173,11 @@ const Especialidades = () => {
         </div>
       </section>
 
+      {/* Divisor entre Especialidades e Planos */}
+      <div className="container-custom">
+        <div className="border-t border-bege-suave/70 my-12"></div>
+      </div>
+
       {/* Planos de Assinatura */}
       <PlanosAssinatura variant="especialidades" />
 

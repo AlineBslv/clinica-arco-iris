@@ -1,232 +1,273 @@
-import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import { Users, Heart, Brain, Activity, Baby, GraduationCap } from 'lucide-react';
+// Seção de Time com carrossel horizontal de profissionais
+const TimeSection: React.FC<{ time: Time }> = ({ time }) => {
+  const colorClasses = getColorClasses(time.cor);
+  const Icon = time.icone;
+  const scrollRef = useRef<HTMLDivElement>(null);
 
-const TimesTerapeuticos = () => {
-  const times = [
-    {
-      nome: "Time de Desenvolvimento Infantil",
-      descricao: "Especialistas focados no desenvolvimento integral da criança",
-      cor: "azul-confianca",
-      icone: Baby,
-      especialidades: [
-        "Terapia Ocupacional",
-        "Fonoaudiologia",
-        "Psicopedagogia",
-        "Psicologia Infantil"
-      ]
-    },
-    {
-      nome: "Time de Reabilitação",
-      descricao: "Profissionais dedicados à reabilitação e recuperação",
-      cor: "verde-salvia",
-      icone: Activity,
-      especialidades: [
-        "Fisioterapia",
-        "Terapia Ocupacional",
-        "Fonoaudiologia",
-        "Educação Física"
-      ]
-    },
-    {
-      nome: "Time de Saúde Mental",
-      descricao: "Cuidado especializado para o bem-estar emocional e mental",
-      cor: "violeta-lavanda",
-      icone: Brain,
-      especialidades: [
-        "Psicologia",
-        "Neuropsicologia",
-        "Psicoterapia",
-        "Terapia ABA"
-      ]
-    },
-    {
-      nome: "Time de Bem-estar",
-      descricao: "Promovendo saúde e qualidade de vida",
-      cor: "laranja-principal",
-      icone: Heart,
-      especialidades: [
-        "Nutrição",
-        "Estética",
-        "Massoterapia",
-        "Acupuntura"
-      ]
-    },
-    {
-      nome: "Time de Educação",
-      descricao: "Apoio educacional e desenvolvimento de habilidades",
-      cor: "azul-sereno",
-      icone: GraduationCap,
-      especialidades: [
-        "Psicopedagogia",
-        "Educação Física",
-        "Consultoria Financeira",
-        "Orientação Educacional"
-      ]
+  const scrollByAmount = (delta: number) => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: delta, behavior: 'smooth' });
     }
-  ];
-
-  const getColorClasses = (cor: string) => {
-    const colorMap: { [key: string]: { border: string; bg: string; text: string; bgLight: string; borderLight: string } } = {
-      'azul-confianca': {
-        border: 'border-azul-confianca',
-        bg: 'bg-azul-confianca',
-        text: 'text-azul-confianca',
-        bgLight: 'bg-azul-confianca/10',
-        borderLight: 'border-azul-confianca/20'
-      },
-      'verde-salvia': {
-        border: 'border-verde-salvia',
-        bg: 'bg-verde-salvia',
-        text: 'text-verde-salvia',
-        bgLight: 'bg-verde-salvia/10',
-        borderLight: 'border-verde-salvia/20'
-      },
-      'violeta-lavanda': {
-        border: 'border-violeta-lavanda',
-        bg: 'bg-violeta-lavanda',
-        text: 'text-violeta-lavanda',
-        bgLight: 'bg-violeta-lavanda/10',
-        borderLight: 'border-violeta-lavanda/20'
-      },
-      'laranja-principal': {
-        border: 'border-laranja-principal',
-        bg: 'bg-laranja-principal',
-        text: 'text-laranja-principal',
-        bgLight: 'bg-laranja-principal/10',
-        borderLight: 'border-laranja-principal/20'
-      },
-      'azul-sereno': {
-        border: 'border-azul-sereno',
-        bg: 'bg-azul-sereno',
-        text: 'text-azul-sereno',
-        bgLight: 'bg-azul-sereno/10',
-        borderLight: 'border-azul-sereno/20'
-      }
-    };
-    return colorMap[cor] || colorMap['azul-confianca'];
   };
 
+  return (
+    <section id={time.nome.toLowerCase().replace(/\s/g, '-')} className={`p-8 rounded-2xl shadow-lg ${colorClasses.bgLight}`}>
+      {/* Cabeçalho do Time */}
+      <div className={`flex items-center gap-4 mb-6 pb-6 border-b-2 ${colorClasses.borderLight}`}>
+        <div className={`p-3 rounded-full ${colorClasses.bg} text-white`}>
+          <Icon size={28} />
+        </div>
+        <h2 className={`text-3xl font-bold ${colorClasses.text}`}>{time.nome}</h2>
+      </div>
+
+      {/* Introdução e Áreas de Atuação */}
+      <div className="space-y-8">
+        <div>
+          <p className="text-cinza-aconchego leading-relaxed mb-6">
+            {time.introducao}
+          </p>
+          <ul className="grid md:grid-cols-2 gap-3">
+            {time.areas.map((area) => (
+              <li key={area} className="flex items-center gap-2">
+                <Heart className={`w-4 h-4 ${colorClasses.text}`} />
+                <span className="text-cinza-aconchego">{area}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Carrossel de Profissionais (uma fileira) */}
+        <div className="relative group">
+          <button
+            type="button"
+            aria-label="Anterior"
+            className="hidden md:flex absolute left-2 top-1/2 -translate-y-1/2 z-10 rounded-full w-9 h-9 items-center justify-center transition-opacity duration-200 opacity-0 group-hover:opacity-100 bg-transparent hover:bg-white/90 shadow"
+            onClick={() => scrollByAmount(-320)}
+          >
+            ‹
+          </button>
+          <div
+            ref={scrollRef}
+            className="flex gap-4 overflow-hidden scroll-smooth"
+          >
+            {time.integrantes.map((prof) => (
+              <div key={prof.nome} className="min-w-[240px] max-w-[240px]">
+                <ProfissionalCard profissional={prof} cor={time.cor} />
+              </div>
+            ))}
+          </div>
+          <button
+            type="button"
+            aria-label="Próximo"
+            className="hidden md:flex absolute right-2 top-1/2 -translate-y-1/2 z-10 rounded-full w-9 h-9 items-center justify-center transition-opacity duration-200 opacity-0 group-hover:opacity-100 bg-transparent hover:bg-white/90 shadow"
+            onClick={() => scrollByAmount(320)}
+          >
+            ›
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+import React, { useRef } from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { Brain, Users, Heart, TrendingUp, Award, Palette } from 'lucide-react';
+
+// Tipos para os dados
+interface Profissional {
+  foto: string;
+  nome: string;
+  especialidade: string;
+  link: string;
+}
+
+interface Time {
+  nome: string;
+  introducao: string;
+  cor: string;
+  icone: React.ElementType;
+  areas: string[];
+  integrantes: Profissional[];
+}
+
+// Dados dos Times Terapêuticos
+const timesData: Time[] = [
+  {
+    nome: "Equipe ABA",
+    introducao: "A Equipe ABA é formada por profissionais altamente qualificados e especializados no atendimento a pessoas com Transtorno do Espectro Autista e outras necessidades do desenvolvimento. Nosso trabalho foca na aplicação das melhores práticas da Análise do Comportamento Aplicada (ABA), oferecendo abordagens multidisciplinares que promovem autonomia, comunicação e qualidade de vida para crianças, adolescentes e suas famílias.",
+    cor: "azul-confianca",
+    icone: Brain,
+    areas: [
+      "Psicoterapia ABA",
+      "Fonoaudiologia Neurofuncional (Método Padovan)",
+      "Terapia Ocupacional",
+      "Nutricionista ABA (Seletividade Alimentar, Obesidade Infantil)",
+      "Avaliação Neuropsicológica",
+      "Orientação Parental"
+    ],
+    integrantes: [
+      { foto: "/public/lovable-uploads/Naiade Psicologa.jpg", nome: "Naiade Cristina Camilo", especialidade: "Psicóloga ABA", link: "https://api.whatsapp.com/send?phone=5511944694777&text=Quero+agendar+com+a+Naiade" },
+      { foto: "/public/lovable-uploads/Sabrina neuropsicologa.jpg", nome: "Sabrina Neri de Assis", especialidade: "Neuropsicologia e Psicologia", link: "https://api.whatsapp.com/send?phone=511944694777&text=Quero+agendar+com+a+Sabrina" },
+      { foto: "/public/lovable-uploads/Fernanda Grava Pedagoga.jpg", nome: "Fernanda Grava", especialidade: "Psicopedagogia", link: "https://api.whatsapp.com/send?phone=511944694777&text=Quero+agendar+com+a+Fernanda" },
+      { foto: "/placeholder.svg", nome: "Fernanda Grava", especialidade: "Psicopedagogia", link: "https://api.whatsapp.com/send?phone=5511999990004&text=Quero+agendar+com+a+Fernanda" },
+      { foto: "/placeholder.svg", nome: "Carlos Mendes", especialidade: "Neuropsicólogo", link: "https://api.whatsapp.com/send?phone=5511999990005&text=Quero+agendar+com+o+Carlos" },
+      { foto: "/placeholder.svg", nome: "Amanda Castro", especialidade: "Orientadora Parental", link: "https://api.whatsapp.com/send?phone=5511999990006&text=Quero+agendar+com+a+Amanda" }
+    ]
+  },
+  {
+    nome: "Educação e Crescimento",
+    introducao: "O time Educação e Crescimento é dedicado a apoiar o desenvolvimento global de crianças e adolescentes, promovendo habilidades cognitivas, emocionais e sociais. A integração de diferentes áreas do cuidado – da fonoaudiologia à psicopedagogia – proporciona acompanhamento completo para superar desafios escolares, familiares e pessoais, sempre com foco no potencial e na singularidade de cada indivíduo.",
+    cor: "verde-salvia",
+    icone: Users,
+    areas: [
+      "Fonoaudiologia",
+      "Psicoterapia",
+      "Psicopedagogia",
+      "Terapia Ocupacional",
+      "Orientação Parental",
+      "Avaliação Neuropsicológica"
+    ],
+    integrantes: [
+      { foto: "/placeholder.svg", nome: "Juliana Vasconcelos", especialidade: "Fonoaudióloga", link: "https://api.whatsapp.com/send?phone=5511999990007&text=Quero+agendar+com+a+Juliana" },
+      { foto: "/placeholder.svg", nome: "Rafael Pires", especialidade: "Psicoterapeuta Infantil", link: "https://api.whatsapp.com/send?phone=5511999990008&text=Quero+agendar+com+o+Rafael" },
+      { foto: "/placeholder.svg", nome: "Simone Paula", especialidade: "Psicopedagoga", link: "https://api.whatsapp.com/send?phone=5511999990009&text=Quero+agendar+com+a+Simone" },
+      { foto: "/placeholder.svg", nome: "Helena Duarte", especialidade: "Terapeuta Ocupacional", link: "https://api.whatsapp.com/send?phone=5511999990010&text=Quero+agendar+com+a+Helena" },
+      { foto: "/placeholder.svg", nome: "Marina Lopes", especialidade: "Orientadora Parental", link: "https://api.whatsapp.com/send?phone=5511999990011&text=Quero+agendar+com+a+Marina" },
+      { foto: "/placeholder.svg", nome: "Thiago Ferreira", especialidade: "Neuropsicólogo", link: "https://api.whatsapp.com/send?phone=5511999990012&text=Quero+agendar+com+o+Thiago" }
+    ]
+  },
+  {
+    nome: "Time Performance",
+    introducao: "O Time Performance reúne especialistas em saúde, bem-estar e desenvolvimento pessoal para quem busca alta performance física, mental e financeira. Profissionais experientes em nutrição esportiva, educação física, fonoaudiologia, coaching e consultoria financeira unem forças para impulsionar resultados, fortalecer competências e promover equilíbrio em todos os níveis da vida.",
+    cor: "laranja-principal",
+    icone: TrendingUp,
+    areas: [
+      "Nutricionista esportiva",
+      "Consultoria Financeira",
+      "Psicoterapia",
+      "Fonoaudiologia Voz (Oratória e comunicação)",
+      "Fonoaudiologia Estética",
+      "Massoterapia",
+      "Farmácia Estética",
+      "Educação Física",
+      "Coaching"
+    ],
+    integrantes: [
+      { foto: "/placeholder.svg", nome: "Lucas Andrade", especialidade: "Nutricionista Esportivo", link: "https://api.whatsapp.com/send?phone=5511999990013&text=Quero+agendar+com+o+Lucas" },
+      { foto: "/placeholder.svg", nome: "Sofia Martins", especialidade: "Consultora Financeira", link: "https://api.whatsapp.com/send?phone=5511999990014&text=Quero+agendar+com+a+Sofia" },
+      { foto: "/placeholder.svg", nome: "Bruno Silva", especialidade: "Psicólogo do Esporte", link: "https://api.whatsapp.com/send?phone=5511999990015&text=Quero+agendar+com+o+Bruno" },
+      { foto: "/placeholder.svg", nome: "Vivian Prado", especialidade: "Fonoaudióloga Voz", link: "https://api.whatsapp.com/send?phone=5511999990016&text=Quero+agendar+com+a+Vivian" },
+      { foto: "/placeholder.svg", nome: "Gabriela Bessa", especialidade: "Fonoaudióloga Estética", link: "https://api.whatsapp.com/send?phone=5511999990017&text=Quero+agendar+com+a+Gabriela" },
+      { foto: "/placeholder.svg", nome: "André Campos", especialidade: "Massoterapeuta", link: "https://api.whatsapp.com/send?phone=5511999990018&text=Quero+agendar+com+o+André" },
+      { foto: "/placeholder.svg", nome: "Letícia Vidal", especialidade: "Farmacêutica Esteta", link: "https://api.whatsapp.com/send?phone=5511999990019&text=Quero+agendar+com+a+Letícia" },
+      { foto: "/placeholder.svg", nome: "Felipe Gomes", especialidade: "Personal Trainer", link: "https://api.whatsapp.com/send?phone=5511999990020&text=Quero+agendar+com+o+Felipe" },
+      { foto: "/placeholder.svg", nome: "Carla Lopes", especialidade: "Coach de Alta Performance", link: "https://api.whatsapp.com/send?phone=5511999990021&text=Quero+agendar+com+a+Carla" }
+    ]
+  },
+  {
+    nome: "Classic Wellness",
+    introducao: "Classic Wellness é o nosso núcleo dedicado ao cuidado integral, relaxamento e estética. Com um time multidisciplinar, oferecemos serviços que promovem saúde física, equilíbrio emocional e autoestima. De massagens e estética facial ao yoga e acupuntura, nosso objetivo é restaurar, energizar e valorizar quem você é, em um ambiente de acolhimento e excelência.",
+    cor: "violeta-lavanda",
+    icone: Palette,
+    areas: [
+      "Estética Clássica",
+      "Massoterapia",
+      "Massagem Oriental",
+      "Massagem Relaxante",
+      "Drenagem Linfática",
+      "Consultoria Skincare e tratamentos faciais",
+      "Microagulhamento",
+      "Tratamentos capilares",
+      "Microcorrentes",
+      "Peeling",
+      "Limpeza de Pele",
+      "Fono Estética",
+      "Ed. Física",
+      "Psicoterapia",
+      "Acupuntura",
+      "Nutricionista",
+      "Yoga"
+    ],
+    integrantes: [
+      { foto: "/placeholder.svg", nome: "Michele Oliveira", especialidade: "Esteticista", link: "https://api.whatsapp.com/send?phone=5511999990022&text=Quero+agendar+com+a+Michele" },
+      { foto: "/placeholder.svg", nome: "Carla Ferreira", especialidade: "Massoterapeuta", link: "https://api.whatsapp.com/send?phone=5511999990023&text=Quero+agendar+com+a+Carla" },
+      { foto: "/placeholder.svg", nome: "Diego Ramos", especialidade: "Personal Trainer", link: "https://api.whatsapp.com/send?phone=5511999990024&text=Quero+agendar+com+o+Diego" },
+      { foto: "/placeholder.svg", nome: "Mariana Souza", especialidade: "Psicoterapeuta", link: "https://api.whatsapp.com/send?phone=5511999990025&text=Quero+agendar+com+a+Mariana" },
+      { foto: "/placeholder.svg", nome: "Tatiana Maia", especialidade: "Acupunturista", link: "https://api.whatsapp.com/send?phone=5511999990026&text=Quero+agendar+com+a+Tatiana" },
+      { foto: "/placeholder.svg", nome: "Pedro Mota", especialidade: "Nutricionista", link: "https://api.whatsapp.com/send?phone=5511999990027&text=Quero+agendar+com+o+Pedro" },
+      { foto: "/placeholder.svg", nome: "Luiza Tavares", especialidade: "Instrutora de Yoga", link: "https://api.whatsapp.com/send?phone=5511999990028&text=Quero+agendar+com+a+Luiza" },
+      { foto: "/placeholder.svg", nome: "Roberta Figueira", especialidade: "Fonoaudióloga Estética", link: "https://api.whatsapp.com/send?phone=5511999990029&text=Quero+agendar+com+a+Roberta" }
+    ]
+  }
+];
+
+// Componente do Card do Profissional
+const ProfissionalCard: React.FC<{ profissional: Profissional; cor: string }> = ({ profissional, cor }) => {
+  const colorClasses = getColorClasses(cor);
+  return (
+    <div className={`bg-white rounded-lg shadow-md p-3 text-center transition-transform duration-300 hover:scale-102 border-t-4 ${colorClasses.border}`}>
+      <img 
+        src={profissional.foto} 
+        alt={`Foto de ${profissional.nome}`}
+        className={`w-20 h-20 rounded-full mx-auto mb-3 object-cover border-2 ${colorClasses.borderLight}`}
+      />
+      <h4 className="text-base font-bold text-cinza-aconchego">{profissional.nome}</h4>
+      <p className={`text-xs md:text-sm ${colorClasses.text} font-medium mb-3`}>{profissional.especialidade}</p>
+      <a 
+        href={profissional.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`w-full text-white text-sm px-3 py-2 rounded-lg transition-colors duration-300 ${colorClasses.bg} hover:opacity-90`}
+      >
+        Agendar
+      </a>
+    </div>
+  );
+};
+
+// Mapeamento de cores (simplificado para o exemplo)
+const getColorClasses = (cor: string) => {
+  const colorMap: { [key: string]: { border: string; bg: string; text: string; bgLight: string; borderLight: string; } } = {
+    'azul-confianca': { border: 'border-azul-confianca', bg: 'bg-azul-confianca', text: 'text-azul-confianca', bgLight: 'bg-azul-confianca/10', borderLight: 'border-azul-confianca/20' },
+    'verde-salvia': { border: 'border-verde-salvia', bg: 'bg-verde-salvia', text: 'text-verde-salvia', bgLight: 'bg-verde-salvia/10', borderLight: 'border-verde-salvia/20' },
+    'laranja-principal': { border: 'border-laranja-principal', bg: 'bg-laranja-principal', text: 'text-laranja-principal', bgLight: 'bg-laranja-principal/10', borderLight: 'border-laranja-principal/20' },
+    'violeta-lavanda': { border: 'border-violeta-lavanda', bg: 'bg-violeta-lavanda', text: 'text-violeta-lavanda', bgLight: 'bg-violeta-lavanda/10', borderLight: 'border-violeta-lavanda/20' },
+  };
+  return colorMap[cor] || colorMap['azul-confianca'];
+};
+
+const TimesTerapeuticos = () => {
+  useScrollAnimation();
   return (
     <div className="min-h-screen bg-branco-ninho">
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gradient-to-br from-azul-confianca/5 to-verde-salvia/5">
+      <section className="pt-32 pb-16 bg-azul-confianca">
         <div className="container-custom">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-cinza-aconchego mb-6">
-              Nossos Times Terapêuticos
+          <div className="text-center animate-on-scroll">
+            <h1 className="text-white mb-6">
+              Times <span className="text-white">Terapêuticos</span>
             </h1>
-            <p className="text-lg text-cinza-aconchego/80 mb-8 leading-relaxed">
-              Trabalhamos com equipes multidisciplinares especializadas, cada uma focada em 
-              uma área específica do desenvolvimento humano, garantindo um atendimento 
-              completo e personalizado para cada paciente.
+            <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
+              Aqui, equipes multidisciplinares trabalham em harmonia para 
+              entregar excelência e bem-estar em cada jornada
             </p>
           </div>
         </div>
       </section>
 
-      {/* Times Section */}
-      <section className="py-20">
-        <div className="container-custom">
-          <div className="grid gap-8 md:gap-12">
-            {times.map((time, index) => {
-              const IconComponent = time.icone;
-              const colorClasses = getColorClasses(time.cor);
-              return (
-                <div 
-                  key={index}
-                  className={`bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 border-l-4 ${colorClasses.border}`}
-                >
-                  <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-                    <div className={`p-4 rounded-full ${colorClasses.bgLight} flex-shrink-0`}>
-                      <IconComponent className={`w-8 h-8 ${colorClasses.text}`} />
-                    </div>
-                    
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-cinza-aconchego mb-3">
-                        {time.nome}
-                      </h3>
-                      <p className="text-cinza-aconchego/70 mb-4 text-lg">
-                        {time.descricao}
-                      </p>
-                      
-                      <div className="flex flex-wrap gap-2">
-                        {time.especialidades.map((especialidade, espIndex) => (
-                          <span 
-                            key={espIndex}
-                            className={`px-3 py-1 rounded-full text-sm font-medium ${colorClasses.bgLight} ${colorClasses.text} border ${colorClasses.borderLight}`}
-                          >
-                            {especialidade}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+      {/* Seção dos Times */}
+      <main className="py-20">
+        <div className="container-custom space-y-20">
+          {timesData.map((time) => (
+            <TimeSection key={time.nome} time={time} />
+          ))}
         </div>
-      </section>
-
-      {/* Metodologia Section */}
-      <section className="py-20 bg-gradient-to-r from-azul-confianca/5 to-verde-salvia/5">
-        <div className="container-custom">
-          <div className="text-center max-w-4xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-cinza-aconchego mb-6">
-              Nossa Metodologia de Trabalho
-            </h2>
-            <p className="text-lg text-cinza-aconchego/80">
-              Cada time trabalha de forma integrada, promovendo a comunicação entre 
-              profissionais e garantindo um plano de tratamento coeso e eficaz.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-azul-confianca/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-azul-confianca" />
-              </div>
-              <h3 className="text-xl font-semibold text-cinza-aconchego mb-3">
-                Trabalho Colaborativo
-              </h3>
-              <p className="text-cinza-aconchego/70">
-                Profissionais de diferentes especialidades trabalham juntos para 
-                oferecer o melhor atendimento.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-verde-salvia/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-8 h-8 text-verde-salvia" />
-              </div>
-              <h3 className="text-xl font-semibold text-cinza-aconchego mb-3">
-                Cuidado Personalizado
-              </h3>
-              <p className="text-cinza-aconchego/70">
-                Cada paciente recebe um plano de tratamento único, desenvolvido 
-                especificamente para suas necessidades.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="w-16 h-16 bg-violeta-lavanda/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Brain className="w-8 h-8 text-violeta-lavanda" />
-              </div>
-              <h3 className="text-xl font-semibold text-cinza-aconchego mb-3">
-                Abordagem Integral
-              </h3>
-              <p className="text-cinza-aconchego/70">
-                Consideramos todos os aspectos do desenvolvimento humano para 
-                promover o bem-estar completo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </main>
 
       {/* CTA Section */}
       <section className="py-20 bg-azul-confianca">

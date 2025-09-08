@@ -87,9 +87,9 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
 
   const getGridLayout = () => {
     if (variant === 'homepage') {
-      return "grid md:grid-cols-2 lg:grid-cols-4 gap-6";
+      return "grid md:grid-cols-2 lg:grid-cols-4 gap-8";
     }
-    return "grid md:grid-cols-2 lg:grid-cols-4 gap-6";
+    return "grid md:grid-cols-2 lg:grid-cols-4 gap-8";
   };
 
   return (
@@ -115,7 +115,7 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
           {planos.map((plano, index) => (
             <div 
               key={index} 
-              className={`card-custom hover-lift animate-on-scroll relative flex flex-col ${
+              className={`card-custom hover-lift animate-on-scroll relative flex flex-col h-full ${
                 plano.destaque ? 'ring-2 ring-roxo-principal shadow-xl' : ''
               }`}
             >
@@ -197,7 +197,7 @@ const PlanosAssinatura: React.FC<PlanoAssinaturaProps> = ({ variant = 'homepage'
 
         {/* Informações Adicionais */}
         <div className="mt-16 text-center animate-on-scroll">
-          <div className="bg-branco-ninho rounded-2xl p-8 shadow-lg max-w-4xl mx-auto border-2 border-roxo-principal">
+          <div className="card-custom max-w-4xl mx-auto border-2 border-roxo-principal">
             <h3 className="text-xl font-semibold text-azul-confianca mb-4">
               Todos os planos incluem:
             </h3>

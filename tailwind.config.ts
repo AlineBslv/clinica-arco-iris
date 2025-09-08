@@ -27,7 +27,7 @@ export default {
 				'azul-confianca': '#25488a',
 				'verde-salvia': '#55a369',
 				'azul-sereno': '#A2B6D4',
-				'violeta-lavanda': '#C3B1E1',
+				'violeta-lavanda': '#7b2d7c',
 				// Nova paleta roxa para serviços
 				'roxo-principal': '#7b2d7c',
 				'roxo-claro': '#a855a8',
@@ -44,6 +44,10 @@ export default {
 				'verde-principal': '#55a369',
 				'verde-medio': '#89b896',
 				'verde-suave': '#cee1d3',
+				// Nova paleta vermelho para Times Terapeuticos
+				'vermelho-principal': '#e33b2e',
+				'vermelho-medio': '#ffc4bf',
+				'vermelho-suave': '#fae9e8',
 				
 				// Cores do sistema shadcn
 				border: 'hsl(var(--border))',
